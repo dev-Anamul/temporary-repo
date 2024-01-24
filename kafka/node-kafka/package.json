@@ -1,0 +1,30 @@
+{
+	"name": "node-kafka",
+	"version": "1.0.0",
+	"description": "example fundamental basic kafka",
+	"main": "index.js",
+	"scripts": {
+		"pub": "node producer.js",
+		"sub": "node consumer.js",
+		"gsub": "node consumerGroup.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/restuwahyu13/node-rabbitmq"
+	},
+	"keywords": [
+		"kafkajs",
+		"node",
+		"javascript"
+	],
+	"author": "restuwahyu13",
+	"license": "MIT",
+	"dependencies": {
+		"kafkajs": "^2.2.4"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.0.2",
+		"consola": "^3.1.0",
+		"dotenv": "^16.1.3"
+	}
+}

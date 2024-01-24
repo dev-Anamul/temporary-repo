@@ -1,0 +1,61 @@
+spring:
+    application:
+        name: authentication-service
+    main:
+        allow-bean-definition-overriding: true
+    cloud:
+        discovery:
+            enabled: false
+        consul:
+            enabled: false
+            config:
+                enabled: false
+        kubernetes:
+            enabled: false
+    security:
+        oauth2:
+            authorizationserver:
+                client:
+                    google:
+                        registration:
+                            client-id: test
+                            client-secret: test
+                            client-authentication-methods:
+                                - "client_secret_post"
+                            authorization-grant-types:
+                                - "authorization_code"
+                                - "refresh_token"
+                            redirect-uris:
+                                - "http://127.0.0.1:3000"
+                                - "http://127.0.0.1:9999"
+                            scopes:
+                                - "openid"
+                                - "profile"
+                                - "email"
+                        require-authorization-consent: true
+                        require-proof-key: true
+            client:
+                registration:
+                    google:
+                        client-id: test
+                        client-secret: test
+            resourceserver:
+                jwt:
+                    jwk-set-uri: http://localhost:${server.port}/.well-known/jwks.json
+    data:
+        redis:
+            repositories:
+                enabled: false
+    profiles:
+        include: auth
+    session:
+        store-type: none
+management:
+    health:
+        redis:
+            enabled: false
+com:
+    microservice:
+        authentication:
+            redis:
+                enabled: false

@@ -1,0 +1,161 @@
+#apiVersion: extensions/v1beta1
+#kind: Ingress
+#metadata:
+#  name: ingress-gateway-forward-https
+#  annotations:
+#    kubernetes.io/ingress.class: nginx
+##    ingress.kubernetes.io/force-ssl-redirect: "true"
+##    kubernetes.io/ingress.allow-http: "false"
+#    nginx.ingress.kubernetes.io/rewrite-target: /$1
+##    nginx.ingress.kubernetes.io/configuration-snippet: |
+##      if ($http_x_forwarded_proto = "http") {
+##         return 301 https://$host$request_uri;
+##      }
+#spec:
+##  tls:
+##  - secretName: ingress-tls
+##    hosts:
+##      - "*"
+#  rules:
+#    - host: "*"
+#      http:
+#        paths:
+##          - path: /grafana
+##            backend:
+##              serviceName: grafana
+##              servicePort: 3000
+#          - path: /auth/(.*)
+#            backend:
+#              serviceName: authentication-service
+#              servicePort: http-port
+##          - path: /zipkin/(.*)
+##            backend:
+##              serviceName: zipkin-server
+##              servicePort: http-port
+#          - path: /swagger/week-menu/(.*)
+#            backend:
+#              serviceName: week-menu-api
+#              servicePort: http-port
+#          - path: /swagger/persons/(.*)
+#            backend:
+#              serviceName: person-service
+#              servicePort: http-port
+#          - path: /swagger/users/(.*)
+#            backend:
+#              serviceName: user-service
+#              servicePort: http-port
+#          - path: /swagger/kotlin-service/(.*)
+#            backend:
+#              serviceName: kotlin-service
+#              servicePort: http-port
+#          - path: /api/week-menu/(.*)
+#            backend:
+#              serviceName: week-menu-api
+#              servicePort: http-port
+#          - path: /jhipster/(.*)
+#            backend:
+#              serviceName: react-webapp-jhipster
+#              servicePort: http-port
+#          - path: /jhipster
+#            backend:
+#              serviceName: react-webapp-jhipster
+#              servicePort: http-port
+#          - path: /actuator/(.*)
+#            backend:
+#              serviceName: eureka-server
+#              servicePort: http-port
+#          - path: /swagger/python-service/(.*)
+#            backend:
+#              serviceName: python-service
+#              servicePort: http-port
+#
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+#  backend:
+#    serviceName: react-webapp
+#    servicePort: 3003
+#  tls:
+#    - secretName: ingress-tls
+#      hosts:
+#        - "*"
+  rules:
+    - host: "mydomain.com"
+      http:
+        paths:
+#          - path: /grafana
+#            backend:
+#              serviceName: grafana
+#              servicePort: 3000
+#          - path: /monitoring
+#            backend:
+#              serviceName: admin-server
+#              servicePort: http-port
+#          - path: /eureka
+#            backend:
+#              serviceName: eureka-server
+#              servicePort: http-port
+          - path: /api/users
+            backend:
+              service:
+                name: user-service
+                port:
+                  name: http-port
+            pathType: Prefix
+          - path: /api/people
+            backend:
+              service:
+                name: person-service
+                port:
+                  name: http-port
+            pathType: Prefix
+#          - path: /api/tasks
+#            backend:
+#              serviceName: kotlin-service
+#              servicePort: http-port
+#          - path: /api/products
+#            backend:
+#              serviceName: python-service
+#              servicePort: http-port
+          - path: /api/account
+            backend:
+              service:
+                name: authentication-service
+                port:
+                  name: http-port
+            pathType: Prefix
+          - path: /api/authenticate
+            backend:
+              service:
+                name: authentication-service
+                port:
+                  name: http-port
+            pathType: Prefix
+          - path: /api/logout
+            backend:
+              service:
+                name: authentication-service
+                port:
+                  name: http-port
+            pathType: Prefix
+#          - path: /docs
+#            backend:
+#              serviceName: week-menu-api
+#              servicePort: http-port
+#          - path: /api-docs
+#            backend:
+#              serviceName: week-menu-api
+#              servicePort: http-port
+#          - path: /zipkin
+#            backend:
+#              serviceName: zipkin-server
+#              servicePort: http-port
+#          - path: /
+#            backend:
+#              serviceName: react-webapp
+#              servicePort: 3003

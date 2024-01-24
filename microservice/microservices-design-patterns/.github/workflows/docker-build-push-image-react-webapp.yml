@@ -1,0 +1,88 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI - Build and push Docker images - React Web App
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    if: contains(toJson(github), 'build react-webapp')
+    name: Build Jar/Docker Image and Publish to DockerHub
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      # Login to Dockerhub
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          context: ./react-webapp
+          file: ./react-webapp/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: fielcapao/microservices-design-patterns-react-webapp-service:latest
+          build-args: |
+            GITHUB_SHA=$GITHUB_SHA
+            GITHUB_REF=$GITHUB_REF
+            PORT=3003
+
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
+
+#      # Build the Docker image with Maven
+#      - name: Build
+#        run: |
+#          sed -i 's/node:10.15.3-slim/balenalib\/raspberry-pi-debian-node/g' ./react-webapp/Dockerfile
+#          sed -i 's/nginx:1.13.12-alpine/arm64v8\/nginx/g' ./react-webapp/Dockerfile
+#          sed -i 's/"nginx"/"nginx-debug"/g' ./react-webapp/Dockerfile
+#          docker build -t fielcapao/microservices-design-patterns-react-webapp-service:latest \
+#          --build-arg GITHUB_SHA="$GITHUB_SHA" \
+#          --build-arg GITHUB_REF="$GITHUB_REF" \
+#          --build-arg PORT="3003" ./react-webapp
+
+#      # Push the Docker image
+#      - name: Push
+#        run: |
+#          docker push fielcapao/microservices-design-patterns-react-webapp-service
+
+      # Push the Docker image
+#      - name: Build and push
+#        id: docker_build
+#        uses: docker/build-push-action@v2
+#        with:
+#          context: ./react-webapp
+#          file: ./Dockerfile
+#          push: true
+#          tags: fielcapao/microservices-design-patterns-react-webapp-service:latest
+#          build-args: |
+#            GITHUB_SHA="$GITHUB_SHA"
+#            GITHUB_REF="$GITHUB_REF"
+#            PORT=3003
+
+#      - name: Image digest
+#        run: echo ${{ steps.docker_build.outputs.digest }}

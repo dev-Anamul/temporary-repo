@@ -1,0 +1,92 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: admin-server
+  annotations:
+    cloud.google.com/app-protocols: '{"https-port":"HTTPS","http-port":"HTTP"}'
+  labels:
+    app: admin-server
+spec:
+  ports:
+    - name: https-port
+      port: 8443
+    - name: http-port
+      port: 9000
+  selector:
+    app: admin-server
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: admin-server
+spec:
+  selector:
+    matchLabels:
+      app: admin-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: admin-server
+        version: v1
+    spec:
+      containers:
+        - name: admin-server
+          image: admin-server:0.0.1-SNAPSHOT #fielcapao/microservices-design-patterns-admin-service:latest
+          resources:
+            requests:
+              memory: "256Mi"
+            limits:
+              memory: "512Mi"
+          env:
+            - name: JAVA_OPTS
+              value: -Xss256K -Xms1M -XX:+UseSerialGC -Djava.compiler=none -XX:ReservedCodeCacheSize=2496k -XX:MaxDirectMemorySize=1M
+            - name: SERVER_PORT
+              value: "9000"
+            - name: SPRING_PROFILES_ACTIVE
+              value: dev,auth
+#            - name: EUREKA_INSTANCE_PREFER_IP_ADDRESS
+#              value: "true"
+            - name: SPRING_DATA_MONGODB_URI
+              value: mongodb://mongodb:27017/docker
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: docker
+            - name: SPRING_DATA_REDIS_HOST
+              value: redis
+            - name: OAUTH_CLIENT_ID
+              value: actuator
+            - name: OAUTH_CLIENT_SECRET
+              value: actuator_password
+            - name: SPRING_BOOT_ADMIN_CONTEXT_PATH
+              value: /monitoring
+            - name: SERVER_SERVLET_CONTEXT_PATH
+              value: /monitoring
+            - name: COM_MICROSERVICE_AUTHENTICATION_JWT_KEY_VALUE
+              value: YTMwOTIwODE1MGMzOGExM2E4NDc5ZjhjMmQwMTdkNDJlZWZkOTE0YTMwNWUxMTgxMTFhZTI1ZDI3M2QyMTRmMjI5Yzg0ODBjYTUxYjVkY2I5ZmY0YmRkMzBlZjRjNDM2Y2NiYzhlZjQ0ODRjMWZlNzVmZjdjM2JiMjdkMjdmMjk=
+            - name: SPRING_CLOUD_DISCOVERY_CLIENT_HEALTH_INDICATOR_ENABLED
+              value: "false"
+            - name: SERVER_USE_FORWARD_HEADERS
+              value: "true"
+            - name: SPRING_CLOUD_CONSUL_ENABLED
+              value: "false"
+            - name: OPENTRACING_JAEGER_ENABLED
+              value: "false"
+            - name: SPRING_CLOUD_KUBERNETES_CONFIG_NAMESPACE
+              value: "default"
+            - name: SPRING_CLOUD_KUBERNETES_DISCOVERY_ALL_NAMESPACES
+              value: "true"
+#            - name: ACCESS_TOKEN_URI
+#              value: https://YOUR_DOMAIN.com/auth/oauth/token
+#            - name: AUTHORIZATION_URL
+#              value: https://YOUR_DOMAIN.com/auth/oauth/authorize
+#            - name: USER_INFO_URI
+#              value: https://YOUR_DOMAIN.com/auth/api/authenticatedUser
+          ports:
+            - containerPort: 9000
+          livenessProbe:
+            httpGet:
+              scheme: HTTP
+              path: /monitoring/actuator/health
+              port: 9000
+            initialDelaySeconds: 1000
+            periodSeconds: 5

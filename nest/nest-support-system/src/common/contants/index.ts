@@ -1,0 +1,14 @@
+export const SEQUELIZE = 'sequelize';
+export const DEVELOPMENT = 'development';
+export const TEST = 'test';
+export const PRODUCTION = 'production';
+export const USER_REPOSITORY = 'USER_REPOSITORY';
+export const TICKET_REPOSITORY = 'TICKET_REPOSITORY';
+export const COMMENT_REPOSITORY = 'COMMENT_REPOSITORY';
+export const EMAIL_REPOSITORY = 'EMAIL_REPOSITORY';
+export const TAG_REPOSITORY = 'TAG_REPOSITORY';
+export const TICKET_TAG_REPOSITORY = 'TICKET_TAG_REPOSITORY';
+export const STAFF_TICKET__REPOSITORY = 'STAFF_TICKET__REPOSITORY';
+export const IS_PUBLIC_KEY = 'isPublic';
+export const IS_STAFF_ASSIGN_TECKET_KEY = 'isStaffAssignTicket';
+export const ROLES_KEY = 'roles';

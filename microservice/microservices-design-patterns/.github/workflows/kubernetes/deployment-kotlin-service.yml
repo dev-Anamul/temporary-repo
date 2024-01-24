@@ -1,0 +1,88 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kotlin-service
+  annotations:
+    cloud.google.com/app-protocols: '{"https-port":"HTTPS","http-port":"HTTP"}'
+  labels:
+    app: kotlin-service
+spec:
+  ports:
+    - name: https-port
+      port: 8443
+    - name: http-port
+      port: 9092
+  selector:
+    app: kotlin-service
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kotlin-service
+  labels:
+    app: kotlin-service
+spec:
+  selector:
+    matchLabels:
+      app: kotlin-service
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kotlin-service
+    spec:
+      containers:
+        - name: kotlin-service
+          image: fielcapao/microservices-design-patterns-kotlin-service:latest #kotlin-service:0.0.1-SNAPSHOT
+          resources:
+            requests:
+              memory: "256Mi"
+            limits:
+              memory: "512Mi"
+          env:
+            - name: JAVA_OPTS
+              value: -Xss256K -Xms1M -XX:+UseSerialGC -Djava.compiler=none -XX:ReservedCodeCacheSize=2496k -XX:MaxDirectMemorySize=1M #-Xms256m -Xmx512m
+            - name: SERVER_PORT
+              value: "9092"
+            - name: SPRING_PROFILES_ACTIVE
+              value: dev
+            - name: SPRING_DATA_MONGODB_URI
+              value: mongodb://mongodb:27017/docker
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: docker
+            - name: SPRING_CLOUD_CONSUL_ENABLED
+              value: "false"
+            - name: OPENTRACING_JAEGER_ENABLED
+              value: "false"
+            - name: SPRING_CLOUD_KUBERNETES_CONFIG_NAMESPACE
+              value: "default"
+            - name: SPRING_CLOUD_KUBERNETES_CONFIG_NAME
+              value: "kotlin-service"
+            - name: SPRING_CLOUD_BOOTSTRAP_ENABLED
+              value: "true"
+            - name: MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS
+              value: "false"
+            - name: SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES
+              value: "true"
+            - name: LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB
+              value: trace
+            - name: LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY
+              value: trace
+            - name: COM_MICROSERVICE_AUTHENTICATION_JWT_KEY_VALUE
+              value: YTMwOTIwODE1MGMzOGExM2E4NDc5ZjhjMmQwMTdkNDJlZWZkOTE0YTMwNWUxMTgxMTFhZTI1ZDI3M2QyMTRmMjI5Yzg0ODBjYTUxYjVkY2I5ZmY0YmRkMzBlZjRjNDM2Y2NiYzhlZjQ0ODRjMWZlNzVmZjdjM2JiMjdkMjdmMjk=
+          ports:
+            - containerPort: 9092
+          livenessProbe:
+            httpGet:
+              scheme: HTTP
+              path: /actuator/health
+              port: 9092
+            initialDelaySeconds: 1000
+            periodSeconds: 5
+          readinessProbe:
+              httpGet:
+                  scheme: HTTP
+                  path: /actuator/health/readiness
+                  port: 9092
+              initialDelaySeconds: 1000
+              periodSeconds: 5

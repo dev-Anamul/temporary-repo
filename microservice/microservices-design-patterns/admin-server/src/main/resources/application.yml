@@ -1,0 +1,31 @@
+spring:
+    application:
+        name: admin-server
+    cloud:
+        consul:
+            config:
+                fail-fast: ${FAIL_FAST:true}
+                format: yaml
+        kubernetes:
+            discovery:
+                service-labels:
+                    spring-boot: true
+    main:
+        allow-bean-definition-overriding: true
+
+---
+spring:
+    config:
+        activate:
+            on-profile: consul
+        import: consul:${consul_url:localhost:8500}
+    cloud:
+        consul:
+            config:
+                fail-fast: ${FAIL_FAST:true}
+                format: yaml
+        kubernetes:
+            discovery:
+                discovery-server-url:
+    autoconfigure:
+        exclude: org.springframework.cloud.consul.config.ConsulConfigAutoConfiguration

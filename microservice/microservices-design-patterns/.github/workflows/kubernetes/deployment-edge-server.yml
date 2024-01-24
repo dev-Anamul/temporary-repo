@@ -1,0 +1,91 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: edge-server
+  annotations:
+    cloud.google.com/app-protocols: '{"https-port":"HTTPS","http-port":"HTTP"}'
+  labels:
+    app: edge-server
+spec:
+  ports:
+    - name: https-port
+      port: 8443
+    - name: http-port
+      port: 8080
+  selector:
+    app: edge-server
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edge-server
+spec:
+  selector:
+    matchLabels:
+      app: edge-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: edge-server
+        version: v1
+    spec:
+      containers:
+        - name: edge-server
+          image: edge-server:0.0.1-SNAPSHOT
+          imagePullPolicy: Never
+          resources:
+            requests:
+              memory: "256Mi"
+            limits:
+              memory: "512Mi"
+          env:
+            - name: JAVA_OPTS
+              value: --enable-preview -Xss256K -Xms1M -XX:+UseSerialGC -Djava.compiler=none -XX:ReservedCodeCacheSize=2496k -XX:MaxDirectMemorySize=1M #-Xms256m -Xmx512m
+            - name: SERVER_PORT
+              value: "8080"
+            - name: SPRING_PROFILES_ACTIVE
+              value: dev,auth
+            - name: SPRING_DATA_MONGODB_URI
+              value: mongodb://mongodb:27017/docker
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: docker
+            - name: SPRING_DATA_REDIS_HOST
+              value: redis
+            - name: SPRING_CLOUD_CONSUL_ENABLED
+              value: "false"
+            - name: OPENTRACING_JAEGER_ENABLED
+              value: "false"
+            - name: SPRING_CLOUD_KUBERNETES_CONFIG_NAMESPACE
+              value: "default"
+            - name: SPRING_MAIN_WEB_APPLICATION_TYPE
+              value: "reactive"
+            - name: SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES
+              value: "true"
+            - name: MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS
+              value: "false"
+            - name: SPRING_CLOUD_KUBERNETES_CONFIG_NAME
+              value: "edge-server"
+            - name: SPRING_CLOUD_BOOTSTRAP_ENABLED
+              value: "true"
+            - name: COM_MICROSERVICE_AUTHENTICATION_JWT_KEY_VALUE
+              value: YTMwOTIwODE1MGMzOGExM2E4NDc5ZjhjMmQwMTdkNDJlZWZkOTE0YTMwNWUxMTgxMTFhZTI1ZDI3M2QyMTRmMjI5Yzg0ODBjYTUxYjVkY2I5ZmY0YmRkMzBlZjRjNDM2Y2NiYzhlZjQ0ODRjMWZlNzVmZjdjM2JiMjdkMjdmMjk=
+            - name: LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_CLOUD_GATEWAY
+              value: "trace"
+            - name: LOGGING_LEVEL_COM_SPRINGBOOT_EDGESERVER
+              value: "trace"
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              scheme: HTTP
+              path: /actuator/health/liveness
+              port: 8080
+            initialDelaySeconds: 1000
+            periodSeconds: 5
+          readinessProbe:
+            httpGet:
+              scheme: HTTP
+              path: /actuator/health/readiness
+              port: 8080
+            initialDelaySeconds: 1000

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1b5276;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+
+@layer base {
+  tr {
+    @apply border-none;
+  }
+}
+
+@layer components {
+  .header_bg {
+    background-color: #edf3f9;
+  }
+  .header_text {
+    color: #1b5276;
+  }
+  .text_heading {
+    color: #1b5276;
+  }
+  .table_header_bg {
+    background-color: #bcd9f5;
+  }
+  .table_row_bg {
+    background-color: #bcd9f554;
+  }
+  .border_stroke {
+    border-color: #bcd9f5;
+  }
+
+  .custom_btn {
+    @apply btn font-normal dark:border-slate-700 text-black border_stroke hover:border-gray-200 hover:dark:border-slate-700  dark:text-white dark:text-opacity-80 hover:bg-white bg-white dark:bg-slate-900;
+  }
+  .custom_select {
+    @apply select w-full border_stroke dark:border-slate-700 text-black dark:text-white dark:text-opacity-80 bg-white dark:bg-slate-900 text-base;
+  }
+  .custom_input {
+    @apply input w-full border_stroke dark:border-slate-700 text-black dark:text-white dark:text-opacity-80 bg-white dark:bg-slate-900 text-base;
+  }
+}
+
+/* Custom Css */
+/* Dashboard Card */
+.dashboard_card {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.text_short {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.dashboard_card::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -115px;
+  width: 100%;
+  height: 100%;
+  background-color: #1d52765d;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
+
+.dashboard_card::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -140px;
+  width: 100%;
+  height: 100%;
+  background-color: #3cb558ab;
+  z-index: -1;
+  transform: rotate(-60deg);
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.border {
+  border-color: #1d527644 !important;
+}
+
+/* Notification Hover */
+.notification_box {
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.notification_bell:hover .notification_box {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.action_hover {
+  transform: translateX(200px);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.action_parent:hover .action_hover {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 1250px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+.infinite-scroll-component__outerdiv {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .infinite-scroll-component__outerdiv {
+    width: 100%;
+  }
+}

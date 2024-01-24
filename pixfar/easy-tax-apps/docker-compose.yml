@@ -1,0 +1,48 @@
+version: '3.7'
+
+services:
+  fontend:
+    build: 
+      context: ./web-app
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"  
+    environment:
+      VITE_API_URL: http://localhost:6050
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      PORT: 6050
+      APP_URL: https://api.easy-tax.pixfar.com
+      MONGO_CONNECTION_STRING: mongodb://<USERNAME>:<PASSWORD>@<HOST>:<PORT>
+      MONGO_USERNAME: root
+      MONGO_PASSWORD: mongorootPass2023
+      MONGO_HOST: 202.91.42.198
+      MONGO_PORT: 27017
+      MONGO_DB_NAME: easy-tax #easy-tax-testing-db
+      JWT_SECRET: 92b9435a4a65407b548bac2047f03e026687561e1053fadba3a9be90b9710474
+      JWT_RESET_SECRET: 92b9435a4a65407b548bac2047f03e026687561e1053fadba3a9be90b9710987
+      JWT_EXPIRES_IN: 1d
+      EMAIL_USER: 'anamuljibon.abc.123@gmail.com'
+      EMAIL_PASSWORD: 'wnrofhjypsjupjuo'
+      EMAIL_PORT: 2525
+      EMAIL_HOST: sandbox.smtp.mailtrap.io
+      EMAIL_FROM: anamul@gmail.com
+      NOTIFICATION_URL: https://fcm.googleapis.com/fcm/send
+      NOTIFICATION_AUTH: AAAAF5nYUgA:APA91bEmt4HrLTxo7J02YPMhSBHaeMU5ifoNyrDLKxDgl5OnReNhQXhLTD8wr5lVB-SknmIijZI53jpU95IgvuiF-wyUvMsQS6Td8KTzYWEj1owvDAFbPqwbHjl7CbHHlrOQvPZLfOeU
+      AZURE_OCR_ENDPOINT: https://azmindoc.cognitiveservices.azure.com
+      AZURE_OCR_KEY: 4c33ec491b984ad98da12c375835e1bb
+    ports:
+      - "6050:6050"  
+  # mongodb:
+  #   image: mongo:latest
+  #   ports:
+  #     - "27012:27017"
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: mongorootPass2023
+
+
+

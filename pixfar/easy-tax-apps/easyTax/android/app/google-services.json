@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503212230461",
+    "project_id": "fluxx-ae763",
+    "storage_bucket": "fluxx-ae763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503212230461:android:80e2f91da9d6cf4cc2a754",
+        "android_client_info": {
+          "package_name": "nz.co.fluxx.fluxx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANzEAvc_XBlDpLzTsF5mZBoQlOyERSaIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

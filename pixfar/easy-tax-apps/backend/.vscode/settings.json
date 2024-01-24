@@ -1,0 +1,48 @@
+{
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Operator Mono Lig, Dank Mono, Operator Mono, Fira Mono , Fira Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  // file
+  "files.autoSave": "onFocusChange",
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "cSpell.words": [
+    "categori",
+    "categorywise",
+    "linebreak",
+    "signup",
+    "superadmin",
+    "virtuals"
+  ],
+  "yaml.schemas": {
+    "openapi:v3": "file:///home/anamul/Desktop/practice-folder/pixfar/easy-tax-apps/backend/swagger.yaml"
+  }
+}

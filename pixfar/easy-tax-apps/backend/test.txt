@@ -1,0 +1,40 @@
+Dear concern, our work update for today is given below:
+Following modules are perfectly completed till now:
+PNC
+Covax
+ART peadiatric
+HTS
+Vitals
+Referrals
+Birth Record
+prep
+under Five
+Investigation
+Pain scaling
+Investigation Queue
+Client
+User
+pep 
+TB service
+Nursing Care
+
+We are facing some api issue in the following modules , but from our side we have done everything. Mahir Labib and shakil vai are already informed about those issue. If they fix those issue those are automatically resolve or if needed we work on it to fix those issue.
+Labour and Delivery
+ANC
+ART adult
+OPD
+Covid
+Family planing
+Death Record
+IPD
+
+We got some issues in the Following modules after the last update. Hope within today we update those modules also
+Pharmacy
+Pharmacy Queue
+Service Queue
+Surgery
+
+We are facing some issue in partograph modules. we trying to complete this modules as soon as possible. Achem and Ananda vai dedicatedly working on this modules. Hope we can complete this modules within two days.
+
+Finally, we are trying to complete all the modules just like as SC staging. Arpita apu now you can check all the modules and give us feedback. We are waiting for your feedback. If you have any suggestion please let us know. We will try to implement those suggestion.
+If you find any issue please let us know. We will try to fix those issue as soon as possible. We continuously working oh this project, if any issue found after any update, we always ready to fix those issue.Fill free to inform us. Thanks a lot.

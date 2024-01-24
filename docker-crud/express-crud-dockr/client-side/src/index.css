@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md bg-blue-500 text-white;
+  }
+  .form {
+    @apply p-4 rounded-md bg-gray-100;
+  }
+
+  .form-control {
+    @apply block w-full p-2 rounded-md bg-white border border-gray-300;
+  }
+
+  .form-control:focus {
+    @apply border-blue-500;
+  }
+
+  .form-control::placeholder {
+    @apply text-gray-400;
+  }
+
+  .form-control:focus::placeholder {
+    @apply text-gray-500;
+  }
+
+  .form-select {
+    @apply block w-full p-2 rounded-md bg-white border border-gray-300;
+  }
+
+  .form-select:focus {
+    @apply border-blue-500;
+  }
+
+  .form-select::placeholder {
+    @apply text-gray-400;
+  }
+
+  .form-select:focus::placeholder {
+    @apply text-gray-500;
+  }
+
+  .form-textarea {
+    @apply block w-full p-2 rounded-md bg-white border border-gray-300;
+  }
+
+  .form-textarea:focus {
+    @apply border-blue-500;
+  }
+
+  .form-textarea::placeholder {
+    @apply text-gray-400;
+  }
+
+  .form-textarea:focus::placeholder {
+    @apply text-gray-500;
+  }
+
+  .form-checkbox {
+    @apply w-4 h-4 rounded-md border border-gray-300;
+  }
+
+  .form-checkbox:focus {
+    @apply border-blue-500;
+  }
+
+  .form-checkbox:checked {
+    @apply bg-blue-500;
+  }
+
+  .form-checkbox:checked::before {
+    @apply content block w-2 h-2 rounded-md bg-white;
+  }
+
+  .form-radio {
+    @apply w-4 h-4 rounded-full border border-gray-300;
+  }
+
+  .form-radio:focus {
+    @apply border-blue-500;
+  }
+
+  .form-radio:checked {
+    @apply bg-blue-500;
+  }
+
+  .form-radio:checked::before {
+    @apply content block w-2 h-2 rounded-full bg-white;
+  }
+
+  .form-label {
+    @apply block text-gray-700;
+  }
+
+  .form-help {
+    @apply block text-gray-400;
+  }
+
+  .form-error {
+    @apply block text-red-500;
+  }
+
+  .form-error::before {
+    @apply content block w-4 h-4 bg-red-500;
+  }
+
+  .form-error::after {
+    @apply content block w-4 h-4 bg-red-500;
+  }
+
+  .form-error::before {
+    @apply content block w-4 h-4 bg-red-500;
+  }
+
+  .form-error::after {
+    @apply content block w-4 h-4 bg-red-500;
+  }
+
+  .form-error::before {
+    @apply content block w-4 h;
+  }
+}

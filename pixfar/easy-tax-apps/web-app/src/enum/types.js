@@ -1,0 +1,15 @@
+export const incomeSourceTypes = Object.freeze({
+  1: "PAYE/Salary",
+  2: "NZ Interest",
+  3: "COVID-19 Wage subsidy",
+  4: "NZ Dividends",
+  5: "Investment Property",
+  6: "Income earned outside NZ",
+  7: "Shareholder-employee salary with no tax deducted",
+  8: "Short-term rental of primary residence (AirBnB, Lodger etc)",
+  9: "Partnership income",
+  10: "Look through company income (LTC)",
+  11: "NZ Estate or trust income",
+  12: "Maori Authority distributions",
+  13: "Other (e.g. sales of shares)",
+});

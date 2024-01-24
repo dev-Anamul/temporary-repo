@@ -1,0 +1,36 @@
+spring:
+    cloud:
+        config:
+            fail-fast: false
+            enabled: true
+            discovery:
+                enabled: true
+                service-id: config-server
+            retry:
+                initial-interval: 8000
+                max-attempts: 6
+                max-interval: 128000
+                multiplier: 2
+            headers:
+                X-Encrypt-Key: b7fc7cec8e7aab24648723258da87a8d09ad7cef7b0a2842738884496a9fbb53
+
+---
+profiles: docker
+spring:
+    cloud:
+        config:
+            endpoint: http://config-management:8888
+
+---
+profiles: prod
+spring:
+    cloud:
+        config:
+            endpoint: http://config-server:8888
+
+---
+profiles: localhost
+spring:
+    cloud:
+        config:
+            endpoint: http://localhost:8888

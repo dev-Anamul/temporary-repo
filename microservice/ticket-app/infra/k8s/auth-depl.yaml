@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - name: auth
+          image: 01791689522/auth
+          ports:
+            - containerPort: 7050
+          env:
+            - name: MONGO_URI
+              value: your-mongo-uri
+            - name: JWT_KEY
+              value: your-jwt-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-svc
+spec:
+  selector:
+    app: auth
+  ports:
+    - name: http
+      protocol: TCP
+      port: 7050
+      targetPort: 7050
+  type: ClusterIP

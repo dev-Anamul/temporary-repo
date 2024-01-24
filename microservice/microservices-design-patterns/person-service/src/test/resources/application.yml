@@ -1,0 +1,43 @@
+spring:
+    application:
+        name: person-service
+    profiles:
+        include: callPostApi,kafka
+    cloud:
+        discovery:
+            enabled: false
+        consul:
+            config:
+                enabled: false
+                watch:
+                    enabled: false
+            enabled: false
+            discovery:
+                enabled: false
+                catalog-services-watch:
+                    enabled: false
+            retry:
+                enabled: false
+        kubernetes:
+            enabled: false
+            config:
+                enabled: false
+    main:
+        allow-bean-definition-overriding: true
+server:
+    error:
+        include-message: always
+
+com:
+    microservice:
+        person:
+            postApi: http://localhost:${wiremock.server.port}/api/posts
+        authentication:
+            jwt:
+                keyValue: dGVzdC1zcHJpbmctYm9vdC1hcHBsaWNhdGlvbi13aXRoLXJlYWN0LXNpbmdsZS1wYWdlLWFwcGxpY2F0aW9uCg==
+
+logging:
+    level:
+        com.microservice: trace
+    pattern:
+        level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-},requestId=%X{requestId:-}]"

@@ -1,0 +1,5915 @@
+[
+  {
+    "serial": "1",
+    "tradeCode": "1JANATAMF",
+    "breaker_percent": "10",
+    "base_price": "6.1",
+    "floor_price": "6.1",
+    "lower_limit": "6.1",
+    "upper_limit": "6.7"
+  },
+  {
+    "serial": "2",
+    "tradeCode": "1STPRIMFMF",
+    "breaker_percent": "10",
+    "base_price": "17",
+    "floor_price": "17",
+    "lower_limit": "17",
+    "upper_limit": "18.7"
+  },
+  {
+    "serial": "3",
+    "tradeCode": "AAMRANET",
+    "breaker_percent": "10",
+    "base_price": "52.5",
+    "floor_price": "37.9",
+    "lower_limit": "47.3",
+    "upper_limit": "57.7"
+  },
+  {
+    "serial": "4",
+    "tradeCode": "AAMRATECH",
+    "breaker_percent": "10",
+    "base_price": "41.1",
+    "floor_price": "30.4",
+    "lower_limit": "37",
+    "upper_limit": "45.2"
+  },
+  {
+    "serial": "5",
+    "tradeCode": "ABB1STMF",
+    "breaker_percent": "10",
+    "base_price": "5.2",
+    "floor_price": "5.2",
+    "lower_limit": "5.2",
+    "upper_limit": "5.7"
+  },
+  {
+    "serial": "6",
+    "tradeCode": "ABBANK",
+    "breaker_percent": "10",
+    "base_price": "9.9",
+    "floor_price": "9.9",
+    "lower_limit": "9.9",
+    "upper_limit": "10.8"
+  },
+  {
+    "serial": "7",
+    "tradeCode": "ACFL",
+    "breaker_percent": "10",
+    "base_price": "26.5",
+    "floor_price": "26.5",
+    "lower_limit": "26.5",
+    "upper_limit": "29.1"
+  },
+  {
+    "serial": "8",
+    "tradeCode": "ACI",
+    "breaker_percent": "8.75",
+    "base_price": "273.2",
+    "floor_price": "273.2",
+    "lower_limit": "273.2",
+    "upper_limit": "297.1"
+  },
+  {
+    "serial": "9",
+    "tradeCode": "ACIFORMULA",
+    "breaker_percent": "10",
+    "base_price": "155",
+    "floor_price": "155",
+    "lower_limit": "155",
+    "upper_limit": "170.5"
+  },
+  {
+    "serial": "10",
+    "tradeCode": "ACMELAB",
+    "breaker_percent": "10",
+    "base_price": "85.1",
+    "floor_price": "85",
+    "lower_limit": "85",
+    "upper_limit": "93.6"
+  },
+  {
+    "serial": "11",
+    "tradeCode": "ACMEPL",
+    "breaker_percent": "10",
+    "base_price": "35.4",
+    "floor_price": "35.4",
+    "lower_limit": "35.4",
+    "upper_limit": "38.9"
+  },
+  {
+    "serial": "12",
+    "tradeCode": "ACTIVEFINE",
+    "breaker_percent": "10",
+    "base_price": "19.3",
+    "floor_price": "19.3",
+    "lower_limit": "19.3",
+    "upper_limit": "21.2"
+  },
+  {
+    "serial": "13",
+    "tradeCode": "ADNTEL",
+    "breaker_percent": "10",
+    "base_price": "124.5",
+    "floor_price": "58.9",
+    "lower_limit": "112.1",
+    "upper_limit": "136.9"
+  },
+  {
+    "serial": "14",
+    "tradeCode": "ADVENT",
+    "breaker_percent": "10",
+    "base_price": "22.6",
+    "floor_price": "22.6",
+    "lower_limit": "22.6",
+    "upper_limit": "24.8"
+  },
+  {
+    "serial": "15",
+    "tradeCode": "AFCAGRO",
+    "breaker_percent": "10",
+    "base_price": "23.5",
+    "floor_price": "23.5",
+    "lower_limit": "23.5",
+    "upper_limit": "25.8"
+  },
+  {
+    "serial": "16",
+    "tradeCode": "AFTABAUTO",
+    "breaker_percent": "10",
+    "base_price": "26",
+    "floor_price": "25.5",
+    "lower_limit": "25.5",
+    "upper_limit": "28.6"
+  },
+  {
+    "serial": "17",
+    "tradeCode": "AGNISYSL",
+    "breaker_percent": "10",
+    "base_price": "22.4",
+    "floor_price": "21.9",
+    "lower_limit": "21.9",
+    "upper_limit": "24.6"
+  },
+  {
+    "serial": "18",
+    "tradeCode": "AGRANINS",
+    "breaker_percent": "10",
+    "base_price": "38.5",
+    "floor_price": "38.5",
+    "lower_limit": "38.5",
+    "upper_limit": "42.3"
+  },
+  {
+    "serial": "19",
+    "tradeCode": "AIBL1STIMF",
+    "breaker_percent": "10",
+    "base_price": "7.3",
+    "floor_price": "7.3",
+    "lower_limit": "7.3",
+    "upper_limit": "8"
+  },
+  {
+    "serial": "20",
+    "tradeCode": "AIBLPBOND",
+    "breaker_percent": "5",
+    "base_price": "4900",
+    "floor_price": "4895",
+    "lower_limit": "4895",
+    "upper_limit": "5145"
+  },
+  {
+    "serial": "21",
+    "tradeCode": "AIL",
+    "breaker_percent": "10",
+    "base_price": "53.4",
+    "floor_price": "53.4",
+    "lower_limit": "53.4",
+    "upper_limit": "58.7"
+  },
+  {
+    "serial": "22",
+    "tradeCode": "ALARABANK",
+    "breaker_percent": "10",
+    "base_price": "23.6",
+    "floor_price": "23.6",
+    "lower_limit": "23.6",
+    "upper_limit": "25.9"
+  },
+  {
+    "serial": "23",
+    "tradeCode": "AL-HAJTEX",
+    "breaker_percent": "10",
+    "base_price": "139.8",
+    "floor_price": "132.1",
+    "lower_limit": "132.1",
+    "upper_limit": "153.7"
+  },
+  {
+    "serial": "24",
+    "tradeCode": "ALIF",
+    "breaker_percent": "10",
+    "base_price": "13.3",
+    "floor_price": "13.3",
+    "lower_limit": "13.3",
+    "upper_limit": "14.6"
+  },
+  {
+    "serial": "25",
+    "tradeCode": "ALLTEX",
+    "breaker_percent": "10",
+    "base_price": "24.6",
+    "floor_price": "24.6",
+    "lower_limit": "24.6",
+    "upper_limit": "27"
+  },
+  {
+    "serial": "26",
+    "tradeCode": "AMANFEED",
+    "breaker_percent": "10",
+    "base_price": "33.5",
+    "floor_price": "33.5",
+    "lower_limit": "33.5",
+    "upper_limit": "36.8"
+  },
+  {
+    "serial": "27",
+    "tradeCode": "AMBEEPHA",
+    "breaker_percent": "8.75",
+    "base_price": "486.2",
+    "floor_price": "486.2",
+    "lower_limit": "486.2",
+    "upper_limit": "528.7"
+  },
+  {
+    "serial": "28",
+    "tradeCode": "AMCL(PRAN)",
+    "breaker_percent": "8.75",
+    "base_price": "266.8",
+    "floor_price": "266.8",
+    "lower_limit": "266.8",
+    "upper_limit": "290.1"
+  },
+  {
+    "serial": "29",
+    "tradeCode": "ANLIMAYARN",
+    "breaker_percent": "10",
+    "base_price": "37.1",
+    "floor_price": "37.1",
+    "lower_limit": "37.1",
+    "upper_limit": "40.8"
+  },
+  {
+    "serial": "30",
+    "tradeCode": "ANWARGALV",
+    "breaker_percent": "8.75",
+    "base_price": "402.4",
+    "floor_price": "383.9",
+    "lower_limit": "383.9",
+    "upper_limit": "437.6"
+  },
+  {
+    "serial": "31",
+    "tradeCode": "AOL",
+    "breaker_percent": "10",
+    "base_price": "36.5",
+    "floor_price": "36.5",
+    "lower_limit": "36.5",
+    "upper_limit": "40.1"
+  },
+  {
+    "serial": "32",
+    "tradeCode": "APEXFOODS",
+    "breaker_percent": "8.75",
+    "base_price": "234.1",
+    "floor_price": "170.4",
+    "lower_limit": "213.7",
+    "upper_limit": "254.5"
+  },
+  {
+    "serial": "33",
+    "tradeCode": "APEXFOOT",
+    "breaker_percent": "8.75",
+    "base_price": "257.5",
+    "floor_price": "257.5",
+    "lower_limit": "257.5",
+    "upper_limit": "280"
+  },
+  {
+    "serial": "34",
+    "tradeCode": "APEXSPINN",
+    "breaker_percent": "10",
+    "base_price": "130.9",
+    "floor_price": "130.9",
+    "lower_limit": "130.9",
+    "upper_limit": "143.9"
+  },
+  {
+    "serial": "35",
+    "tradeCode": "APEXTANRY",
+    "breaker_percent": "10",
+    "base_price": "128.7",
+    "floor_price": "128.7",
+    "lower_limit": "128.7",
+    "upper_limit": "141.5"
+  },
+  {
+    "serial": "36",
+    "tradeCode": "APOLOISPAT",
+    "breaker_percent": "10",
+    "base_price": "8.2",
+    "floor_price": "8.2",
+    "lower_limit": "8.2",
+    "upper_limit": "9"
+  },
+  {
+    "serial": "37",
+    "tradeCode": "APSCLBOND",
+    "breaker_percent": "3.75",
+    "base_price": "5500",
+    "floor_price": "5500",
+    "lower_limit": "5500",
+    "upper_limit": "5706"
+  },
+  {
+    "serial": "38",
+    "tradeCode": "ARAMIT",
+    "breaker_percent": "0",
+    "base_price": "276.7",
+    "floor_price": "273.9",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "39",
+    "tradeCode": "ARAMITCEM",
+    "breaker_percent": "0",
+    "base_price": "31.4",
+    "floor_price": "31.4",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "40",
+    "tradeCode": "ARGONDENIM",
+    "breaker_percent": "10",
+    "base_price": "18.2",
+    "floor_price": "18.2",
+    "lower_limit": "18.2",
+    "upper_limit": "20"
+  },
+  {
+    "serial": "41",
+    "tradeCode": "ASIAINS",
+    "breaker_percent": "10",
+    "base_price": "49.6",
+    "floor_price": "48.9",
+    "lower_limit": "48.9",
+    "upper_limit": "54.5"
+  },
+  {
+    "serial": "42",
+    "tradeCode": "ASIAPACINS",
+    "breaker_percent": "10",
+    "base_price": "43.8",
+    "floor_price": "43.6",
+    "lower_limit": "43.6",
+    "upper_limit": "48.1"
+  },
+  {
+    "serial": "43",
+    "tradeCode": "ATCSLGF",
+    "breaker_percent": "10",
+    "base_price": "9.7",
+    "floor_price": "9.7",
+    "lower_limit": "9.7",
+    "upper_limit": "10.6"
+  },
+  {
+    "serial": "44",
+    "tradeCode": "ATLASBANG",
+    "breaker_percent": "10",
+    "base_price": "104.2",
+    "floor_price": "104.2",
+    "lower_limit": "104.2",
+    "upper_limit": "114.6"
+  },
+  {
+    "serial": "45",
+    "tradeCode": "AZIZPIPES",
+    "breaker_percent": "10",
+    "base_price": "95.7",
+    "floor_price": "95.7",
+    "lower_limit": "95.7",
+    "upper_limit": "105.2"
+  },
+  {
+    "serial": "46",
+    "tradeCode": "BANGAS",
+    "breaker_percent": "10",
+    "base_price": "127.7",
+    "floor_price": "127.7",
+    "lower_limit": "127.7",
+    "upper_limit": "140.4"
+  },
+  {
+    "serial": "47",
+    "tradeCode": "BANKASIA",
+    "breaker_percent": "10",
+    "base_price": "20.2",
+    "floor_price": "20.2",
+    "lower_limit": "20.2",
+    "upper_limit": "22.2"
+  },
+  {
+    "serial": "48",
+    "tradeCode": "BARKAPOWER",
+    "breaker_percent": "10",
+    "base_price": "21.3",
+    "floor_price": "21.3",
+    "lower_limit": "21.3",
+    "upper_limit": "23.4"
+  },
+  {
+    "serial": "49",
+    "tradeCode": "BATASHOE",
+    "breaker_percent": "7.5",
+    "base_price": "926.4",
+    "floor_price": "926.4",
+    "lower_limit": "926.4",
+    "upper_limit": "995.8"
+  },
+  {
+    "serial": "50",
+    "tradeCode": "BATBC",
+    "breaker_percent": "7.5",
+    "base_price": "518.7",
+    "floor_price": "518.7",
+    "lower_limit": "518.7",
+    "upper_limit": "557.6"
+  },
+  {
+    "serial": "51",
+    "tradeCode": "BAYLEASING",
+    "breaker_percent": "10",
+    "base_price": "23.9",
+    "floor_price": "23.9",
+    "lower_limit": "23.9",
+    "upper_limit": "26.2"
+  },
+  {
+    "serial": "52",
+    "tradeCode": "BBS",
+    "breaker_percent": "10",
+    "base_price": "21.6",
+    "floor_price": "21.6",
+    "lower_limit": "21.6",
+    "upper_limit": "23.7"
+  },
+  {
+    "serial": "53",
+    "tradeCode": "BBSCABLES",
+    "breaker_percent": "10",
+    "base_price": "52.4",
+    "floor_price": "52.4",
+    "lower_limit": "52.4",
+    "upper_limit": "57.6"
+  },
+  {
+    "serial": "54",
+    "tradeCode": "BDAUTOCA",
+    "breaker_percent": "10",
+    "base_price": "136.2",
+    "floor_price": "136.2",
+    "lower_limit": "136.2",
+    "upper_limit": "149.8"
+  },
+  {
+    "serial": "55",
+    "tradeCode": "BDCOM",
+    "breaker_percent": "10",
+    "base_price": "37.9",
+    "floor_price": "30.3",
+    "lower_limit": "34.2",
+    "upper_limit": "41.6"
+  },
+  {
+    "serial": "56",
+    "tradeCode": "BDFINANCE",
+    "breaker_percent": "10",
+    "base_price": "44.1",
+    "floor_price": "44.1",
+    "lower_limit": "44.1",
+    "upper_limit": "48.5"
+  },
+  {
+    "serial": "57",
+    "tradeCode": "BDLAMPS",
+    "breaker_percent": "8.75",
+    "base_price": "252.2",
+    "floor_price": "252.2",
+    "lower_limit": "252.2",
+    "upper_limit": "274.2"
+  },
+  {
+    "serial": "58",
+    "tradeCode": "BDSERVICE",
+    "breaker_percent": "10",
+    "base_price": "5.2",
+    "floor_price": "5.2",
+    "lower_limit": "5.2",
+    "upper_limit": "5.7"
+  },
+  {
+    "serial": "59",
+    "tradeCode": "BDTHAI",
+    "breaker_percent": "10",
+    "base_price": "17",
+    "floor_price": "17",
+    "lower_limit": "17",
+    "upper_limit": "18.7"
+  },
+  {
+    "serial": "60",
+    "tradeCode": "BDTHAIFOOD",
+    "breaker_percent": "10",
+    "base_price": "44.9",
+    "floor_price": "34.8",
+    "lower_limit": "40.5",
+    "upper_limit": "49.3"
+  },
+  {
+    "serial": "61",
+    "tradeCode": "BDWELDING",
+    "breaker_percent": "10",
+    "base_price": "30.7",
+    "floor_price": "22.1",
+    "lower_limit": "27.7",
+    "upper_limit": "33.7"
+  },
+  {
+    "serial": "62",
+    "tradeCode": "BEACHHATCH",
+    "breaker_percent": "10",
+    "base_price": "41.7",
+    "floor_price": "41.7",
+    "lower_limit": "41.7",
+    "upper_limit": "45.8"
+  },
+  {
+    "serial": "63",
+    "tradeCode": "BEACONPHAR",
+    "breaker_percent": "8.75",
+    "base_price": "275.5",
+    "floor_price": "245",
+    "lower_limit": "251.4",
+    "upper_limit": "299.6"
+  },
+  {
+    "serial": "64",
+    "tradeCode": "BENGALWTL",
+    "breaker_percent": "10",
+    "base_price": "24.8",
+    "floor_price": "21.8",
+    "lower_limit": "22.4",
+    "upper_limit": "27.2"
+  },
+  {
+    "serial": "65",
+    "tradeCode": "BERGERPBL",
+    "breaker_percent": "6.25",
+    "base_price": "1711.6",
+    "floor_price": "1711.6",
+    "lower_limit": "1711.6",
+    "upper_limit": "1818.5"
+  },
+  {
+    "serial": "66",
+    "tradeCode": "BEXGSUKUK",
+    "breaker_percent": "10",
+    "base_price": "88.5",
+    "floor_price": "85",
+    "lower_limit": "85",
+    "upper_limit": "97"
+  },
+  {
+    "serial": "67",
+    "tradeCode": "BEXIMCO",
+    "breaker_percent": "10",
+    "base_price": "115.6",
+    "floor_price": "115.6",
+    "lower_limit": "115.6",
+    "upper_limit": "127.1"
+  },
+  {
+    "serial": "68",
+    "tradeCode": "BGIC",
+    "breaker_percent": "10",
+    "base_price": "50.6",
+    "floor_price": "38.6",
+    "lower_limit": "45.6",
+    "upper_limit": "55.6"
+  },
+  {
+    "serial": "69",
+    "tradeCode": "BIFC",
+    "breaker_percent": "10",
+    "base_price": "9.5",
+    "floor_price": "9.5",
+    "lower_limit": "9.5",
+    "upper_limit": "10.4"
+  },
+  {
+    "serial": "70",
+    "tradeCode": "BNICL",
+    "breaker_percent": "10",
+    "base_price": "59.6",
+    "floor_price": "56.7",
+    "lower_limit": "56.7",
+    "upper_limit": "65.5"
+  },
+  {
+    "serial": "71",
+    "tradeCode": "BPML",
+    "breaker_percent": "10",
+    "base_price": "96.1",
+    "floor_price": "49.6",
+    "lower_limit": "86.5",
+    "upper_limit": "105.7"
+  },
+  {
+    "serial": "72",
+    "tradeCode": "BPPL",
+    "breaker_percent": "10",
+    "base_price": "29.3",
+    "floor_price": "29.3",
+    "lower_limit": "29.3",
+    "upper_limit": "32.2"
+  },
+  {
+    "serial": "73",
+    "tradeCode": "BRACBANK",
+    "breaker_percent": "10",
+    "base_price": "38.5",
+    "floor_price": "38.5",
+    "lower_limit": "38.5",
+    "upper_limit": "42.3"
+  },
+  {
+    "serial": "74",
+    "tradeCode": "BSC",
+    "breaker_percent": "10",
+    "base_price": "123.4",
+    "floor_price": "107",
+    "lower_limit": "111.1",
+    "upper_limit": "135.7"
+  },
+  {
+    "serial": "75",
+    "tradeCode": "BSCCL",
+    "breaker_percent": "8.75",
+    "base_price": "218.9",
+    "floor_price": "218.9",
+    "lower_limit": "218.9",
+    "upper_limit": "238"
+  },
+  {
+    "serial": "76",
+    "tradeCode": "BSRMLTD",
+    "breaker_percent": "10",
+    "base_price": "90",
+    "floor_price": "90",
+    "lower_limit": "90",
+    "upper_limit": "99"
+  },
+  {
+    "serial": "77",
+    "tradeCode": "BSRMSTEEL",
+    "breaker_percent": "10",
+    "base_price": "63.9",
+    "floor_price": "63.9",
+    "lower_limit": "63.9",
+    "upper_limit": "70.2"
+  },
+  {
+    "serial": "78",
+    "tradeCode": "BXPHARMA",
+    "breaker_percent": "10",
+    "base_price": "146.6",
+    "floor_price": "146.2",
+    "lower_limit": "146.2",
+    "upper_limit": "161.2"
+  },
+  {
+    "serial": "79",
+    "tradeCode": "BXSYNTH",
+    "breaker_percent": "10",
+    "base_price": "8.4",
+    "floor_price": "8.4",
+    "lower_limit": "8.4",
+    "upper_limit": "9.2"
+  },
+  {
+    "serial": "80",
+    "tradeCode": "CAPMBDBLMF",
+    "breaker_percent": "10",
+    "base_price": "10.1",
+    "floor_price": "10.1",
+    "lower_limit": "10.1",
+    "upper_limit": "11.1"
+  },
+  {
+    "serial": "81",
+    "tradeCode": "CAPMIBBLMF",
+    "breaker_percent": "10",
+    "base_price": "14.2",
+    "floor_price": "14.2",
+    "lower_limit": "14.2",
+    "upper_limit": "15.6"
+  },
+  {
+    "serial": "82",
+    "tradeCode": "CBLPBOND",
+    "breaker_percent": "3.75",
+    "base_price": "1037500",
+    "floor_price": "1000000",
+    "lower_limit": "1000000",
+    "upper_limit": "1076406"
+  },
+  {
+    "serial": "83",
+    "tradeCode": "CENTRALINS",
+    "breaker_percent": "10",
+    "base_price": "37.2",
+    "floor_price": "37.2",
+    "lower_limit": "37.2",
+    "upper_limit": "40.9"
+  },
+  {
+    "serial": "84",
+    "tradeCode": "CENTRALPHL",
+    "breaker_percent": "10",
+    "base_price": "12.4",
+    "floor_price": "12.4",
+    "lower_limit": "12.4",
+    "upper_limit": "13.6"
+  },
+  {
+    "serial": "85",
+    "tradeCode": "CITYBANK",
+    "breaker_percent": "10",
+    "base_price": "21.8",
+    "floor_price": "21.8",
+    "lower_limit": "21.8",
+    "upper_limit": "23.9"
+  },
+  {
+    "serial": "86",
+    "tradeCode": "CITYGENINS",
+    "breaker_percent": "10",
+    "base_price": "26.6",
+    "floor_price": "26.3",
+    "lower_limit": "26.3",
+    "upper_limit": "29.2"
+  },
+  {
+    "serial": "87",
+    "tradeCode": "CLICL",
+    "breaker_percent": "10",
+    "base_price": "30.9",
+    "floor_price": "11",
+    "lower_limit": "27.9",
+    "upper_limit": "33.9"
+  },
+  {
+    "serial": "88",
+    "tradeCode": "CNATEX",
+    "breaker_percent": "10",
+    "base_price": "10.2",
+    "floor_price": "10.2",
+    "lower_limit": "10.2",
+    "upper_limit": "11.2"
+  },
+  {
+    "serial": "89",
+    "tradeCode": "CONFIDCEM",
+    "breaker_percent": "0",
+    "base_price": "93.5",
+    "floor_price": "93.5",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "90",
+    "tradeCode": "CONTININS",
+    "breaker_percent": "10",
+    "base_price": "31.8",
+    "floor_price": "31.8",
+    "lower_limit": "31.8",
+    "upper_limit": "34.9"
+  },
+  {
+    "serial": "91",
+    "tradeCode": "COPPERTECH",
+    "breaker_percent": "10",
+    "base_price": "38.4",
+    "floor_price": "38.4",
+    "lower_limit": "38.4",
+    "upper_limit": "42.2"
+  },
+  {
+    "serial": "92",
+    "tradeCode": "CROWNCEMNT",
+    "breaker_percent": "10",
+    "base_price": "74.4",
+    "floor_price": "74.4",
+    "lower_limit": "74.4",
+    "upper_limit": "81.8"
+  },
+  {
+    "serial": "93",
+    "tradeCode": "CRYSTALINS",
+    "breaker_percent": "10",
+    "base_price": "39.7",
+    "floor_price": "35.1",
+    "lower_limit": "35.8",
+    "upper_limit": "43.6"
+  },
+  {
+    "serial": "94",
+    "tradeCode": "CVOPRL",
+    "breaker_percent": "10",
+    "base_price": "163.7",
+    "floor_price": "163.7",
+    "lower_limit": "163.7",
+    "upper_limit": "180"
+  },
+  {
+    "serial": "95",
+    "tradeCode": "DACCADYE",
+    "breaker_percent": "10",
+    "base_price": "17.9",
+    "floor_price": "17.9",
+    "lower_limit": "17.9",
+    "upper_limit": "19.6"
+  },
+  {
+    "serial": "96",
+    "tradeCode": "DAFODILCOM",
+    "breaker_percent": "10",
+    "base_price": "65.8",
+    "floor_price": "65.8",
+    "lower_limit": "65.8",
+    "upper_limit": "72.3"
+  },
+  {
+    "serial": "97",
+    "tradeCode": "DBH",
+    "breaker_percent": "10",
+    "base_price": "57.8",
+    "floor_price": "57.8",
+    "lower_limit": "57.8",
+    "upper_limit": "63.5"
+  },
+  {
+    "serial": "98",
+    "tradeCode": "DBH1STMF",
+    "breaker_percent": "10",
+    "base_price": "6.9",
+    "floor_price": "6.9",
+    "lower_limit": "6.9",
+    "upper_limit": "7.5"
+  },
+  {
+    "serial": "99",
+    "tradeCode": "DEBARACEM",
+    "breaker_percent": "6.25",
+    "base_price": "1865",
+    "floor_price": "0",
+    "lower_limit": "1748.5",
+    "upper_limit": "1981.5"
+  },
+  {
+    "serial": "100",
+    "tradeCode": "DEBBDLUGG",
+    "breaker_percent": "7.5",
+    "base_price": "784",
+    "floor_price": "0",
+    "lower_limit": "725.5",
+    "upper_limit": "842.5"
+  },
+  {
+    "serial": "101",
+    "tradeCode": "DEBBDWELD",
+    "breaker_percent": "6.25",
+    "base_price": "1418.5",
+    "floor_price": "0",
+    "lower_limit": "1330",
+    "upper_limit": "1507"
+  },
+  {
+    "serial": "102",
+    "tradeCode": "DEBBDZIPP",
+    "breaker_percent": "7.5",
+    "base_price": "700",
+    "floor_price": "0",
+    "lower_limit": "647.5",
+    "upper_limit": "752.5"
+  },
+  {
+    "serial": "103",
+    "tradeCode": "DEBBXDENIM",
+    "breaker_percent": "6.25",
+    "base_price": "1450",
+    "floor_price": "0",
+    "lower_limit": "1359.5",
+    "upper_limit": "1540.5"
+  },
+  {
+    "serial": "104",
+    "tradeCode": "DEBBXFISH",
+    "breaker_percent": "7.5",
+    "base_price": "835",
+    "floor_price": "0",
+    "lower_limit": "772.5",
+    "upper_limit": "897.5"
+  },
+  {
+    "serial": "105",
+    "tradeCode": "DEBBXKNI",
+    "breaker_percent": "7.5",
+    "base_price": "900",
+    "floor_price": "0",
+    "lower_limit": "832.5",
+    "upper_limit": "967.5"
+  },
+  {
+    "serial": "106",
+    "tradeCode": "DEBBXTEX",
+    "breaker_percent": "6.25",
+    "base_price": "1300",
+    "floor_price": "0",
+    "lower_limit": "1219",
+    "upper_limit": "1381"
+  },
+  {
+    "serial": "107",
+    "tradeCode": "DELTALIFE",
+    "breaker_percent": "10",
+    "base_price": "136.5",
+    "floor_price": "136.5",
+    "lower_limit": "136.5",
+    "upper_limit": "150.1"
+  },
+  {
+    "serial": "108",
+    "tradeCode": "DELTASPINN",
+    "breaker_percent": "10",
+    "base_price": "8.5",
+    "floor_price": "8.5",
+    "lower_limit": "8.5",
+    "upper_limit": "9.3"
+  },
+  {
+    "serial": "109",
+    "tradeCode": "DESCO",
+    "breaker_percent": "10",
+    "base_price": "36.6",
+    "floor_price": "36.6",
+    "lower_limit": "36.6",
+    "upper_limit": "40.2"
+  },
+  {
+    "serial": "110",
+    "tradeCode": "DESHBANDHU",
+    "breaker_percent": "10",
+    "base_price": "18.4",
+    "floor_price": "18.4",
+    "lower_limit": "18.4",
+    "upper_limit": "20.2"
+  },
+  {
+    "serial": "111",
+    "tradeCode": "DGIC",
+    "breaker_percent": "10",
+    "base_price": "34.3",
+    "floor_price": "28",
+    "lower_limit": "30.9",
+    "upper_limit": "37.7"
+  },
+  {
+    "serial": "112",
+    "tradeCode": "DHAKABANK",
+    "breaker_percent": "10",
+    "base_price": "13.2",
+    "floor_price": "13.2",
+    "lower_limit": "13.2",
+    "upper_limit": "14.5"
+  },
+  {
+    "serial": "113",
+    "tradeCode": "DHAKAINS",
+    "breaker_percent": "10",
+    "base_price": "50",
+    "floor_price": "50",
+    "lower_limit": "50",
+    "upper_limit": "55"
+  },
+  {
+    "serial": "114",
+    "tradeCode": "DOMINAGE",
+    "breaker_percent": "10",
+    "base_price": "21.8",
+    "floor_price": "21.8",
+    "lower_limit": "21.8",
+    "upper_limit": "23.9"
+  },
+  {
+    "serial": "115",
+    "tradeCode": "DOREENPWR",
+    "breaker_percent": "10",
+    "base_price": "61",
+    "floor_price": "61",
+    "lower_limit": "61",
+    "upper_limit": "67.1"
+  },
+  {
+    "serial": "116",
+    "tradeCode": "DSHGARME",
+    "breaker_percent": "10",
+    "base_price": "150.4",
+    "floor_price": "150.4",
+    "lower_limit": "150.4",
+    "upper_limit": "165.4"
+  },
+  {
+    "serial": "117",
+    "tradeCode": "DSSL",
+    "breaker_percent": "10",
+    "base_price": "17",
+    "floor_price": "17",
+    "lower_limit": "17",
+    "upper_limit": "18.7"
+  },
+  {
+    "serial": "118",
+    "tradeCode": "DULAMIACOT",
+    "breaker_percent": "10",
+    "base_price": "71.1",
+    "floor_price": "71.1",
+    "lower_limit": "71.1",
+    "upper_limit": "78.2"
+  },
+  {
+    "serial": "119",
+    "tradeCode": "DUTCHBANGL",
+    "breaker_percent": "10",
+    "base_price": "62.6",
+    "floor_price": "62.6",
+    "lower_limit": "62.6",
+    "upper_limit": "68.8"
+  },
+  {
+    "serial": "120",
+    "tradeCode": "EASTERNINS",
+    "breaker_percent": "10",
+    "base_price": "51.4",
+    "floor_price": "51.4",
+    "lower_limit": "51.4",
+    "upper_limit": "56.5"
+  },
+  {
+    "serial": "121",
+    "tradeCode": "EASTLAND",
+    "breaker_percent": "10",
+    "base_price": "25.4",
+    "floor_price": "25.4",
+    "lower_limit": "25.4",
+    "upper_limit": "27.9"
+  },
+  {
+    "serial": "122",
+    "tradeCode": "EASTRNLUB",
+    "breaker_percent": "6.25",
+    "base_price": "1856.3",
+    "floor_price": "1856.3",
+    "lower_limit": "1856.3",
+    "upper_limit": "1972.3"
+  },
+  {
+    "serial": "123",
+    "tradeCode": "EBL",
+    "breaker_percent": "10",
+    "base_price": "31.8",
+    "floor_price": "31.8",
+    "lower_limit": "31.8",
+    "upper_limit": "34.9"
+  },
+  {
+    "serial": "124",
+    "tradeCode": "EBL1STMF",
+    "breaker_percent": "10",
+    "base_price": "7.4",
+    "floor_price": "7.4",
+    "lower_limit": "7.4",
+    "upper_limit": "8.1"
+  },
+  {
+    "serial": "125",
+    "tradeCode": "EBLNRBMF",
+    "breaker_percent": "10",
+    "base_price": "6.5",
+    "floor_price": "6.5",
+    "lower_limit": "6.5",
+    "upper_limit": "7.1"
+  },
+  {
+    "serial": "126",
+    "tradeCode": "ECABLES",
+    "breaker_percent": "10",
+    "base_price": "184.7",
+    "floor_price": "181.3",
+    "lower_limit": "181.3",
+    "upper_limit": "203.1"
+  },
+  {
+    "serial": "127",
+    "tradeCode": "EGEN",
+    "breaker_percent": "10",
+    "base_price": "54.7",
+    "floor_price": "45.2",
+    "lower_limit": "49.3",
+    "upper_limit": "60.1"
+  },
+  {
+    "serial": "128",
+    "tradeCode": "EHL",
+    "breaker_percent": "10",
+    "base_price": "102.8",
+    "floor_price": "53.1",
+    "lower_limit": "92.6",
+    "upper_limit": "113"
+  },
+  {
+    "serial": "129",
+    "tradeCode": "EIL",
+    "breaker_percent": "10",
+    "base_price": "28.3",
+    "floor_price": "28.3",
+    "lower_limit": "28.3",
+    "upper_limit": "31.1"
+  },
+  {
+    "serial": "130",
+    "tradeCode": "EMERALDOIL",
+    "breaker_percent": "10",
+    "base_price": "36.4",
+    "floor_price": "36.4",
+    "lower_limit": "36.4",
+    "upper_limit": "40"
+  },
+  {
+    "serial": "131",
+    "tradeCode": "ENVOYTEX",
+    "breaker_percent": "10",
+    "base_price": "43.9",
+    "floor_price": "43.9",
+    "lower_limit": "43.9",
+    "upper_limit": "48.2"
+  },
+  {
+    "serial": "132",
+    "tradeCode": "EPGL",
+    "breaker_percent": "10",
+    "base_price": "34.5",
+    "floor_price": "34.5",
+    "lower_limit": "34.5",
+    "upper_limit": "37.9"
+  },
+  {
+    "serial": "133",
+    "tradeCode": "ESQUIRENIT",
+    "breaker_percent": "10",
+    "base_price": "34.5",
+    "floor_price": "34.5",
+    "lower_limit": "34.5",
+    "upper_limit": "37.9"
+  },
+  {
+    "serial": "134",
+    "tradeCode": "ETL",
+    "breaker_percent": "10",
+    "base_price": "9.4",
+    "floor_price": "9.4",
+    "lower_limit": "9.4",
+    "upper_limit": "10.3"
+  },
+  {
+    "serial": "135",
+    "tradeCode": "EXIM1STMF",
+    "breaker_percent": "10",
+    "base_price": "5.8",
+    "floor_price": "5.8",
+    "lower_limit": "5.8",
+    "upper_limit": "6.3"
+  },
+  {
+    "serial": "136",
+    "tradeCode": "EXIMBANK",
+    "breaker_percent": "10",
+    "base_price": "10.4",
+    "floor_price": "10.4",
+    "lower_limit": "10.4",
+    "upper_limit": "11.4"
+  },
+  {
+    "serial": "137",
+    "tradeCode": "FAMILYTEX",
+    "breaker_percent": "10",
+    "base_price": "4.9",
+    "floor_price": "4.9",
+    "lower_limit": "4.9",
+    "upper_limit": "5.3"
+  },
+  {
+    "serial": "138",
+    "tradeCode": "FARCHEM",
+    "breaker_percent": "10",
+    "base_price": "10.6",
+    "floor_price": "10.6",
+    "lower_limit": "10.6",
+    "upper_limit": "11.6"
+  },
+  {
+    "serial": "139",
+    "tradeCode": "FAREASTFIN",
+    "breaker_percent": "10",
+    "base_price": "5.9",
+    "floor_price": "5.9",
+    "lower_limit": "5.9",
+    "upper_limit": "6.4"
+  },
+  {
+    "serial": "140",
+    "tradeCode": "FAREASTLIF",
+    "breaker_percent": "10",
+    "base_price": "75.5",
+    "floor_price": "75",
+    "lower_limit": "75",
+    "upper_limit": "83"
+  },
+  {
+    "serial": "141",
+    "tradeCode": "FASFIN",
+    "breaker_percent": "10",
+    "base_price": "5.4",
+    "floor_price": "5.4",
+    "lower_limit": "5.4",
+    "upper_limit": "5.9"
+  },
+  {
+    "serial": "142",
+    "tradeCode": "FBFIF",
+    "breaker_percent": "10",
+    "base_price": "5",
+    "floor_price": "5",
+    "lower_limit": "5",
+    "upper_limit": "5.5"
+  },
+  {
+    "serial": "143",
+    "tradeCode": "FEDERALINS",
+    "breaker_percent": "10",
+    "base_price": "25.6",
+    "floor_price": "25.6",
+    "lower_limit": "25.6",
+    "upper_limit": "28.1"
+  },
+  {
+    "serial": "144",
+    "tradeCode": "FEKDIL",
+    "breaker_percent": "10",
+    "base_price": "17.2",
+    "floor_price": "17.2",
+    "lower_limit": "17.2",
+    "upper_limit": "18.9"
+  },
+  {
+    "serial": "145",
+    "tradeCode": "FINEFOODS",
+    "breaker_percent": "10",
+    "base_price": "58.7",
+    "floor_price": "44.3",
+    "lower_limit": "52.9",
+    "upper_limit": "64.5"
+  },
+  {
+    "serial": "146",
+    "tradeCode": "FIRSTFIN",
+    "breaker_percent": "10",
+    "base_price": "5.5",
+    "floor_price": "5.5",
+    "lower_limit": "5.5",
+    "upper_limit": "6"
+  },
+  {
+    "serial": "147",
+    "tradeCode": "FIRSTSBANK",
+    "breaker_percent": "10",
+    "base_price": "9.8",
+    "floor_price": "9.8",
+    "lower_limit": "9.8",
+    "upper_limit": "10.7"
+  },
+  {
+    "serial": "148",
+    "tradeCode": "FORTUNE",
+    "breaker_percent": "10",
+    "base_price": "79.5",
+    "floor_price": "79.5",
+    "lower_limit": "79.5",
+    "upper_limit": "87.4"
+  },
+  {
+    "serial": "149",
+    "tradeCode": "FUWANGCER",
+    "breaker_percent": "10",
+    "base_price": "17.4",
+    "floor_price": "17.4",
+    "lower_limit": "17.4",
+    "upper_limit": "19.1"
+  },
+  {
+    "serial": "150",
+    "tradeCode": "FUWANGFOOD",
+    "breaker_percent": "10",
+    "base_price": "23.5",
+    "floor_price": "23.5",
+    "lower_limit": "23.5",
+    "upper_limit": "25.8"
+  },
+  {
+    "serial": "151",
+    "tradeCode": "GBBPOWER",
+    "breaker_percent": "10",
+    "base_price": "19.8",
+    "floor_price": "19.8",
+    "lower_limit": "19.8",
+    "upper_limit": "21.7"
+  },
+  {
+    "serial": "152",
+    "tradeCode": "GEMINISEA",
+    "breaker_percent": "8.75",
+    "base_price": "404.1",
+    "floor_price": "316.4",
+    "lower_limit": "368.8",
+    "upper_limit": "439.4"
+  },
+  {
+    "serial": "153",
+    "tradeCode": "GENEXIL",
+    "breaker_percent": "10",
+    "base_price": "97.5",
+    "floor_price": "68",
+    "lower_limit": "87.8",
+    "upper_limit": "107.2"
+  },
+  {
+    "serial": "154",
+    "tradeCode": "GENNEXT",
+    "breaker_percent": "10",
+    "base_price": "6",
+    "floor_price": "6",
+    "lower_limit": "6",
+    "upper_limit": "6.6"
+  },
+  {
+    "serial": "155",
+    "tradeCode": "GHAIL",
+    "breaker_percent": "10",
+    "base_price": "17.5",
+    "floor_price": "17.5",
+    "lower_limit": "17.5",
+    "upper_limit": "19.2"
+  },
+  {
+    "serial": "156",
+    "tradeCode": "GHCL",
+    "breaker_percent": "10",
+    "base_price": "35.1",
+    "floor_price": "35.1",
+    "lower_limit": "35.1",
+    "upper_limit": "38.6"
+  },
+  {
+    "serial": "157",
+    "tradeCode": "GLDNJMF",
+    "breaker_percent": "10",
+    "base_price": "10.1",
+    "floor_price": "10.1",
+    "lower_limit": "10.1",
+    "upper_limit": "11.1"
+  },
+  {
+    "serial": "158",
+    "tradeCode": "GLOBALINS",
+    "breaker_percent": "10",
+    "base_price": "32.7",
+    "floor_price": "32.7",
+    "lower_limit": "32.7",
+    "upper_limit": "35.9"
+  },
+  {
+    "serial": "159",
+    "tradeCode": "GOLDENSON",
+    "breaker_percent": "10",
+    "base_price": "18.2",
+    "floor_price": "18.2",
+    "lower_limit": "18.2",
+    "upper_limit": "20"
+  },
+  {
+    "serial": "160",
+    "tradeCode": "GP",
+    "breaker_percent": "8.75",
+    "base_price": "286.6",
+    "floor_price": "286.6",
+    "lower_limit": "286.6",
+    "upper_limit": "311.6"
+  },
+  {
+    "serial": "161",
+    "tradeCode": "GPHISPAT",
+    "breaker_percent": "10",
+    "base_price": "47.3",
+    "floor_price": "47.3",
+    "lower_limit": "47.3",
+    "upper_limit": "52"
+  },
+  {
+    "serial": "162",
+    "tradeCode": "GQBALLPEN",
+    "breaker_percent": "10",
+    "base_price": "102.8",
+    "floor_price": "102.8",
+    "lower_limit": "102.8",
+    "upper_limit": "113"
+  },
+  {
+    "serial": "163",
+    "tradeCode": "GRAMEENS2",
+    "breaker_percent": "10",
+    "base_price": "15.2",
+    "floor_price": "15.2",
+    "lower_limit": "15.2",
+    "upper_limit": "16.7"
+  },
+  {
+    "serial": "164",
+    "tradeCode": "GREENDELMF",
+    "breaker_percent": "10",
+    "base_price": "6.9",
+    "floor_price": "6.9",
+    "lower_limit": "6.9",
+    "upper_limit": "7.5"
+  },
+  {
+    "serial": "165",
+    "tradeCode": "GREENDELT",
+    "breaker_percent": "10",
+    "base_price": "65.1",
+    "floor_price": "65.1",
+    "lower_limit": "65.1",
+    "upper_limit": "71.6"
+  },
+  {
+    "serial": "166",
+    "tradeCode": "GSPFINANCE",
+    "breaker_percent": "10",
+    "base_price": "30.3",
+    "floor_price": "30.3",
+    "lower_limit": "30.3",
+    "upper_limit": "33.3"
+  },
+  {
+    "serial": "167",
+    "tradeCode": "HAKKANIPUL",
+    "breaker_percent": "10",
+    "base_price": "58.4",
+    "floor_price": "58.4",
+    "lower_limit": "58.4",
+    "upper_limit": "64.2"
+  },
+  {
+    "serial": "168",
+    "tradeCode": "HEIDELBCEM",
+    "breaker_percent": "10",
+    "base_price": "179.1",
+    "floor_price": "179.1",
+    "lower_limit": "179.1",
+    "upper_limit": "197"
+  },
+  {
+    "serial": "169",
+    "tradeCode": "HFL",
+    "breaker_percent": "10",
+    "base_price": "22.2",
+    "floor_price": "22.2",
+    "lower_limit": "22.2",
+    "upper_limit": "24.4"
+  },
+  {
+    "serial": "170",
+    "tradeCode": "HRTEX",
+    "breaker_percent": "10",
+    "base_price": "127.5",
+    "floor_price": "127.5",
+    "lower_limit": "127.5",
+    "upper_limit": "140.2"
+  },
+  {
+    "serial": "171",
+    "tradeCode": "HWAWELLTEX",
+    "breaker_percent": "10",
+    "base_price": "45",
+    "floor_price": "45",
+    "lower_limit": "45",
+    "upper_limit": "49.5"
+  },
+  {
+    "serial": "172",
+    "tradeCode": "IBBL2PBOND",
+    "breaker_percent": "5",
+    "base_price": "5000",
+    "floor_price": "5000",
+    "lower_limit": "5000",
+    "upper_limit": "5250"
+  },
+  {
+    "serial": "173",
+    "tradeCode": "IBBLPBOND",
+    "breaker_percent": "6.25",
+    "base_price": "1053",
+    "floor_price": "1053",
+    "lower_limit": "1053",
+    "upper_limit": "1118.5"
+  },
+  {
+    "serial": "174",
+    "tradeCode": "IBNSINA",
+    "breaker_percent": "8.75",
+    "base_price": "286.6",
+    "floor_price": "286.6",
+    "lower_limit": "286.6",
+    "upper_limit": "311.6"
+  },
+  {
+    "serial": "175",
+    "tradeCode": "IBP",
+    "breaker_percent": "10",
+    "base_price": "17",
+    "floor_price": "17",
+    "lower_limit": "17",
+    "upper_limit": "18.7"
+  },
+  {
+    "serial": "176",
+    "tradeCode": "ICB",
+    "breaker_percent": "10",
+    "base_price": "92",
+    "floor_price": "92",
+    "lower_limit": "92",
+    "upper_limit": "101.2"
+  },
+  {
+    "serial": "177",
+    "tradeCode": "ICB3RDNRB",
+    "breaker_percent": "10",
+    "base_price": "6.5",
+    "floor_price": "6.5",
+    "lower_limit": "6.5",
+    "upper_limit": "7.1"
+  },
+  {
+    "serial": "178",
+    "tradeCode": "ICBAGRANI1",
+    "breaker_percent": "10",
+    "base_price": "9.2",
+    "floor_price": "9.2",
+    "lower_limit": "9.2",
+    "upper_limit": "10.1"
+  },
+  {
+    "serial": "179",
+    "tradeCode": "ICBAMCL2ND",
+    "breaker_percent": "10",
+    "base_price": "8.7",
+    "floor_price": "8.7",
+    "lower_limit": "8.7",
+    "upper_limit": "9.5"
+  },
+  {
+    "serial": "180",
+    "tradeCode": "ICBEPMF1S1",
+    "breaker_percent": "10",
+    "base_price": "7.1",
+    "floor_price": "7.1",
+    "lower_limit": "7.1",
+    "upper_limit": "7.8"
+  },
+  {
+    "serial": "181",
+    "tradeCode": "ICBIBANK",
+    "breaker_percent": "10",
+    "base_price": "5.4",
+    "floor_price": "5.4",
+    "lower_limit": "5.4",
+    "upper_limit": "5.9"
+  },
+  {
+    "serial": "182",
+    "tradeCode": "ICBSONALI1",
+    "breaker_percent": "10",
+    "base_price": "7.8",
+    "floor_price": "7.8",
+    "lower_limit": "7.8",
+    "upper_limit": "8.5"
+  },
+  {
+    "serial": "183",
+    "tradeCode": "IDLC",
+    "breaker_percent": "10",
+    "base_price": "46.5",
+    "floor_price": "46.5",
+    "lower_limit": "46.5",
+    "upper_limit": "51.1"
+  },
+  {
+    "serial": "184",
+    "tradeCode": "IFADAUTOS",
+    "breaker_percent": "10",
+    "base_price": "46.3",
+    "floor_price": "46.3",
+    "lower_limit": "46.3",
+    "upper_limit": "50.9"
+  },
+  {
+    "serial": "185",
+    "tradeCode": "IFIC",
+    "breaker_percent": "10",
+    "base_price": "11.5",
+    "floor_price": "11.5",
+    "lower_limit": "11.5",
+    "upper_limit": "12.6"
+  },
+  {
+    "serial": "186",
+    "tradeCode": "IFIC1STMF",
+    "breaker_percent": "10",
+    "base_price": "5.1",
+    "floor_price": "5.1",
+    "lower_limit": "5.1",
+    "upper_limit": "5.6"
+  },
+  {
+    "serial": "187",
+    "tradeCode": "IFILISLMF1",
+    "breaker_percent": "10",
+    "base_price": "6.4",
+    "floor_price": "6.4",
+    "lower_limit": "6.4",
+    "upper_limit": "7"
+  },
+  {
+    "serial": "188",
+    "tradeCode": "ILFSL",
+    "breaker_percent": "10",
+    "base_price": "5.6",
+    "floor_price": "5.6",
+    "lower_limit": "5.6",
+    "upper_limit": "6.1"
+  },
+  {
+    "serial": "189",
+    "tradeCode": "IMAMBUTTON",
+    "breaker_percent": "10",
+    "base_price": "126.6",
+    "floor_price": "126.6",
+    "lower_limit": "126.6",
+    "upper_limit": "139.2"
+  },
+  {
+    "serial": "190",
+    "tradeCode": "INDEXAGRO",
+    "breaker_percent": "10",
+    "base_price": "104.2",
+    "floor_price": "103.6",
+    "lower_limit": "103.6",
+    "upper_limit": "114.6"
+  },
+  {
+    "serial": "191",
+    "tradeCode": "INTECH",
+    "breaker_percent": "10",
+    "base_price": "30.4",
+    "floor_price": "30.4",
+    "lower_limit": "30.4",
+    "upper_limit": "33.4"
+  },
+  {
+    "serial": "192",
+    "tradeCode": "INTRACO",
+    "breaker_percent": "10",
+    "base_price": "44.9",
+    "floor_price": "29.1",
+    "lower_limit": "40.5",
+    "upper_limit": "49.3"
+  },
+  {
+    "serial": "193",
+    "tradeCode": "IPDC",
+    "breaker_percent": "10",
+    "base_price": "57.6",
+    "floor_price": "57.6",
+    "lower_limit": "57.6",
+    "upper_limit": "63.3"
+  },
+  {
+    "serial": "194",
+    "tradeCode": "ISLAMIBANK",
+    "breaker_percent": "10",
+    "base_price": "33",
+    "floor_price": "32.6",
+    "lower_limit": "32.6",
+    "upper_limit": "36.2"
+  },
+  {
+    "serial": "195",
+    "tradeCode": "ISLAMICFIN",
+    "breaker_percent": "10",
+    "base_price": "19.7",
+    "floor_price": "19.7",
+    "lower_limit": "19.7",
+    "upper_limit": "21.6"
+  },
+  {
+    "serial": "196",
+    "tradeCode": "ISLAMIINS",
+    "breaker_percent": "10",
+    "base_price": "41",
+    "floor_price": "40.7",
+    "lower_limit": "40.7",
+    "upper_limit": "45.1"
+  },
+  {
+    "serial": "197",
+    "tradeCode": "ISNLTD",
+    "breaker_percent": "10",
+    "base_price": "56.3",
+    "floor_price": "54.2",
+    "lower_limit": "54.2",
+    "upper_limit": "61.9"
+  },
+  {
+    "serial": "198",
+    "tradeCode": "ITC",
+    "breaker_percent": "10",
+    "base_price": "34.3",
+    "floor_price": "33.1",
+    "lower_limit": "33.1",
+    "upper_limit": "37.7"
+  },
+  {
+    "serial": "199",
+    "tradeCode": "JAMUNABANK",
+    "breaker_percent": "10",
+    "base_price": "21.3",
+    "floor_price": "21.3",
+    "lower_limit": "21.3",
+    "upper_limit": "23.4"
+  },
+  {
+    "serial": "200",
+    "tradeCode": "JAMUNAOIL",
+    "breaker_percent": "10",
+    "base_price": "168.1",
+    "floor_price": "167.3",
+    "lower_limit": "167.3",
+    "upper_limit": "184.9"
+  },
+  {
+    "serial": "201",
+    "tradeCode": "JANATAINS",
+    "breaker_percent": "10",
+    "base_price": "29.6",
+    "floor_price": "29.6",
+    "lower_limit": "29.6",
+    "upper_limit": "32.5"
+  },
+  {
+    "serial": "202",
+    "tradeCode": "JHRML",
+    "breaker_percent": "10",
+    "base_price": "81.7",
+    "floor_price": "70.3",
+    "lower_limit": "73.6",
+    "upper_limit": "89.8"
+  },
+  {
+    "serial": "203",
+    "tradeCode": "JMISMDL",
+    "breaker_percent": "8.75",
+    "base_price": "255.5",
+    "floor_price": "255.5",
+    "lower_limit": "255.5",
+    "upper_limit": "277.8"
+  },
+  {
+    "serial": "204",
+    "tradeCode": "JUTESPINN",
+    "breaker_percent": "10",
+    "base_price": "175.5",
+    "floor_price": "158.2",
+    "lower_limit": "158.2",
+    "upper_limit": "193"
+  },
+  {
+    "serial": "205",
+    "tradeCode": "KARNAPHULI",
+    "breaker_percent": "10",
+    "base_price": "28.6",
+    "floor_price": "28.6",
+    "lower_limit": "28.6",
+    "upper_limit": "31.4"
+  },
+  {
+    "serial": "206",
+    "tradeCode": "KAY&QUE",
+    "breaker_percent": "8.75",
+    "base_price": "253.4",
+    "floor_price": "242.3",
+    "lower_limit": "242.3",
+    "upper_limit": "275.5"
+  },
+  {
+    "serial": "207",
+    "tradeCode": "KBPPWBIL",
+    "breaker_percent": "10",
+    "base_price": "13.8",
+    "floor_price": "13.8",
+    "lower_limit": "13.8",
+    "upper_limit": "15.1"
+  },
+  {
+    "serial": "208",
+    "tradeCode": "KDSALTD",
+    "breaker_percent": "10",
+    "base_price": "91",
+    "floor_price": "77",
+    "lower_limit": "81.9",
+    "upper_limit": "100.1"
+  },
+  {
+    "serial": "209",
+    "tradeCode": "KEYACOSMET",
+    "breaker_percent": "10",
+    "base_price": "6.4",
+    "floor_price": "6.4",
+    "lower_limit": "6.4",
+    "upper_limit": "7"
+  },
+  {
+    "serial": "210",
+    "tradeCode": "KOHINOOR",
+    "breaker_percent": "7.5",
+    "base_price": "503.8",
+    "floor_price": "380",
+    "lower_limit": "466.1",
+    "upper_limit": "541.5"
+  },
+  {
+    "serial": "211",
+    "tradeCode": "KPCL",
+    "breaker_percent": "10",
+    "base_price": "26.6",
+    "floor_price": "26.6",
+    "lower_limit": "26.6",
+    "upper_limit": "29.2"
+  },
+  {
+    "serial": "212",
+    "tradeCode": "KPPL",
+    "breaker_percent": "10",
+    "base_price": "8.9",
+    "floor_price": "8.9",
+    "lower_limit": "8.9",
+    "upper_limit": "9.7"
+  },
+  {
+    "serial": "213",
+    "tradeCode": "KTL",
+    "breaker_percent": "10",
+    "base_price": "23.7",
+    "floor_price": "23.7",
+    "lower_limit": "23.7",
+    "upper_limit": "26"
+  },
+  {
+    "serial": "214",
+    "tradeCode": "LANKABAFIN",
+    "breaker_percent": "10",
+    "base_price": "26",
+    "floor_price": "26",
+    "lower_limit": "26",
+    "upper_limit": "28.6"
+  },
+  {
+    "serial": "215",
+    "tradeCode": "LEGACYFOOT",
+    "breaker_percent": "10",
+    "base_price": "58.7",
+    "floor_price": "58.7",
+    "lower_limit": "58.7",
+    "upper_limit": "64.5"
+  },
+  {
+    "serial": "216",
+    "tradeCode": "LHBL",
+    "breaker_percent": "10",
+    "base_price": "64.9",
+    "floor_price": "64.8",
+    "lower_limit": "64.8",
+    "upper_limit": "71.3"
+  },
+  {
+    "serial": "217",
+    "tradeCode": "LIBRAINFU",
+    "breaker_percent": "7.5",
+    "base_price": "883.6",
+    "floor_price": "883.6",
+    "lower_limit": "883.6",
+    "upper_limit": "949.8"
+  },
+  {
+    "serial": "218",
+    "tradeCode": "LINDEBD",
+    "breaker_percent": "6.25",
+    "base_price": "1397.7",
+    "floor_price": "1397.7",
+    "lower_limit": "1397.7",
+    "upper_limit": "1485"
+  },
+  {
+    "serial": "219",
+    "tradeCode": "LOVELLO",
+    "breaker_percent": "10",
+    "base_price": "42.3",
+    "floor_price": "37.9",
+    "lower_limit": "38.1",
+    "upper_limit": "46.5"
+  },
+  {
+    "serial": "220",
+    "tradeCode": "LRBDL",
+    "breaker_percent": "10",
+    "base_price": "36.4",
+    "floor_price": "35.1",
+    "lower_limit": "35.1",
+    "upper_limit": "40"
+  },
+  {
+    "serial": "221",
+    "tradeCode": "LRGLOBMF1",
+    "breaker_percent": "0",
+    "base_price": "6.4",
+    "floor_price": "6.4",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "222",
+    "tradeCode": "MAKSONSPIN",
+    "breaker_percent": "10",
+    "base_price": "22.3",
+    "floor_price": "22.3",
+    "lower_limit": "22.3",
+    "upper_limit": "24.5"
+  },
+  {
+    "serial": "223",
+    "tradeCode": "MALEKSPIN",
+    "breaker_percent": "10",
+    "base_price": "27.1",
+    "floor_price": "27.1",
+    "lower_limit": "27.1",
+    "upper_limit": "29.8"
+  },
+  {
+    "serial": "224",
+    "tradeCode": "MARICO",
+    "breaker_percent": "5",
+    "base_price": "2421.5",
+    "floor_price": "2421.5",
+    "lower_limit": "2421.5",
+    "upper_limit": "2542.5"
+  },
+  {
+    "serial": "225",
+    "tradeCode": "MATINSPINN",
+    "breaker_percent": "10",
+    "base_price": "77.6",
+    "floor_price": "77.6",
+    "lower_limit": "77.6",
+    "upper_limit": "85.3"
+  },
+  {
+    "serial": "226",
+    "tradeCode": "MBL1STMF",
+    "breaker_percent": "10",
+    "base_price": "6.6",
+    "floor_price": "6.6",
+    "lower_limit": "6.6",
+    "upper_limit": "7.2"
+  },
+  {
+    "serial": "227",
+    "tradeCode": "MEGCONMILK",
+    "breaker_percent": "10",
+    "base_price": "42",
+    "floor_price": "42",
+    "lower_limit": "42",
+    "upper_limit": "46.2"
+  },
+  {
+    "serial": "228",
+    "tradeCode": "MEGHNACEM",
+    "breaker_percent": "10",
+    "base_price": "68.6",
+    "floor_price": "68.6",
+    "lower_limit": "68.6",
+    "upper_limit": "75.4"
+  },
+  {
+    "serial": "229",
+    "tradeCode": "MEGHNAINS",
+    "breaker_percent": "10",
+    "base_price": "44.8",
+    "floor_price": "44.8",
+    "lower_limit": "44.8",
+    "upper_limit": "49.2"
+  },
+  {
+    "serial": "230",
+    "tradeCode": "MEGHNALIFE",
+    "breaker_percent": "10",
+    "base_price": "62.5",
+    "floor_price": "62.5",
+    "lower_limit": "62.5",
+    "upper_limit": "68.7"
+  },
+  {
+    "serial": "231",
+    "tradeCode": "MEGHNAPET",
+    "breaker_percent": "10",
+    "base_price": "40.7",
+    "floor_price": "40.7",
+    "lower_limit": "40.7",
+    "upper_limit": "44.7"
+  },
+  {
+    "serial": "232",
+    "tradeCode": "MERCANBANK",
+    "breaker_percent": "10",
+    "base_price": "13.6",
+    "floor_price": "13.6",
+    "lower_limit": "13.6",
+    "upper_limit": "14.9"
+  },
+  {
+    "serial": "233",
+    "tradeCode": "MERCINS",
+    "breaker_percent": "10",
+    "base_price": "32.1",
+    "floor_price": "32.1",
+    "lower_limit": "32.1",
+    "upper_limit": "35.3"
+  },
+  {
+    "serial": "234",
+    "tradeCode": "METROSPIN",
+    "breaker_percent": "10",
+    "base_price": "48.6",
+    "floor_price": "25.3",
+    "lower_limit": "43.8",
+    "upper_limit": "53.4"
+  },
+  {
+    "serial": "235",
+    "tradeCode": "MHSML",
+    "breaker_percent": "10",
+    "base_price": "26.5",
+    "floor_price": "26.5",
+    "lower_limit": "26.5",
+    "upper_limit": "29.1"
+  },
+  {
+    "serial": "236",
+    "tradeCode": "MIDASFIN",
+    "breaker_percent": "10",
+    "base_price": "13.2",
+    "floor_price": "13.2",
+    "lower_limit": "13.2",
+    "upper_limit": "14.5"
+  },
+  {
+    "serial": "237",
+    "tradeCode": "MIRACLEIND",
+    "breaker_percent": "10",
+    "base_price": "34",
+    "floor_price": "34",
+    "lower_limit": "34",
+    "upper_limit": "37.4"
+  },
+  {
+    "serial": "238",
+    "tradeCode": "MIRAKHTER",
+    "breaker_percent": "10",
+    "base_price": "51.9",
+    "floor_price": "50.8",
+    "lower_limit": "50.8",
+    "upper_limit": "57"
+  },
+  {
+    "serial": "239",
+    "tradeCode": "MITHUNKNIT",
+    "breaker_percent": "10",
+    "base_price": "18.8",
+    "floor_price": "18.8",
+    "lower_limit": "18.8",
+    "upper_limit": "20.6"
+  },
+  {
+    "serial": "240",
+    "tradeCode": "MJLBD",
+    "breaker_percent": "10",
+    "base_price": "87.1",
+    "floor_price": "86.7",
+    "lower_limit": "86.7",
+    "upper_limit": "95.8"
+  },
+  {
+    "serial": "241",
+    "tradeCode": "MLDYEING",
+    "breaker_percent": "10",
+    "base_price": "24.8",
+    "floor_price": "24.8",
+    "lower_limit": "24.8",
+    "upper_limit": "27.2"
+  },
+  {
+    "serial": "242",
+    "tradeCode": "MONNOAGML",
+    "breaker_percent": "7.5",
+    "base_price": "568.2",
+    "floor_price": "468.7",
+    "lower_limit": "525.6",
+    "upper_limit": "610.8"
+  },
+  {
+    "serial": "243",
+    "tradeCode": "MONNOCERA",
+    "breaker_percent": "10",
+    "base_price": "103.6",
+    "floor_price": "97.9",
+    "lower_limit": "97.9",
+    "upper_limit": "113.9"
+  },
+  {
+    "serial": "244",
+    "tradeCode": "MONNOFABR",
+    "breaker_percent": "10",
+    "base_price": "24.1",
+    "floor_price": "24.1",
+    "lower_limit": "24.1",
+    "upper_limit": "26.5"
+  },
+  {
+    "serial": "245",
+    "tradeCode": "MONOSPOOL",
+    "breaker_percent": "8.75",
+    "base_price": "327.5",
+    "floor_price": "145.3",
+    "lower_limit": "298.9",
+    "upper_limit": "356.1"
+  },
+  {
+    "serial": "246",
+    "tradeCode": "MPETROLEUM",
+    "breaker_percent": "8.75",
+    "base_price": "202",
+    "floor_price": "198.6",
+    "lower_limit": "198.6",
+    "upper_limit": "219.6"
+  },
+  {
+    "serial": "247",
+    "tradeCode": "MTB",
+    "breaker_percent": "10",
+    "base_price": "16.6",
+    "floor_price": "16.6",
+    "lower_limit": "16.6",
+    "upper_limit": "18.2"
+  },
+  {
+    "serial": "248",
+    "tradeCode": "NAHEEACP",
+    "breaker_percent": "10",
+    "base_price": "65.3",
+    "floor_price": "65.3",
+    "lower_limit": "65.3",
+    "upper_limit": "71.8"
+  },
+  {
+    "serial": "249",
+    "tradeCode": "NATLIFEINS",
+    "breaker_percent": "10",
+    "base_price": "179",
+    "floor_price": "179",
+    "lower_limit": "179",
+    "upper_limit": "196.9"
+  },
+  {
+    "serial": "250",
+    "tradeCode": "NAVANACNG",
+    "breaker_percent": "10",
+    "base_price": "26.5",
+    "floor_price": "26.5",
+    "lower_limit": "26.5",
+    "upper_limit": "29.1"
+  },
+  {
+    "serial": "251",
+    "tradeCode": "NAVANAPHAR",
+    "breaker_percent": "10",
+    "base_price": "95.7",
+    "floor_price": "26.4",
+    "lower_limit": "86.2",
+    "upper_limit": "105.2"
+  },
+  {
+    "serial": "252",
+    "tradeCode": "NBL",
+    "breaker_percent": "10",
+    "base_price": "8.3",
+    "floor_price": "8.3",
+    "lower_limit": "8.3",
+    "upper_limit": "9.1"
+  },
+  {
+    "serial": "253",
+    "tradeCode": "NCCBANK",
+    "breaker_percent": "10",
+    "base_price": "13.8",
+    "floor_price": "13.8",
+    "lower_limit": "13.8",
+    "upper_limit": "15.1"
+  },
+  {
+    "serial": "254",
+    "tradeCode": "NCCBLMF1",
+    "breaker_percent": "10",
+    "base_price": "6.8",
+    "floor_price": "6.8",
+    "lower_limit": "6.8",
+    "upper_limit": "7.4"
+  },
+  {
+    "serial": "255",
+    "tradeCode": "NEWLINE",
+    "breaker_percent": "10",
+    "base_price": "45.1",
+    "floor_price": "45.1",
+    "lower_limit": "45.1",
+    "upper_limit": "49.6"
+  },
+  {
+    "serial": "256",
+    "tradeCode": "NFML",
+    "breaker_percent": "10",
+    "base_price": "16.7",
+    "floor_price": "16.7",
+    "lower_limit": "16.7",
+    "upper_limit": "18.3"
+  },
+  {
+    "serial": "257",
+    "tradeCode": "NHFIL",
+    "breaker_percent": "10",
+    "base_price": "41.9",
+    "floor_price": "41.8",
+    "lower_limit": "41.8",
+    "upper_limit": "46"
+  },
+  {
+    "serial": "258",
+    "tradeCode": "NITOLINS",
+    "breaker_percent": "10",
+    "base_price": "42.9",
+    "floor_price": "42.9",
+    "lower_limit": "42.9",
+    "upper_limit": "47.1"
+  },
+  {
+    "serial": "259",
+    "tradeCode": "NLI1STMF",
+    "breaker_percent": "10",
+    "base_price": "14.4",
+    "floor_price": "14.4",
+    "lower_limit": "14.4",
+    "upper_limit": "15.8"
+  },
+  {
+    "serial": "260",
+    "tradeCode": "NORTHERN",
+    "breaker_percent": "8.75",
+    "base_price": "227",
+    "floor_price": "227",
+    "lower_limit": "227",
+    "upper_limit": "246.8"
+  },
+  {
+    "serial": "261",
+    "tradeCode": "NORTHRNINS",
+    "breaker_percent": "10",
+    "base_price": "41.2",
+    "floor_price": "41.2",
+    "lower_limit": "41.2",
+    "upper_limit": "45.3"
+  },
+  {
+    "serial": "262",
+    "tradeCode": "NPOLYMER",
+    "breaker_percent": "10",
+    "base_price": "51",
+    "floor_price": "51",
+    "lower_limit": "51",
+    "upper_limit": "56.1"
+  },
+  {
+    "serial": "263",
+    "tradeCode": "NRBCBANK",
+    "breaker_percent": "10",
+    "base_price": "17.6",
+    "floor_price": "17.6",
+    "lower_limit": "17.6",
+    "upper_limit": "19.3"
+  },
+  {
+    "serial": "264",
+    "tradeCode": "NTC",
+    "breaker_percent": "7.5",
+    "base_price": "635",
+    "floor_price": "598.2",
+    "lower_limit": "598.2",
+    "upper_limit": "682.6"
+  },
+  {
+    "serial": "265",
+    "tradeCode": "NTLTUBES",
+    "breaker_percent": "10",
+    "base_price": "79.5",
+    "floor_price": "79.5",
+    "lower_limit": "79.5",
+    "upper_limit": "87.4"
+  },
+  {
+    "serial": "266",
+    "tradeCode": "NURANI",
+    "breaker_percent": "10",
+    "base_price": "7",
+    "floor_price": "7",
+    "lower_limit": "7",
+    "upper_limit": "7.7"
+  },
+  {
+    "serial": "267",
+    "tradeCode": "OAL",
+    "breaker_percent": "10",
+    "base_price": "11",
+    "floor_price": "11",
+    "lower_limit": "11",
+    "upper_limit": "12.1"
+  },
+  {
+    "serial": "268",
+    "tradeCode": "OIMEX",
+    "breaker_percent": "10",
+    "base_price": "18.8",
+    "floor_price": "18.8",
+    "lower_limit": "18.8",
+    "upper_limit": "20.6"
+  },
+  {
+    "serial": "269",
+    "tradeCode": "OLYMPIC",
+    "breaker_percent": "10",
+    "base_price": "113.6",
+    "floor_price": "113.5",
+    "lower_limit": "113.5",
+    "upper_limit": "124.9"
+  },
+  {
+    "serial": "270",
+    "tradeCode": "ONEBANKLTD",
+    "breaker_percent": "10",
+    "base_price": "10.9",
+    "floor_price": "10",
+    "lower_limit": "10",
+    "upper_limit": "11.9"
+  },
+  {
+    "serial": "271",
+    "tradeCode": "ORIONINFU",
+    "breaker_percent": "7.5",
+    "base_price": "838.5",
+    "floor_price": "107.3",
+    "lower_limit": "775.7",
+    "upper_limit": "901.3"
+  },
+  {
+    "serial": "272",
+    "tradeCode": "ORIONPHARM",
+    "breaker_percent": "10",
+    "base_price": "103",
+    "floor_price": "79.6",
+    "lower_limit": "92.7",
+    "upper_limit": "113.2"
+  },
+  {
+    "serial": "273",
+    "tradeCode": "PADMALIFE",
+    "breaker_percent": "10",
+    "base_price": "49.5",
+    "floor_price": "46.1",
+    "lower_limit": "46.1",
+    "upper_limit": "54.4"
+  },
+  {
+    "serial": "274",
+    "tradeCode": "PADMAOIL",
+    "breaker_percent": "8.75",
+    "base_price": "209.2",
+    "floor_price": "209.2",
+    "lower_limit": "209.2",
+    "upper_limit": "227.5"
+  },
+  {
+    "serial": "275",
+    "tradeCode": "PAPERPROC",
+    "breaker_percent": "8.75",
+    "base_price": "229.4",
+    "floor_price": "165",
+    "lower_limit": "209.4",
+    "upper_limit": "249.4"
+  },
+  {
+    "serial": "276",
+    "tradeCode": "PARAMOUNT",
+    "breaker_percent": "10",
+    "base_price": "46.5",
+    "floor_price": "46.5",
+    "lower_limit": "46.5",
+    "upper_limit": "51.1"
+  },
+  {
+    "serial": "277",
+    "tradeCode": "PBLPBOND",
+    "breaker_percent": "5",
+    "base_price": "4700",
+    "floor_price": "4700",
+    "lower_limit": "4700",
+    "upper_limit": "4935"
+  },
+  {
+    "serial": "278",
+    "tradeCode": "PDL",
+    "breaker_percent": "10",
+    "base_price": "11.5",
+    "floor_price": "11.5",
+    "lower_limit": "11.5",
+    "upper_limit": "12.6"
+  },
+  {
+    "serial": "279",
+    "tradeCode": "PENINSULA",
+    "breaker_percent": "10",
+    "base_price": "27.4",
+    "floor_price": "27.4",
+    "lower_limit": "27.4",
+    "upper_limit": "30.1"
+  },
+  {
+    "serial": "280",
+    "tradeCode": "PEOPLESINS",
+    "breaker_percent": "10",
+    "base_price": "37.9",
+    "floor_price": "37.9",
+    "lower_limit": "37.9",
+    "upper_limit": "41.6"
+  },
+  {
+    "serial": "281",
+    "tradeCode": "PF1STMF",
+    "breaker_percent": "10",
+    "base_price": "10.6",
+    "floor_price": "10.6",
+    "lower_limit": "10.6",
+    "upper_limit": "11.6"
+  },
+  {
+    "serial": "282",
+    "tradeCode": "PHARMAID",
+    "breaker_percent": "7.5",
+    "base_price": "790.7",
+    "floor_price": "790.7",
+    "lower_limit": "790.7",
+    "upper_limit": "850"
+  },
+  {
+    "serial": "283",
+    "tradeCode": "PHENIXINS",
+    "breaker_percent": "10",
+    "base_price": "39.1",
+    "floor_price": "39.1",
+    "lower_limit": "39.1",
+    "upper_limit": "43"
+  },
+  {
+    "serial": "284",
+    "tradeCode": "PHOENIXFIN",
+    "breaker_percent": "10",
+    "base_price": "16.3",
+    "floor_price": "16.3",
+    "lower_limit": "16.3",
+    "upper_limit": "17.9"
+  },
+  {
+    "serial": "285",
+    "tradeCode": "PHPMF1",
+    "breaker_percent": "10",
+    "base_price": "5.2",
+    "floor_price": "5.2",
+    "lower_limit": "5.2",
+    "upper_limit": "5.7"
+  },
+  {
+    "serial": "286",
+    "tradeCode": "PIONEERINS",
+    "breaker_percent": "10",
+    "base_price": "71.5",
+    "floor_price": "71.5",
+    "lower_limit": "71.5",
+    "upper_limit": "78.6"
+  },
+  {
+    "serial": "287",
+    "tradeCode": "PLFSL",
+    "breaker_percent": "10",
+    "base_price": "3",
+    "floor_price": "3",
+    "lower_limit": "3",
+    "upper_limit": "3.2"
+  },
+  {
+    "serial": "288",
+    "tradeCode": "POPULAR1MF",
+    "breaker_percent": "10",
+    "base_price": "5.1",
+    "floor_price": "5.1",
+    "lower_limit": "5.1",
+    "upper_limit": "5.6"
+  },
+  {
+    "serial": "289",
+    "tradeCode": "POPULARLIF",
+    "breaker_percent": "10",
+    "base_price": "64.4",
+    "floor_price": "64.3",
+    "lower_limit": "64.3",
+    "upper_limit": "70.8"
+  },
+  {
+    "serial": "290",
+    "tradeCode": "POWERGRID",
+    "breaker_percent": "10",
+    "base_price": "52.4",
+    "floor_price": "52.4",
+    "lower_limit": "52.4",
+    "upper_limit": "57.6"
+  },
+  {
+    "serial": "291",
+    "tradeCode": "PRAGATIINS",
+    "breaker_percent": "10",
+    "base_price": "59.3",
+    "floor_price": "58.3",
+    "lower_limit": "58.3",
+    "upper_limit": "65.2"
+  },
+  {
+    "serial": "292",
+    "tradeCode": "PRAGATILIF",
+    "breaker_percent": "10",
+    "base_price": "92.8",
+    "floor_price": "66.2",
+    "lower_limit": "83.6",
+    "upper_limit": "102"
+  },
+  {
+    "serial": "293",
+    "tradeCode": "PREBPBOND",
+    "breaker_percent": "3.75",
+    "base_price": "5100",
+    "floor_price": "5100",
+    "lower_limit": "5100",
+    "upper_limit": "5291"
+  },
+  {
+    "serial": "294",
+    "tradeCode": "PREMIERBAN",
+    "breaker_percent": "10",
+    "base_price": "13",
+    "floor_price": "12.8",
+    "lower_limit": "12.8",
+    "upper_limit": "14.2"
+  },
+  {
+    "serial": "295",
+    "tradeCode": "PREMIERCEM",
+    "breaker_percent": "10",
+    "base_price": "44.5",
+    "floor_price": "44.5",
+    "lower_limit": "44.5",
+    "upper_limit": "48.9"
+  },
+  {
+    "serial": "296",
+    "tradeCode": "PREMIERLEA",
+    "breaker_percent": "10",
+    "base_price": "6.8",
+    "floor_price": "6.8",
+    "lower_limit": "6.8",
+    "upper_limit": "7.4"
+  },
+  {
+    "serial": "297",
+    "tradeCode": "PRIME1ICBA",
+    "breaker_percent": "10",
+    "base_price": "7.7",
+    "floor_price": "7.7",
+    "lower_limit": "7.7",
+    "upper_limit": "8.4"
+  },
+  {
+    "serial": "298",
+    "tradeCode": "PRIMEBANK",
+    "breaker_percent": "10",
+    "base_price": "18.9",
+    "floor_price": "18.8",
+    "lower_limit": "18.8",
+    "upper_limit": "20.7"
+  },
+  {
+    "serial": "299",
+    "tradeCode": "PRIMEFIN",
+    "breaker_percent": "10",
+    "base_price": "11.5",
+    "floor_price": "11.5",
+    "lower_limit": "11.5",
+    "upper_limit": "12.6"
+  },
+  {
+    "serial": "300",
+    "tradeCode": "PRIMEINSUR",
+    "breaker_percent": "10",
+    "base_price": "82.8",
+    "floor_price": "82.8",
+    "lower_limit": "82.8",
+    "upper_limit": "91"
+  },
+  {
+    "serial": "301",
+    "tradeCode": "PRIMELIFE",
+    "breaker_percent": "10",
+    "base_price": "54.7",
+    "floor_price": "54.7",
+    "lower_limit": "54.7",
+    "upper_limit": "60.1"
+  },
+  {
+    "serial": "302",
+    "tradeCode": "PRIMETEX",
+    "breaker_percent": "10",
+    "base_price": "41.2",
+    "floor_price": "41.2",
+    "lower_limit": "41.2",
+    "upper_limit": "45.3"
+  },
+  {
+    "serial": "303",
+    "tradeCode": "PROGRESLIF",
+    "breaker_percent": "10",
+    "base_price": "77.4",
+    "floor_price": "77.4",
+    "lower_limit": "77.4",
+    "upper_limit": "85.1"
+  },
+  {
+    "serial": "304",
+    "tradeCode": "PROVATIINS",
+    "breaker_percent": "10",
+    "base_price": "58.9",
+    "floor_price": "58.9",
+    "lower_limit": "58.9",
+    "upper_limit": "64.7"
+  },
+  {
+    "serial": "305",
+    "tradeCode": "PTL",
+    "breaker_percent": "10",
+    "base_price": "77",
+    "floor_price": "77",
+    "lower_limit": "77",
+    "upper_limit": "84.7"
+  },
+  {
+    "serial": "306",
+    "tradeCode": "PUBALIBANK",
+    "breaker_percent": "10",
+    "base_price": "26.2",
+    "floor_price": "25.7",
+    "lower_limit": "25.7",
+    "upper_limit": "28.8"
+  },
+  {
+    "serial": "307",
+    "tradeCode": "PURABIGEN",
+    "breaker_percent": "10",
+    "base_price": "26.7",
+    "floor_price": "26.5",
+    "lower_limit": "26.5",
+    "upper_limit": "29.3"
+  },
+  {
+    "serial": "308",
+    "tradeCode": "QUASEMIND",
+    "breaker_percent": "10",
+    "base_price": "58.4",
+    "floor_price": "58.4",
+    "lower_limit": "58.4",
+    "upper_limit": "64.2"
+  },
+  {
+    "serial": "309",
+    "tradeCode": "QUEENSOUTH",
+    "breaker_percent": "10",
+    "base_price": "24.7",
+    "floor_price": "24.7",
+    "lower_limit": "24.7",
+    "upper_limit": "27.1"
+  },
+  {
+    "serial": "310",
+    "tradeCode": "RAHIMAFOOD",
+    "breaker_percent": "8.75",
+    "base_price": "237.7",
+    "floor_price": "237.7",
+    "lower_limit": "237.7",
+    "upper_limit": "258.5"
+  },
+  {
+    "serial": "311",
+    "tradeCode": "RAHIMTEXT",
+    "breaker_percent": "8.75",
+    "base_price": "215.3",
+    "floor_price": "215.3",
+    "lower_limit": "215.3",
+    "upper_limit": "234.1"
+  },
+  {
+    "serial": "312",
+    "tradeCode": "RAKCERAMIC",
+    "breaker_percent": "10",
+    "base_price": "42.9",
+    "floor_price": "42.9",
+    "lower_limit": "42.9",
+    "upper_limit": "47.1"
+  },
+  {
+    "serial": "313",
+    "tradeCode": "RANFOUNDRY",
+    "breaker_percent": "10",
+    "base_price": "162.1",
+    "floor_price": "162.1",
+    "lower_limit": "162.1",
+    "upper_limit": "178.3"
+  },
+  {
+    "serial": "314",
+    "tradeCode": "RDFOOD",
+    "breaker_percent": "10",
+    "base_price": "36.2",
+    "floor_price": "36.2",
+    "lower_limit": "36.2",
+    "upper_limit": "39.8"
+  },
+  {
+    "serial": "315",
+    "tradeCode": "RECKITTBEN",
+    "breaker_percent": "5",
+    "base_price": "4760.7",
+    "floor_price": "4760.7",
+    "lower_limit": "4760.7",
+    "upper_limit": "4998.7"
+  },
+  {
+    "serial": "316",
+    "tradeCode": "REGENTTEX",
+    "breaker_percent": "10",
+    "base_price": "9.8",
+    "floor_price": "9.8",
+    "lower_limit": "9.8",
+    "upper_limit": "10.7"
+  },
+  {
+    "serial": "317",
+    "tradeCode": "RELIANCE1",
+    "breaker_percent": "10",
+    "base_price": "10.8",
+    "floor_price": "10.8",
+    "lower_limit": "10.8",
+    "upper_limit": "11.8"
+  },
+  {
+    "serial": "318",
+    "tradeCode": "RELIANCINS",
+    "breaker_percent": "10",
+    "base_price": "57.1",
+    "floor_price": "55.4",
+    "lower_limit": "55.4",
+    "upper_limit": "62.8"
+  },
+  {
+    "serial": "319",
+    "tradeCode": "RENATA",
+    "breaker_percent": "6.25",
+    "base_price": "1217.9",
+    "floor_price": "1217.9",
+    "lower_limit": "1217.9",
+    "upper_limit": "1294"
+  },
+  {
+    "serial": "320",
+    "tradeCode": "RENWICKJA",
+    "breaker_percent": "7.5",
+    "base_price": "978.3",
+    "floor_price": "978.3",
+    "lower_limit": "978.3",
+    "upper_limit": "1051.6"
+  },
+  {
+    "serial": "321",
+    "tradeCode": "REPUBLIC",
+    "breaker_percent": "10",
+    "base_price": "36.4",
+    "floor_price": "36.4",
+    "lower_limit": "36.4",
+    "upper_limit": "40"
+  },
+  {
+    "serial": "322",
+    "tradeCode": "RINGSHINE",
+    "breaker_percent": "10",
+    "base_price": "9.8",
+    "floor_price": "9.8",
+    "lower_limit": "9.8",
+    "upper_limit": "10.7"
+  },
+  {
+    "serial": "323",
+    "tradeCode": "RNSPIN",
+    "breaker_percent": "10",
+    "base_price": "6.2",
+    "floor_price": "6.2",
+    "lower_limit": "6.2",
+    "upper_limit": "6.8"
+  },
+  {
+    "serial": "324",
+    "tradeCode": "ROBI",
+    "breaker_percent": "10",
+    "base_price": "30",
+    "floor_price": "30",
+    "lower_limit": "30",
+    "upper_limit": "33"
+  },
+  {
+    "serial": "325",
+    "tradeCode": "RSRMSTEEL",
+    "breaker_percent": "10",
+    "base_price": "17",
+    "floor_price": "17",
+    "lower_limit": "17",
+    "upper_limit": "18.7"
+  },
+  {
+    "serial": "326",
+    "tradeCode": "RUNNERAUTO",
+    "breaker_percent": "10",
+    "base_price": "48.4",
+    "floor_price": "48.4",
+    "lower_limit": "48.4",
+    "upper_limit": "53.2"
+  },
+  {
+    "serial": "327",
+    "tradeCode": "RUPALIBANK",
+    "breaker_percent": "10",
+    "base_price": "25.2",
+    "floor_price": "25.2",
+    "lower_limit": "25.2",
+    "upper_limit": "27.7"
+  },
+  {
+    "serial": "328",
+    "tradeCode": "RUPALIINS",
+    "breaker_percent": "10",
+    "base_price": "27.5",
+    "floor_price": "27.5",
+    "lower_limit": "27.5",
+    "upper_limit": "30.2"
+  },
+  {
+    "serial": "329",
+    "tradeCode": "RUPALILIFE",
+    "breaker_percent": "10",
+    "base_price": "71.9",
+    "floor_price": "63",
+    "lower_limit": "64.8",
+    "upper_limit": "79"
+  },
+  {
+    "serial": "330",
+    "tradeCode": "SAFKOSPINN",
+    "breaker_percent": "10",
+    "base_price": "28.2",
+    "floor_price": "28.2",
+    "lower_limit": "28.2",
+    "upper_limit": "31"
+  },
+  {
+    "serial": "331",
+    "tradeCode": "SAIFPOWER",
+    "breaker_percent": "10",
+    "base_price": "29.7",
+    "floor_price": "29.7",
+    "lower_limit": "29.7",
+    "upper_limit": "32.6"
+  },
+  {
+    "serial": "332",
+    "tradeCode": "SAIHAMCOT",
+    "breaker_percent": "10",
+    "base_price": "16.4",
+    "floor_price": "16.4",
+    "lower_limit": "16.4",
+    "upper_limit": "18"
+  },
+  {
+    "serial": "333",
+    "tradeCode": "SAIHAMTEX",
+    "breaker_percent": "10",
+    "base_price": "24.4",
+    "floor_price": "24.4",
+    "lower_limit": "24.4",
+    "upper_limit": "26.8"
+  },
+  {
+    "serial": "334",
+    "tradeCode": "SALAMCRST",
+    "breaker_percent": "10",
+    "base_price": "33.3",
+    "floor_price": "33.3",
+    "lower_limit": "33.3",
+    "upper_limit": "36.6"
+  },
+  {
+    "serial": "335",
+    "tradeCode": "SALVOCHEM",
+    "breaker_percent": "10",
+    "base_price": "61.8",
+    "floor_price": "61.8",
+    "lower_limit": "61.8",
+    "upper_limit": "67.9"
+  },
+  {
+    "serial": "336",
+    "tradeCode": "SAMATALETH",
+    "breaker_percent": "10",
+    "base_price": "70.5",
+    "floor_price": "70.5",
+    "lower_limit": "70.5",
+    "upper_limit": "77.5"
+  },
+  {
+    "serial": "337",
+    "tradeCode": "SAMORITA",
+    "breaker_percent": "10",
+    "base_price": "72.6",
+    "floor_price": "72",
+    "lower_limit": "72",
+    "upper_limit": "79.8"
+  },
+  {
+    "serial": "338",
+    "tradeCode": "SANDHANINS",
+    "breaker_percent": "10",
+    "base_price": "26.9",
+    "floor_price": "26.9",
+    "lower_limit": "26.9",
+    "upper_limit": "29.5"
+  },
+  {
+    "serial": "339",
+    "tradeCode": "SAPORTL",
+    "breaker_percent": "10",
+    "base_price": "35.1",
+    "floor_price": "27.2",
+    "lower_limit": "31.6",
+    "upper_limit": "38.6"
+  },
+  {
+    "serial": "340",
+    "tradeCode": "SAVAREFR",
+    "breaker_percent": "8.75",
+    "base_price": "261.1",
+    "floor_price": "261.1",
+    "lower_limit": "261.1",
+    "upper_limit": "283.9"
+  },
+  {
+    "serial": "341",
+    "tradeCode": "SBACBANK",
+    "breaker_percent": "10",
+    "base_price": "10.6",
+    "floor_price": "10.6",
+    "lower_limit": "10.6",
+    "upper_limit": "11.6"
+  },
+  {
+    "serial": "342",
+    "tradeCode": "SEAPEARL",
+    "breaker_percent": "10",
+    "base_price": "182.5",
+    "floor_price": "44",
+    "lower_limit": "164.3",
+    "upper_limit": "200.7"
+  },
+  {
+    "serial": "343",
+    "tradeCode": "SEMLFBSLGF",
+    "breaker_percent": "10",
+    "base_price": "8.4",
+    "floor_price": "8.4",
+    "lower_limit": "8.4",
+    "upper_limit": "9.2"
+  },
+  {
+    "serial": "344",
+    "tradeCode": "SEMLIBBLSF",
+    "breaker_percent": "10",
+    "base_price": "8.5",
+    "floor_price": "8.5",
+    "lower_limit": "8.5",
+    "upper_limit": "9.3"
+  },
+  {
+    "serial": "345",
+    "tradeCode": "SEMLLECMF",
+    "breaker_percent": "10",
+    "base_price": "9.1",
+    "floor_price": "9.1",
+    "lower_limit": "9.1",
+    "upper_limit": "10"
+  },
+  {
+    "serial": "346",
+    "tradeCode": "SHAHJABANK",
+    "breaker_percent": "10",
+    "base_price": "19",
+    "floor_price": "18.8",
+    "lower_limit": "18.8",
+    "upper_limit": "20.9"
+  },
+  {
+    "serial": "347",
+    "tradeCode": "SHASHADNIM",
+    "breaker_percent": "10",
+    "base_price": "27",
+    "floor_price": "27",
+    "lower_limit": "27",
+    "upper_limit": "29.7"
+  },
+  {
+    "serial": "348",
+    "tradeCode": "SHEPHERD",
+    "breaker_percent": "10",
+    "base_price": "24",
+    "floor_price": "24",
+    "lower_limit": "24",
+    "upper_limit": "26.4"
+  },
+  {
+    "serial": "349",
+    "tradeCode": "SHURWID",
+    "breaker_percent": "10",
+    "base_price": "18.6",
+    "floor_price": "18.6",
+    "lower_limit": "18.6",
+    "upper_limit": "20.4"
+  },
+  {
+    "serial": "350",
+    "tradeCode": "SHYAMPSUG",
+    "breaker_percent": "10",
+    "base_price": "98.2",
+    "floor_price": "98.2",
+    "lower_limit": "98.2",
+    "upper_limit": "108"
+  },
+  {
+    "serial": "351",
+    "tradeCode": "SIBL",
+    "breaker_percent": "10",
+    "base_price": "12.3",
+    "floor_price": "12.3",
+    "lower_limit": "12.3",
+    "upper_limit": "13.5"
+  },
+  {
+    "serial": "352",
+    "tradeCode": "SILCOPHL",
+    "breaker_percent": "10",
+    "base_price": "23.4",
+    "floor_price": "23.4",
+    "lower_limit": "23.4",
+    "upper_limit": "25.7"
+  },
+  {
+    "serial": "353",
+    "tradeCode": "SILVAPHL",
+    "breaker_percent": "10",
+    "base_price": "21.6",
+    "floor_price": "21.6",
+    "lower_limit": "21.6",
+    "upper_limit": "23.7"
+  },
+  {
+    "serial": "354",
+    "tradeCode": "SIMTEX",
+    "breaker_percent": "10",
+    "base_price": "17.3",
+    "floor_price": "17.3",
+    "lower_limit": "17.3",
+    "upper_limit": "19"
+  },
+  {
+    "serial": "355",
+    "tradeCode": "SINGERBD",
+    "breaker_percent": "10",
+    "base_price": "151.9",
+    "floor_price": "151.9",
+    "lower_limit": "151.9",
+    "upper_limit": "167"
+  },
+  {
+    "serial": "356",
+    "tradeCode": "SINOBANGLA",
+    "breaker_percent": "10",
+    "base_price": "73.8",
+    "floor_price": "54.5",
+    "lower_limit": "66.5",
+    "upper_limit": "81.1"
+  },
+  {
+    "serial": "357",
+    "tradeCode": "SJIBLPBOND",
+    "breaker_percent": "5",
+    "base_price": "4971",
+    "floor_price": "4971",
+    "lower_limit": "4971",
+    "upper_limit": "5219.5"
+  },
+  {
+    "serial": "358",
+    "tradeCode": "SKICL",
+    "breaker_percent": "10",
+    "base_price": "53.5",
+    "floor_price": "46.1",
+    "lower_limit": "48.2",
+    "upper_limit": "58.8"
+  },
+  {
+    "serial": "359",
+    "tradeCode": "SKTRIMS",
+    "breaker_percent": "10",
+    "base_price": "24.8",
+    "floor_price": "24.8",
+    "lower_limit": "24.8",
+    "upper_limit": "27.2"
+  },
+  {
+    "serial": "360",
+    "tradeCode": "SONALIANSH",
+    "breaker_percent": "7.5",
+    "base_price": "865.5",
+    "floor_price": "439.6",
+    "lower_limit": "800.6",
+    "upper_limit": "930.4"
+  },
+  {
+    "serial": "361",
+    "tradeCode": "SONALILIFE",
+    "breaker_percent": "10",
+    "base_price": "54",
+    "floor_price": "50.7",
+    "lower_limit": "50.7",
+    "upper_limit": "59.4"
+  },
+  {
+    "serial": "362",
+    "tradeCode": "SONALIPAPR",
+    "breaker_percent": "7.5",
+    "base_price": "748.2",
+    "floor_price": "615.1",
+    "lower_limit": "692.1",
+    "upper_limit": "804.3"
+  },
+  {
+    "serial": "363",
+    "tradeCode": "SONARBAINS",
+    "breaker_percent": "10",
+    "base_price": "49.6",
+    "floor_price": "49.6",
+    "lower_limit": "49.6",
+    "upper_limit": "54.5"
+  },
+  {
+    "serial": "364",
+    "tradeCode": "SONARGAON",
+    "breaker_percent": "10",
+    "base_price": "49.6",
+    "floor_price": "49.6",
+    "lower_limit": "49.6",
+    "upper_limit": "54.5"
+  },
+  {
+    "serial": "365",
+    "tradeCode": "SOUTHEASTB",
+    "breaker_percent": "10",
+    "base_price": "13.8",
+    "floor_price": "13.8",
+    "lower_limit": "13.8",
+    "upper_limit": "15.1"
+  },
+  {
+    "serial": "366",
+    "tradeCode": "SPCERAMICS",
+    "breaker_percent": "10",
+    "base_price": "43",
+    "floor_price": "43",
+    "lower_limit": "43",
+    "upper_limit": "47.2"
+  },
+  {
+    "serial": "367",
+    "tradeCode": "SPCL",
+    "breaker_percent": "10",
+    "base_price": "68.1",
+    "floor_price": "68.1",
+    "lower_limit": "68.1",
+    "upper_limit": "74.9"
+  },
+  {
+    "serial": "368",
+    "tradeCode": "SQUARETEXT",
+    "breaker_percent": "10",
+    "base_price": "67.5",
+    "floor_price": "67.5",
+    "lower_limit": "67.5",
+    "upper_limit": "74.2"
+  },
+  {
+    "serial": "369",
+    "tradeCode": "SQURPHARMA",
+    "breaker_percent": "8.75",
+    "base_price": "210.1",
+    "floor_price": "209.8",
+    "lower_limit": "209.8",
+    "upper_limit": "228.4"
+  },
+  {
+    "serial": "370",
+    "tradeCode": "SSSTEEL",
+    "breaker_percent": "10",
+    "base_price": "16.6",
+    "floor_price": "16.6",
+    "lower_limit": "16.6",
+    "upper_limit": "18.2"
+  },
+  {
+    "serial": "371",
+    "tradeCode": "STANCERAM",
+    "breaker_percent": "10",
+    "base_price": "147",
+    "floor_price": "147",
+    "lower_limit": "147",
+    "upper_limit": "161.7"
+  },
+  {
+    "serial": "372",
+    "tradeCode": "STANDARINS",
+    "breaker_percent": "10",
+    "base_price": "49.2",
+    "floor_price": "49.2",
+    "lower_limit": "49.2",
+    "upper_limit": "54.1"
+  },
+  {
+    "serial": "373",
+    "tradeCode": "STANDBANKL",
+    "breaker_percent": "10",
+    "base_price": "8.8",
+    "floor_price": "8.8",
+    "lower_limit": "8.8",
+    "upper_limit": "9.6"
+  },
+  {
+    "serial": "374",
+    "tradeCode": "STYLECRAFT",
+    "breaker_percent": "10",
+    "base_price": "105.5",
+    "floor_price": "105.5",
+    "lower_limit": "105.5",
+    "upper_limit": "116"
+  },
+  {
+    "serial": "375",
+    "tradeCode": "SUMITPOWER",
+    "breaker_percent": "10",
+    "base_price": "34",
+    "floor_price": "34",
+    "lower_limit": "34",
+    "upper_limit": "37.4"
+  },
+  {
+    "serial": "376",
+    "tradeCode": "SUNLIFEINS",
+    "breaker_percent": "10",
+    "base_price": "60.8",
+    "floor_price": "59.4",
+    "lower_limit": "59.4",
+    "upper_limit": "66.8"
+  },
+  {
+    "serial": "377",
+    "tradeCode": "TAKAFULINS",
+    "breaker_percent": "10",
+    "base_price": "47.4",
+    "floor_price": "47.4",
+    "lower_limit": "47.4",
+    "upper_limit": "52.1"
+  },
+  {
+    "serial": "378",
+    "tradeCode": "TALLUSPIN",
+    "breaker_percent": "10",
+    "base_price": "10.3",
+    "floor_price": "10.3",
+    "lower_limit": "10.3",
+    "upper_limit": "11.3"
+  },
+  {
+    "serial": "379",
+    "tradeCode": "TAMIJTEX",
+    "breaker_percent": "10",
+    "base_price": "183.6",
+    "floor_price": "178.3",
+    "lower_limit": "178.3",
+    "upper_limit": "201.9"
+  },
+  {
+    "serial": "380",
+    "tradeCode": "TB10Y0123",
+    "breaker_percent": "2",
+    "base_price": "100.67",
+    "floor_price": "0",
+    "lower_limit": "98.66",
+    "upper_limit": "102.68"
+  },
+  {
+    "serial": "381",
+    "tradeCode": "TB10Y0126",
+    "breaker_percent": "2",
+    "base_price": "99.62",
+    "floor_price": "0",
+    "lower_limit": "97.63",
+    "upper_limit": "101.61"
+  },
+  {
+    "serial": "382",
+    "tradeCode": "TB10Y0127",
+    "breaker_percent": "2",
+    "base_price": "97.16",
+    "floor_price": "0",
+    "lower_limit": "95.22",
+    "upper_limit": "99.1"
+  },
+  {
+    "serial": "383",
+    "tradeCode": "TB10Y0130",
+    "breaker_percent": "2",
+    "base_price": "106.32",
+    "floor_price": "0",
+    "lower_limit": "104.19",
+    "upper_limit": "108.45"
+  },
+  {
+    "serial": "384",
+    "tradeCode": "TB10Y0132",
+    "breaker_percent": "2",
+    "base_price": "94.28",
+    "floor_price": "0",
+    "lower_limit": "92.39",
+    "upper_limit": "96.17"
+  },
+  {
+    "serial": "385",
+    "tradeCode": "TB10Y0223",
+    "breaker_percent": "2",
+    "base_price": "101.13",
+    "floor_price": "0",
+    "lower_limit": "99.11",
+    "upper_limit": "103.15"
+  },
+  {
+    "serial": "386",
+    "tradeCode": "TB10Y0231",
+    "breaker_percent": "2",
+    "base_price": "88.93",
+    "floor_price": "0",
+    "lower_limit": "87.15",
+    "upper_limit": "90.71"
+  },
+  {
+    "serial": "387",
+    "tradeCode": "TB10Y0323",
+    "breaker_percent": "2",
+    "base_price": "101.56",
+    "floor_price": "0",
+    "lower_limit": "99.53",
+    "upper_limit": "103.59"
+  },
+  {
+    "serial": "388",
+    "tradeCode": "TB10Y0324",
+    "breaker_percent": "2",
+    "base_price": "105.68",
+    "floor_price": "0",
+    "lower_limit": "103.57",
+    "upper_limit": "107.79"
+  },
+  {
+    "serial": "389",
+    "tradeCode": "TB10Y0423",
+    "breaker_percent": "2",
+    "base_price": "101.94",
+    "floor_price": "0",
+    "lower_limit": "99.9",
+    "upper_limit": "103.98"
+  },
+  {
+    "serial": "390",
+    "tradeCode": "TB10Y0425",
+    "breaker_percent": "2",
+    "base_price": "107.41",
+    "floor_price": "0",
+    "lower_limit": "105.26",
+    "upper_limit": "109.56"
+  },
+  {
+    "serial": "391",
+    "tradeCode": "TB10Y0429",
+    "breaker_percent": "2",
+    "base_price": "98.99",
+    "floor_price": "0",
+    "lower_limit": "97.01",
+    "upper_limit": "100.97"
+  },
+  {
+    "serial": "392",
+    "tradeCode": "TB10Y0530",
+    "breaker_percent": "2",
+    "base_price": "104.18",
+    "floor_price": "0",
+    "lower_limit": "102.1",
+    "upper_limit": "106.26"
+  },
+  {
+    "serial": "393",
+    "tradeCode": "TB10Y0531",
+    "breaker_percent": "2",
+    "base_price": "86.5",
+    "floor_price": "0",
+    "lower_limit": "84.77",
+    "upper_limit": "88.23"
+  },
+  {
+    "serial": "394",
+    "tradeCode": "TB10Y0532",
+    "breaker_percent": "2",
+    "base_price": "99.82",
+    "floor_price": "0",
+    "lower_limit": "97.82",
+    "upper_limit": "101.82"
+  },
+  {
+    "serial": "395",
+    "tradeCode": "TB10Y0628",
+    "breaker_percent": "2",
+    "base_price": "98.17",
+    "floor_price": "0",
+    "lower_limit": "96.21",
+    "upper_limit": "100.13"
+  },
+  {
+    "serial": "396",
+    "tradeCode": "TB10Y0629",
+    "breaker_percent": "2",
+    "base_price": "102.47",
+    "floor_price": "0",
+    "lower_limit": "100.42",
+    "upper_limit": "104.52"
+  },
+  {
+    "serial": "397",
+    "tradeCode": "TB10Y0630",
+    "breaker_percent": "2",
+    "base_price": "103.81",
+    "floor_price": "0",
+    "lower_limit": "101.73",
+    "upper_limit": "105.89"
+  },
+  {
+    "serial": "398",
+    "tradeCode": "TB10Y0632",
+    "breaker_percent": "2",
+    "base_price": "100.42",
+    "floor_price": "0",
+    "lower_limit": "98.41",
+    "upper_limit": "102.43"
+  },
+  {
+    "serial": "399",
+    "tradeCode": "TB10Y0723",
+    "breaker_percent": "2",
+    "base_price": "103.33",
+    "floor_price": "0",
+    "lower_limit": "101.26",
+    "upper_limit": "105.4"
+  },
+  {
+    "serial": "400",
+    "tradeCode": "TB10Y0724",
+    "breaker_percent": "2",
+    "base_price": "106.5",
+    "floor_price": "0",
+    "lower_limit": "104.37",
+    "upper_limit": "108.63"
+  },
+  {
+    "serial": "401",
+    "tradeCode": "TB10Y0726",
+    "breaker_percent": "2",
+    "base_price": "99.54",
+    "floor_price": "0",
+    "lower_limit": "97.55",
+    "upper_limit": "101.53"
+  },
+  {
+    "serial": "402",
+    "tradeCode": "TB10Y0730",
+    "breaker_percent": "2",
+    "base_price": "99.58",
+    "floor_price": "0",
+    "lower_limit": "97.59",
+    "upper_limit": "101.57"
+  },
+  {
+    "serial": "403",
+    "tradeCode": "TB10Y0731",
+    "breaker_percent": "2",
+    "base_price": "83.95",
+    "floor_price": "0",
+    "lower_limit": "82.27",
+    "upper_limit": "85.63"
+  },
+  {
+    "serial": "404",
+    "tradeCode": "TB10Y0825",
+    "breaker_percent": "2",
+    "base_price": "102.62",
+    "floor_price": "0",
+    "lower_limit": "100.57",
+    "upper_limit": "104.67"
+  },
+  {
+    "serial": "405",
+    "tradeCode": "TB10Y0829",
+    "breaker_percent": "2",
+    "base_price": "106.75",
+    "floor_price": "0",
+    "lower_limit": "104.61",
+    "upper_limit": "108.89"
+  },
+  {
+    "serial": "406",
+    "tradeCode": "TB10Y0932",
+    "breaker_percent": "2",
+    "base_price": "100.24",
+    "floor_price": "0",
+    "lower_limit": "98.24",
+    "upper_limit": "102.24"
+  },
+  {
+    "serial": "407",
+    "tradeCode": "TB10Y1027",
+    "breaker_percent": "2",
+    "base_price": "97.23",
+    "floor_price": "0",
+    "lower_limit": "95.29",
+    "upper_limit": "99.17"
+  },
+  {
+    "serial": "408",
+    "tradeCode": "TB10Y1030",
+    "breaker_percent": "2",
+    "base_price": "86.72",
+    "floor_price": "0",
+    "lower_limit": "84.99",
+    "upper_limit": "88.45"
+  },
+  {
+    "serial": "409",
+    "tradeCode": "TB10Y1031",
+    "breaker_percent": "2",
+    "base_price": "92.67",
+    "floor_price": "0",
+    "lower_limit": "90.82",
+    "upper_limit": "94.52"
+  },
+  {
+    "serial": "410",
+    "tradeCode": "TB10Y1122",
+    "breaker_percent": "2",
+    "base_price": "0",
+    "floor_price": "0",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "411",
+    "tradeCode": "TB10Y1123",
+    "breaker_percent": "2",
+    "base_price": "104.96",
+    "floor_price": "0",
+    "lower_limit": "102.86",
+    "upper_limit": "107.06"
+  },
+  {
+    "serial": "412",
+    "tradeCode": "TB10Y1124",
+    "breaker_percent": "2",
+    "base_price": "106.56",
+    "floor_price": "0",
+    "lower_limit": "104.43",
+    "upper_limit": "108.69"
+  },
+  {
+    "serial": "413",
+    "tradeCode": "TB10Y1128",
+    "breaker_percent": "2",
+    "base_price": "96.34",
+    "floor_price": "0",
+    "lower_limit": "94.41",
+    "upper_limit": "98.27"
+  },
+  {
+    "serial": "414",
+    "tradeCode": "TB10Y1222",
+    "breaker_percent": "2",
+    "base_price": "100.32",
+    "floor_price": "0",
+    "lower_limit": "98.31",
+    "upper_limit": "102.33"
+  },
+  {
+    "serial": "415",
+    "tradeCode": "TB10Y1229",
+    "breaker_percent": "2",
+    "base_price": "106.71",
+    "floor_price": "0",
+    "lower_limit": "104.58",
+    "upper_limit": "108.84"
+  },
+  {
+    "serial": "416",
+    "tradeCode": "TB15Y0123",
+    "breaker_percent": "2",
+    "base_price": "100.71",
+    "floor_price": "0",
+    "lower_limit": "98.7",
+    "upper_limit": "102.72"
+  },
+  {
+    "serial": "417",
+    "tradeCode": "TB15Y0124",
+    "breaker_percent": "2",
+    "base_price": "105.51",
+    "floor_price": "0",
+    "lower_limit": "103.4",
+    "upper_limit": "107.62"
+  },
+  {
+    "serial": "418",
+    "tradeCode": "TB15Y0125",
+    "breaker_percent": "2",
+    "base_price": "102.72",
+    "floor_price": "0",
+    "lower_limit": "100.67",
+    "upper_limit": "104.77"
+  },
+  {
+    "serial": "419",
+    "tradeCode": "TB15Y0127",
+    "breaker_percent": "2",
+    "base_price": "113.81",
+    "floor_price": "0",
+    "lower_limit": "111.53",
+    "upper_limit": "116.09"
+  },
+  {
+    "serial": "420",
+    "tradeCode": "TB15Y0128",
+    "breaker_percent": "2",
+    "base_price": "118.56",
+    "floor_price": "0",
+    "lower_limit": "116.19",
+    "upper_limit": "120.93"
+  },
+  {
+    "serial": "421",
+    "tradeCode": "TB15Y0129",
+    "breaker_percent": "2",
+    "base_price": "120.56",
+    "floor_price": "0",
+    "lower_limit": "118.15",
+    "upper_limit": "122.97"
+  },
+  {
+    "serial": "422",
+    "tradeCode": "TB15Y0223",
+    "breaker_percent": "2",
+    "base_price": "101.18",
+    "floor_price": "0",
+    "lower_limit": "99.16",
+    "upper_limit": "103.2"
+  },
+  {
+    "serial": "423",
+    "tradeCode": "TB15Y0224",
+    "breaker_percent": "2",
+    "base_price": "105.79",
+    "floor_price": "0",
+    "lower_limit": "103.67",
+    "upper_limit": "107.91"
+  },
+  {
+    "serial": "424",
+    "tradeCode": "TB15Y0225",
+    "breaker_percent": "2",
+    "base_price": "102.82",
+    "floor_price": "0",
+    "lower_limit": "100.76",
+    "upper_limit": "104.88"
+  },
+  {
+    "serial": "425",
+    "tradeCode": "TB15Y0226",
+    "breaker_percent": "2",
+    "base_price": "104.43",
+    "floor_price": "0",
+    "lower_limit": "102.34",
+    "upper_limit": "106.52"
+  },
+  {
+    "serial": "426",
+    "tradeCode": "TB15Y0227",
+    "breaker_percent": "2",
+    "base_price": "114.38",
+    "floor_price": "0",
+    "lower_limit": "112.09",
+    "upper_limit": "116.67"
+  },
+  {
+    "serial": "427",
+    "tradeCode": "TB15Y0228",
+    "breaker_percent": "2",
+    "base_price": "119.11",
+    "floor_price": "0",
+    "lower_limit": "116.73",
+    "upper_limit": "121.49"
+  },
+  {
+    "serial": "428",
+    "tradeCode": "TB15Y0229",
+    "breaker_percent": "2",
+    "base_price": "120.25",
+    "floor_price": "0",
+    "lower_limit": "117.84",
+    "upper_limit": "122.66"
+  },
+  {
+    "serial": "429",
+    "tradeCode": "TB15Y0323",
+    "breaker_percent": "2",
+    "base_price": "101.58",
+    "floor_price": "0",
+    "lower_limit": "99.55",
+    "upper_limit": "103.61"
+  },
+  {
+    "serial": "430",
+    "tradeCode": "TB15Y0324",
+    "breaker_percent": "2",
+    "base_price": "106.09",
+    "floor_price": "0",
+    "lower_limit": "103.97",
+    "upper_limit": "108.21"
+  },
+  {
+    "serial": "431",
+    "tradeCode": "TB15Y0325",
+    "breaker_percent": "2",
+    "base_price": "102.94",
+    "floor_price": "0",
+    "lower_limit": "100.88",
+    "upper_limit": "105"
+  },
+  {
+    "serial": "432",
+    "tradeCode": "TB15Y0326",
+    "breaker_percent": "2",
+    "base_price": "104.66",
+    "floor_price": "0",
+    "lower_limit": "102.57",
+    "upper_limit": "106.75"
+  },
+  {
+    "serial": "433",
+    "tradeCode": "TB15Y0327",
+    "breaker_percent": "2",
+    "base_price": "114.74",
+    "floor_price": "0",
+    "lower_limit": "112.45",
+    "upper_limit": "117.03"
+  },
+  {
+    "serial": "434",
+    "tradeCode": "TB15Y0328",
+    "breaker_percent": "2",
+    "base_price": "119.57",
+    "floor_price": "0",
+    "lower_limit": "117.18",
+    "upper_limit": "121.96"
+  },
+  {
+    "serial": "435",
+    "tradeCode": "TB15Y0329",
+    "breaker_percent": "2",
+    "base_price": "119.96",
+    "floor_price": "0",
+    "lower_limit": "117.56",
+    "upper_limit": "122.36"
+  },
+  {
+    "serial": "436",
+    "tradeCode": "TB15Y0423",
+    "breaker_percent": "2",
+    "base_price": "101.97",
+    "floor_price": "0",
+    "lower_limit": "99.93",
+    "upper_limit": "104.01"
+  },
+  {
+    "serial": "437",
+    "tradeCode": "TB15Y0424",
+    "breaker_percent": "2",
+    "base_price": "106.25",
+    "floor_price": "0",
+    "lower_limit": "104.13",
+    "upper_limit": "108.38"
+  },
+  {
+    "serial": "438",
+    "tradeCode": "TB15Y0425",
+    "breaker_percent": "2",
+    "base_price": "103.11",
+    "floor_price": "0",
+    "lower_limit": "101.05",
+    "upper_limit": "105.17"
+  },
+  {
+    "serial": "439",
+    "tradeCode": "TB15Y0426",
+    "breaker_percent": "2",
+    "base_price": "104.96",
+    "floor_price": "0",
+    "lower_limit": "102.86",
+    "upper_limit": "107.06"
+  },
+  {
+    "serial": "440",
+    "tradeCode": "TB15Y0427",
+    "breaker_percent": "2",
+    "base_price": "115.11",
+    "floor_price": "0",
+    "lower_limit": "112.81",
+    "upper_limit": "117.41"
+  },
+  {
+    "serial": "441",
+    "tradeCode": "TB15Y0428",
+    "breaker_percent": "2",
+    "base_price": "119.68",
+    "floor_price": "0",
+    "lower_limit": "117.29",
+    "upper_limit": "122.07"
+  },
+  {
+    "serial": "442",
+    "tradeCode": "TB15Y0429",
+    "breaker_percent": "2",
+    "base_price": "119.98",
+    "floor_price": "0",
+    "lower_limit": "117.58",
+    "upper_limit": "122.38"
+  },
+  {
+    "serial": "443",
+    "tradeCode": "TB15Y0431",
+    "breaker_percent": "2",
+    "base_price": "98.56",
+    "floor_price": "0",
+    "lower_limit": "96.59",
+    "upper_limit": "100.53"
+  },
+  {
+    "serial": "444",
+    "tradeCode": "TB15Y0437",
+    "breaker_percent": "2",
+    "base_price": "96.98",
+    "floor_price": "0",
+    "lower_limit": "95.04",
+    "upper_limit": "98.92"
+  },
+  {
+    "serial": "445",
+    "tradeCode": "TB15Y0523",
+    "breaker_percent": "2",
+    "base_price": "102.49",
+    "floor_price": "0",
+    "lower_limit": "100.44",
+    "upper_limit": "104.54"
+  },
+  {
+    "serial": "446",
+    "tradeCode": "TB15Y0524",
+    "breaker_percent": "2",
+    "base_price": "104.57",
+    "floor_price": "0",
+    "lower_limit": "102.48",
+    "upper_limit": "106.66"
+  },
+  {
+    "serial": "447",
+    "tradeCode": "TB15Y0525",
+    "breaker_percent": "2",
+    "base_price": "103.31",
+    "floor_price": "0",
+    "lower_limit": "101.24",
+    "upper_limit": "105.38"
+  },
+  {
+    "serial": "448",
+    "tradeCode": "TB15Y0526",
+    "breaker_percent": "2",
+    "base_price": "105.12",
+    "floor_price": "0",
+    "lower_limit": "103.02",
+    "upper_limit": "107.22"
+  },
+  {
+    "serial": "449",
+    "tradeCode": "TB15Y0527",
+    "breaker_percent": "2",
+    "base_price": "115.53",
+    "floor_price": "0",
+    "lower_limit": "113.22",
+    "upper_limit": "117.84"
+  },
+  {
+    "serial": "450",
+    "tradeCode": "TB15Y0528",
+    "breaker_percent": "2",
+    "base_price": "119.82",
+    "floor_price": "0",
+    "lower_limit": "117.42",
+    "upper_limit": "122.22"
+  },
+  {
+    "serial": "451",
+    "tradeCode": "TB15Y0529",
+    "breaker_percent": "2",
+    "base_price": "120.2",
+    "floor_price": "0",
+    "lower_limit": "117.8",
+    "upper_limit": "122.6"
+  },
+  {
+    "serial": "452",
+    "tradeCode": "TB15Y0535",
+    "breaker_percent": "2",
+    "base_price": "102.57",
+    "floor_price": "0",
+    "lower_limit": "100.52",
+    "upper_limit": "104.62"
+  },
+  {
+    "serial": "453",
+    "tradeCode": "TB15Y0623",
+    "breaker_percent": "2",
+    "base_price": "102.84",
+    "floor_price": "0",
+    "lower_limit": "100.78",
+    "upper_limit": "104.9"
+  },
+  {
+    "serial": "454",
+    "tradeCode": "TB15Y0624",
+    "breaker_percent": "2",
+    "base_price": "103.96",
+    "floor_price": "0",
+    "lower_limit": "101.88",
+    "upper_limit": "106.04"
+  },
+  {
+    "serial": "455",
+    "tradeCode": "TB15Y0625",
+    "breaker_percent": "2",
+    "base_price": "103.45",
+    "floor_price": "0",
+    "lower_limit": "101.38",
+    "upper_limit": "105.52"
+  },
+  {
+    "serial": "456",
+    "tradeCode": "TB15Y0626",
+    "breaker_percent": "2",
+    "base_price": "105.1",
+    "floor_price": "0",
+    "lower_limit": "103",
+    "upper_limit": "107.2"
+  },
+  {
+    "serial": "457",
+    "tradeCode": "TB15Y0627",
+    "breaker_percent": "2",
+    "base_price": "115.87",
+    "floor_price": "0",
+    "lower_limit": "113.55",
+    "upper_limit": "118.19"
+  },
+  {
+    "serial": "458",
+    "tradeCode": "TB15Y0628",
+    "breaker_percent": "2",
+    "base_price": "119.98",
+    "floor_price": "0",
+    "lower_limit": "117.58",
+    "upper_limit": "122.38"
+  },
+  {
+    "serial": "459",
+    "tradeCode": "TB15Y0629",
+    "breaker_percent": "2",
+    "base_price": "120.34",
+    "floor_price": "0",
+    "lower_limit": "117.93",
+    "upper_limit": "122.75"
+  },
+  {
+    "serial": "460",
+    "tradeCode": "TB15Y0635",
+    "breaker_percent": "2",
+    "base_price": "103.12",
+    "floor_price": "0",
+    "lower_limit": "101.06",
+    "upper_limit": "105.18"
+  },
+  {
+    "serial": "461",
+    "tradeCode": "TB15Y0637",
+    "breaker_percent": "2",
+    "base_price": "101.66",
+    "floor_price": "0",
+    "lower_limit": "99.63",
+    "upper_limit": "103.69"
+  },
+  {
+    "serial": "462",
+    "tradeCode": "TB15Y0723",
+    "breaker_percent": "2",
+    "base_price": "103.18",
+    "floor_price": "0",
+    "lower_limit": "101.12",
+    "upper_limit": "105.24"
+  },
+  {
+    "serial": "463",
+    "tradeCode": "TB15Y0724",
+    "breaker_percent": "2",
+    "base_price": "103.1",
+    "floor_price": "0",
+    "lower_limit": "101.04",
+    "upper_limit": "105.16"
+  },
+  {
+    "serial": "464",
+    "tradeCode": "TB15Y0725",
+    "breaker_percent": "2",
+    "base_price": "103.75",
+    "floor_price": "0",
+    "lower_limit": "101.67",
+    "upper_limit": "105.83"
+  },
+  {
+    "serial": "465",
+    "tradeCode": "TB15Y0727",
+    "breaker_percent": "2",
+    "base_price": "116.23",
+    "floor_price": "0",
+    "lower_limit": "113.91",
+    "upper_limit": "118.55"
+  },
+  {
+    "serial": "466",
+    "tradeCode": "TB15Y0728",
+    "breaker_percent": "2",
+    "base_price": "120.22",
+    "floor_price": "0",
+    "lower_limit": "117.82",
+    "upper_limit": "122.62"
+  },
+  {
+    "serial": "467",
+    "tradeCode": "TB15Y0729",
+    "breaker_percent": "2",
+    "base_price": "119.99",
+    "floor_price": "0",
+    "lower_limit": "117.59",
+    "upper_limit": "122.39"
+  },
+  {
+    "serial": "468",
+    "tradeCode": "TB15Y0730",
+    "breaker_percent": "2",
+    "base_price": "111.91",
+    "floor_price": "0",
+    "lower_limit": "109.67",
+    "upper_limit": "114.15"
+  },
+  {
+    "serial": "469",
+    "tradeCode": "TB15Y0736",
+    "breaker_percent": "2",
+    "base_price": "78.43",
+    "floor_price": "0",
+    "lower_limit": "76.86",
+    "upper_limit": "80"
+  },
+  {
+    "serial": "470",
+    "tradeCode": "TB15Y0823",
+    "breaker_percent": "2",
+    "base_price": "103.64",
+    "floor_price": "0",
+    "lower_limit": "101.57",
+    "upper_limit": "105.71"
+  },
+  {
+    "serial": "471",
+    "tradeCode": "TB15Y0824",
+    "breaker_percent": "2",
+    "base_price": "101.96",
+    "floor_price": "0",
+    "lower_limit": "99.92",
+    "upper_limit": "104"
+  },
+  {
+    "serial": "472",
+    "tradeCode": "TB15Y0825",
+    "breaker_percent": "2",
+    "base_price": "103.78",
+    "floor_price": "0",
+    "lower_limit": "101.7",
+    "upper_limit": "105.86"
+  },
+  {
+    "serial": "473",
+    "tradeCode": "TB15Y0826",
+    "breaker_percent": "2",
+    "base_price": "106.02",
+    "floor_price": "0",
+    "lower_limit": "103.9",
+    "upper_limit": "108.14"
+  },
+  {
+    "serial": "474",
+    "tradeCode": "TB15Y0828",
+    "breaker_percent": "2",
+    "base_price": "120.47",
+    "floor_price": "0",
+    "lower_limit": "118.06",
+    "upper_limit": "122.88"
+  },
+  {
+    "serial": "475",
+    "tradeCode": "TB15Y0829",
+    "breaker_percent": "2",
+    "base_price": "118.74",
+    "floor_price": "0",
+    "lower_limit": "116.37",
+    "upper_limit": "121.11"
+  },
+  {
+    "serial": "476",
+    "tradeCode": "TB15Y0923",
+    "breaker_percent": "2",
+    "base_price": "104",
+    "floor_price": "0",
+    "lower_limit": "101.92",
+    "upper_limit": "106.08"
+  },
+  {
+    "serial": "477",
+    "tradeCode": "TB15Y0924",
+    "breaker_percent": "2",
+    "base_price": "102.39",
+    "floor_price": "0",
+    "lower_limit": "100.34",
+    "upper_limit": "104.44"
+  },
+  {
+    "serial": "478",
+    "tradeCode": "TB15Y0925",
+    "breaker_percent": "2",
+    "base_price": "103.92",
+    "floor_price": "0",
+    "lower_limit": "101.84",
+    "upper_limit": "106"
+  },
+  {
+    "serial": "479",
+    "tradeCode": "TB15Y0926",
+    "breaker_percent": "2",
+    "base_price": "108.2",
+    "floor_price": "0",
+    "lower_limit": "106.04",
+    "upper_limit": "110.36"
+  },
+  {
+    "serial": "480",
+    "tradeCode": "TB15Y0927",
+    "breaker_percent": "2",
+    "base_price": "116.73",
+    "floor_price": "0",
+    "lower_limit": "114.4",
+    "upper_limit": "119.06"
+  },
+  {
+    "serial": "481",
+    "tradeCode": "TB15Y0928",
+    "breaker_percent": "2",
+    "base_price": "120.76",
+    "floor_price": "0",
+    "lower_limit": "118.34",
+    "upper_limit": "123.18"
+  },
+  {
+    "serial": "482",
+    "tradeCode": "TB15Y0929",
+    "breaker_percent": "2",
+    "base_price": "118.41",
+    "floor_price": "0",
+    "lower_limit": "116.04",
+    "upper_limit": "120.78"
+  },
+  {
+    "serial": "483",
+    "tradeCode": "TB15Y0930",
+    "breaker_percent": "2",
+    "base_price": "102.93",
+    "floor_price": "0",
+    "lower_limit": "100.87",
+    "upper_limit": "104.99"
+  },
+  {
+    "serial": "484",
+    "tradeCode": "TB15Y0933",
+    "breaker_percent": "2",
+    "base_price": "93.08",
+    "floor_price": "0",
+    "lower_limit": "91.22",
+    "upper_limit": "94.94"
+  },
+  {
+    "serial": "485",
+    "tradeCode": "TB15Y1023",
+    "breaker_percent": "2",
+    "base_price": "104.48",
+    "floor_price": "0",
+    "lower_limit": "102.39",
+    "upper_limit": "106.57"
+  },
+  {
+    "serial": "486",
+    "tradeCode": "TB15Y1024",
+    "breaker_percent": "2",
+    "base_price": "102.33",
+    "floor_price": "0",
+    "lower_limit": "100.28",
+    "upper_limit": "104.38"
+  },
+  {
+    "serial": "487",
+    "tradeCode": "TB15Y1025",
+    "breaker_percent": "2",
+    "base_price": "104",
+    "floor_price": "0",
+    "lower_limit": "101.92",
+    "upper_limit": "106.08"
+  },
+  {
+    "serial": "488",
+    "tradeCode": "TB15Y1026",
+    "breaker_percent": "2",
+    "base_price": "110.83",
+    "floor_price": "0",
+    "lower_limit": "108.61",
+    "upper_limit": "113.05"
+  },
+  {
+    "serial": "489",
+    "tradeCode": "TB15Y1027",
+    "breaker_percent": "2",
+    "base_price": "117.11",
+    "floor_price": "0",
+    "lower_limit": "114.77",
+    "upper_limit": "119.45"
+  },
+  {
+    "serial": "490",
+    "tradeCode": "TB15Y1028",
+    "breaker_percent": "2",
+    "base_price": "120.97",
+    "floor_price": "0",
+    "lower_limit": "118.55",
+    "upper_limit": "123.39"
+  },
+  {
+    "serial": "491",
+    "tradeCode": "TB15Y1029",
+    "breaker_percent": "2",
+    "base_price": "118.17",
+    "floor_price": "0",
+    "lower_limit": "115.81",
+    "upper_limit": "120.53"
+  },
+  {
+    "serial": "492",
+    "tradeCode": "TB15Y1122",
+    "breaker_percent": "2",
+    "base_price": "0",
+    "floor_price": "0",
+    "lower_limit": "0",
+    "upper_limit": "0"
+  },
+  {
+    "serial": "493",
+    "tradeCode": "TB15Y1123",
+    "breaker_percent": "2",
+    "base_price": "104.85",
+    "floor_price": "0",
+    "lower_limit": "102.75",
+    "upper_limit": "106.95"
+  },
+  {
+    "serial": "494",
+    "tradeCode": "TB15Y1125",
+    "breaker_percent": "2",
+    "base_price": "104.26",
+    "floor_price": "0",
+    "lower_limit": "102.17",
+    "upper_limit": "106.35"
+  },
+  {
+    "serial": "495",
+    "tradeCode": "TB15Y1126",
+    "breaker_percent": "2",
+    "base_price": "111.24",
+    "floor_price": "0",
+    "lower_limit": "109.02",
+    "upper_limit": "113.46"
+  },
+  {
+    "serial": "496",
+    "tradeCode": "TB15Y1127",
+    "breaker_percent": "2",
+    "base_price": "117.54",
+    "floor_price": "0",
+    "lower_limit": "115.19",
+    "upper_limit": "119.89"
+  },
+  {
+    "serial": "497",
+    "tradeCode": "TB15Y1128",
+    "breaker_percent": "2",
+    "base_price": "120.6",
+    "floor_price": "0",
+    "lower_limit": "118.19",
+    "upper_limit": "123.01"
+  },
+  {
+    "serial": "498",
+    "tradeCode": "TB15Y1129",
+    "breaker_percent": "2",
+    "base_price": "118.57",
+    "floor_price": "0",
+    "lower_limit": "116.2",
+    "upper_limit": "120.94"
+  },
+  {
+    "serial": "499",
+    "tradeCode": "TB15Y1133",
+    "breaker_percent": "2",
+    "base_price": "94.69",
+    "floor_price": "0",
+    "lower_limit": "92.8",
+    "upper_limit": "96.58"
+  },
+  {
+    "serial": "500",
+    "tradeCode": "TB15Y1222",
+    "breaker_percent": "2",
+    "base_price": "100.4",
+    "floor_price": "0",
+    "lower_limit": "98.39",
+    "upper_limit": "102.41"
+  },
+  {
+    "serial": "501",
+    "tradeCode": "TB15Y1223",
+    "breaker_percent": "2",
+    "base_price": "105.16",
+    "floor_price": "0",
+    "lower_limit": "103.06",
+    "upper_limit": "107.26"
+  },
+  {
+    "serial": "502",
+    "tradeCode": "TB15Y1224",
+    "breaker_percent": "2",
+    "base_price": "102.52",
+    "floor_price": "0",
+    "lower_limit": "100.47",
+    "upper_limit": "104.57"
+  },
+  {
+    "serial": "503",
+    "tradeCode": "TB15Y1225",
+    "breaker_percent": "2",
+    "base_price": "104.43",
+    "floor_price": "0",
+    "lower_limit": "102.34",
+    "upper_limit": "106.52"
+  },
+  {
+    "serial": "504",
+    "tradeCode": "TB15Y1226",
+    "breaker_percent": "2",
+    "base_price": "111.68",
+    "floor_price": "0",
+    "lower_limit": "109.45",
+    "upper_limit": "113.91"
+  },
+  {
+    "serial": "505",
+    "tradeCode": "TB15Y1227",
+    "breaker_percent": "2",
+    "base_price": "118.04",
+    "floor_price": "0",
+    "lower_limit": "115.68",
+    "upper_limit": "120.4"
+  },
+  {
+    "serial": "506",
+    "tradeCode": "TB15Y1228",
+    "breaker_percent": "2",
+    "base_price": "120.78",
+    "floor_price": "0",
+    "lower_limit": "118.36",
+    "upper_limit": "123.2"
+  },
+  {
+    "serial": "507",
+    "tradeCode": "TB20Y0128",
+    "breaker_percent": "2",
+    "base_price": "122.74",
+    "floor_price": "0",
+    "lower_limit": "120.29",
+    "upper_limit": "125.19"
+  },
+  {
+    "serial": "508",
+    "tradeCode": "TB20Y0129",
+    "breaker_percent": "2",
+    "base_price": "124.42",
+    "floor_price": "0",
+    "lower_limit": "121.93",
+    "upper_limit": "126.91"
+  },
+  {
+    "serial": "509",
+    "tradeCode": "TB20Y0131",
+    "breaker_percent": "2",
+    "base_price": "110.31",
+    "floor_price": "0",
+    "lower_limit": "108.1",
+    "upper_limit": "112.52"
+  },
+  {
+    "serial": "510",
+    "tradeCode": "TB20Y0132",
+    "breaker_percent": "2",
+    "base_price": "125.41",
+    "floor_price": "0",
+    "lower_limit": "122.9",
+    "upper_limit": "127.92"
+  },
+  {
+    "serial": "511",
+    "tradeCode": "TB20Y0133",
+    "breaker_percent": "2",
+    "base_price": "129.29",
+    "floor_price": "0",
+    "lower_limit": "126.7",
+    "upper_limit": "131.88"
+  },
+  {
+    "serial": "512",
+    "tradeCode": "TB20Y0134",
+    "breaker_percent": "2",
+    "base_price": "128.29",
+    "floor_price": "0",
+    "lower_limit": "125.72",
+    "upper_limit": "130.86"
+  },
+  {
+    "serial": "513",
+    "tradeCode": "TB20Y0228",
+    "breaker_percent": "2",
+    "base_price": "122.71",
+    "floor_price": "0",
+    "lower_limit": "120.26",
+    "upper_limit": "125.16"
+  },
+  {
+    "serial": "514",
+    "tradeCode": "TB20Y0229",
+    "breaker_percent": "2",
+    "base_price": "124.58",
+    "floor_price": "0",
+    "lower_limit": "122.09",
+    "upper_limit": "127.07"
+  },
+  {
+    "serial": "515",
+    "tradeCode": "TB20Y0230",
+    "breaker_percent": "2",
+    "base_price": "106.14",
+    "floor_price": "0",
+    "lower_limit": "104.02",
+    "upper_limit": "108.26"
+  },
+  {
+    "serial": "516",
+    "tradeCode": "TB20Y0231",
+    "breaker_percent": "2",
+    "base_price": "110.35",
+    "floor_price": "0",
+    "lower_limit": "108.14",
+    "upper_limit": "112.56"
+  },
+  {
+    "serial": "517",
+    "tradeCode": "TB20Y0232",
+    "breaker_percent": "2",
+    "base_price": "125.83",
+    "floor_price": "0",
+    "lower_limit": "123.31",
+    "upper_limit": "128.35"
+  },
+  {
+    "serial": "518",
+    "tradeCode": "TB20Y0233",
+    "breaker_percent": "2",
+    "base_price": "130.07",
+    "floor_price": "0",
+    "lower_limit": "127.47",
+    "upper_limit": "132.67"
+  },
+  {
+    "serial": "519",
+    "tradeCode": "TB20Y0234",
+    "breaker_percent": "2",
+    "base_price": "128.14",
+    "floor_price": "0",
+    "lower_limit": "125.58",
+    "upper_limit": "130.7"
+  },
+  {
+    "serial": "520",
+    "tradeCode": "TB20Y0328",
+    "breaker_percent": "2",
+    "base_price": "122.87",
+    "floor_price": "0",
+    "lower_limit": "120.41",
+    "upper_limit": "125.33"
+  },
+  {
+    "serial": "521",
+    "tradeCode": "TB20Y0329",
+    "breaker_percent": "2",
+    "base_price": "124.77",
+    "floor_price": "0",
+    "lower_limit": "122.27",
+    "upper_limit": "127.27"
+  },
+  {
+    "serial": "522",
+    "tradeCode": "TB20Y0330",
+    "breaker_percent": "2",
+    "base_price": "106.39",
+    "floor_price": "0",
+    "lower_limit": "104.26",
+    "upper_limit": "108.52"
+  },
+  {
+    "serial": "523",
+    "tradeCode": "TB20Y0331",
+    "breaker_percent": "2",
+    "base_price": "110.16",
+    "floor_price": "0",
+    "lower_limit": "107.96",
+    "upper_limit": "112.36"
+  },
+  {
+    "serial": "524",
+    "tradeCode": "TB20Y0332",
+    "breaker_percent": "2",
+    "base_price": "126.12",
+    "floor_price": "0",
+    "lower_limit": "123.6",
+    "upper_limit": "128.64"
+  },
+  {
+    "serial": "525",
+    "tradeCode": "TB20Y0333",
+    "breaker_percent": "2",
+    "base_price": "130.17",
+    "floor_price": "0",
+    "lower_limit": "127.57",
+    "upper_limit": "132.77"
+  },
+  {
+    "serial": "526",
+    "tradeCode": "TB20Y0334",
+    "breaker_percent": "2",
+    "base_price": "127.43",
+    "floor_price": "0",
+    "lower_limit": "124.88",
+    "upper_limit": "129.98"
+  },
+  {
+    "serial": "527",
+    "tradeCode": "TB20Y0342",
+    "breaker_percent": "2",
+    "base_price": "91.39",
+    "floor_price": "0",
+    "lower_limit": "89.56",
+    "upper_limit": "93.22"
+  },
+  {
+    "serial": "528",
+    "tradeCode": "TB20Y0428",
+    "breaker_percent": "2",
+    "base_price": "123.01",
+    "floor_price": "0",
+    "lower_limit": "120.55",
+    "upper_limit": "125.47"
+  },
+  {
+    "serial": "529",
+    "tradeCode": "TB20Y0429",
+    "breaker_percent": "2",
+    "base_price": "117.58",
+    "floor_price": "0",
+    "lower_limit": "115.23",
+    "upper_limit": "119.93"
+  },
+  {
+    "serial": "530",
+    "tradeCode": "TB20Y0430",
+    "breaker_percent": "2",
+    "base_price": "106.55",
+    "floor_price": "0",
+    "lower_limit": "104.42",
+    "upper_limit": "108.68"
+  },
+  {
+    "serial": "531",
+    "tradeCode": "TB20Y0431",
+    "breaker_percent": "2",
+    "base_price": "109.81",
+    "floor_price": "0",
+    "lower_limit": "107.61",
+    "upper_limit": "112.01"
+  },
+  {
+    "serial": "532",
+    "tradeCode": "TB20Y0432",
+    "breaker_percent": "2",
+    "base_price": "126.47",
+    "floor_price": "0",
+    "lower_limit": "123.94",
+    "upper_limit": "129"
+  },
+  {
+    "serial": "533",
+    "tradeCode": "TB20Y0433",
+    "breaker_percent": "2",
+    "base_price": "130.25",
+    "floor_price": "0",
+    "lower_limit": "127.64",
+    "upper_limit": "132.85"
+  },
+  {
+    "serial": "534",
+    "tradeCode": "TB20Y0434",
+    "breaker_percent": "2",
+    "base_price": "127.42",
+    "floor_price": "0",
+    "lower_limit": "124.87",
+    "upper_limit": "129.97"
+  },
+  {
+    "serial": "535",
+    "tradeCode": "TB20Y0436",
+    "breaker_percent": "2",
+    "base_price": "99.47",
+    "floor_price": "0",
+    "lower_limit": "97.48",
+    "upper_limit": "101.46"
+  },
+  {
+    "serial": "536",
+    "tradeCode": "TB20Y0528",
+    "breaker_percent": "2",
+    "base_price": "123.15",
+    "floor_price": "0",
+    "lower_limit": "120.69",
+    "upper_limit": "125.61"
+  },
+  {
+    "serial": "537",
+    "tradeCode": "TB20Y0529",
+    "breaker_percent": "2",
+    "base_price": "115.77",
+    "floor_price": "0",
+    "lower_limit": "113.45",
+    "upper_limit": "118.09"
+  },
+  {
+    "serial": "538",
+    "tradeCode": "TB20Y0530",
+    "breaker_percent": "2",
+    "base_price": "106.79",
+    "floor_price": "0",
+    "lower_limit": "104.65",
+    "upper_limit": "108.93"
+  },
+  {
+    "serial": "539",
+    "tradeCode": "TB20Y0531",
+    "breaker_percent": "2",
+    "base_price": "109.95",
+    "floor_price": "0",
+    "lower_limit": "107.75",
+    "upper_limit": "112.15"
+  },
+  {
+    "serial": "540",
+    "tradeCode": "TB20Y0532",
+    "breaker_percent": "2",
+    "base_price": "126.78",
+    "floor_price": "0",
+    "lower_limit": "124.24",
+    "upper_limit": "129.32"
+  },
+  {
+    "serial": "541",
+    "tradeCode": "TB20Y0533",
+    "breaker_percent": "2",
+    "base_price": "130.28",
+    "floor_price": "0",
+    "lower_limit": "127.67",
+    "upper_limit": "132.89"
+  },
+  {
+    "serial": "542",
+    "tradeCode": "TB20Y0534",
+    "breaker_percent": "2",
+    "base_price": "127.42",
+    "floor_price": "0",
+    "lower_limit": "124.87",
+    "upper_limit": "129.97"
+  },
+  {
+    "serial": "543",
+    "tradeCode": "TB20Y0540",
+    "breaker_percent": "2",
+    "base_price": "105.97",
+    "floor_price": "0",
+    "lower_limit": "103.85",
+    "upper_limit": "108.09"
+  },
+  {
+    "serial": "544",
+    "tradeCode": "TB20Y0628",
+    "breaker_percent": "2",
+    "base_price": "123.09",
+    "floor_price": "0",
+    "lower_limit": "120.63",
+    "upper_limit": "125.55"
+  },
+  {
+    "serial": "545",
+    "tradeCode": "TB20Y0629",
+    "breaker_percent": "2",
+    "base_price": "110.72",
+    "floor_price": "0",
+    "lower_limit": "108.51",
+    "upper_limit": "112.93"
+  },
+  {
+    "serial": "546",
+    "tradeCode": "TB20Y0630",
+    "breaker_percent": "2",
+    "base_price": "106.59",
+    "floor_price": "0",
+    "lower_limit": "104.46",
+    "upper_limit": "108.72"
+  },
+  {
+    "serial": "547",
+    "tradeCode": "TB20Y0631",
+    "breaker_percent": "2",
+    "base_price": "110.09",
+    "floor_price": "0",
+    "lower_limit": "107.89",
+    "upper_limit": "112.29"
+  },
+  {
+    "serial": "548",
+    "tradeCode": "TB20Y0632",
+    "breaker_percent": "2",
+    "base_price": "126.97",
+    "floor_price": "0",
+    "lower_limit": "124.43",
+    "upper_limit": "129.51"
+  },
+  {
+    "serial": "549",
+    "tradeCode": "TB20Y0633",
+    "breaker_percent": "2",
+    "base_price": "130.4",
+    "floor_price": "0",
+    "lower_limit": "127.79",
+    "upper_limit": "133.01"
+  },
+  {
+    "serial": "550",
+    "tradeCode": "TB20Y0634",
+    "breaker_percent": "2",
+    "base_price": "127.24",
+    "floor_price": "0",
+    "lower_limit": "124.7",
+    "upper_limit": "129.78"
+  },
+  {
+    "serial": "551",
+    "tradeCode": "TB20Y0639",
+    "breaker_percent": "2",
+    "base_price": "106.64",
+    "floor_price": "0",
+    "lower_limit": "104.51",
+    "upper_limit": "108.77"
+  },
+  {
+    "serial": "552",
+    "tradeCode": "TB20Y0640",
+    "breaker_percent": "2",
+    "base_price": "105.38",
+    "floor_price": "0",
+    "lower_limit": "103.27",
+    "upper_limit": "107.49"
+  },
+  {
+    "serial": "553",
+    "tradeCode": "TB20Y0641",
+    "breaker_percent": "2",
+    "base_price": "77.19",
+    "floor_price": "0",
+    "lower_limit": "75.65",
+    "upper_limit": "78.73"
+  },
+  {
+    "serial": "554",
+    "tradeCode": "TB20Y0642",
+    "breaker_percent": "2",
+    "base_price": "99.34",
+    "floor_price": "0",
+    "lower_limit": "97.35",
+    "upper_limit": "101.33"
+  },
+  {
+    "serial": "555",
+    "tradeCode": "TB20Y0727",
+    "breaker_percent": "2",
+    "base_price": "132.18",
+    "floor_price": "0",
+    "lower_limit": "129.54",
+    "upper_limit": "134.82"
+  },
+  {
+    "serial": "556",
+    "tradeCode": "TB20Y0728",
+    "breaker_percent": "2",
+    "base_price": "123.24",
+    "floor_price": "0",
+    "lower_limit": "120.78",
+    "upper_limit": "125.7"
+  },
+  {
+    "serial": "557",
+    "tradeCode": "TB20Y0729",
+    "breaker_percent": "2",
+    "base_price": "105.18",
+    "floor_price": "0",
+    "lower_limit": "103.08",
+    "upper_limit": "107.28"
+  },
+  {
+    "serial": "558",
+    "tradeCode": "TB20Y0730",
+    "breaker_percent": "2",
+    "base_price": "107.03",
+    "floor_price": "0",
+    "lower_limit": "104.89",
+    "upper_limit": "109.17"
+  },
+  {
+    "serial": "559",
+    "tradeCode": "TB20Y0731",
+    "breaker_percent": "2",
+    "base_price": "112.39",
+    "floor_price": "0",
+    "lower_limit": "110.14",
+    "upper_limit": "114.64"
+  },
+  {
+    "serial": "560",
+    "tradeCode": "TB20Y0732",
+    "breaker_percent": "2",
+    "base_price": "127.05",
+    "floor_price": "0",
+    "lower_limit": "124.51",
+    "upper_limit": "129.59"
+  },
+  {
+    "serial": "561",
+    "tradeCode": "TB20Y0733",
+    "breaker_percent": "2",
+    "base_price": "130.47",
+    "floor_price": "0",
+    "lower_limit": "127.86",
+    "upper_limit": "133.08"
+  },
+  {
+    "serial": "562",
+    "tradeCode": "TB20Y0734",
+    "breaker_percent": "2",
+    "base_price": "127.07",
+    "floor_price": "0",
+    "lower_limit": "124.53",
+    "upper_limit": "129.61"
+  },
+  {
+    "serial": "563",
+    "tradeCode": "TB20Y0735",
+    "breaker_percent": "2",
+    "base_price": "116.02",
+    "floor_price": "0",
+    "lower_limit": "113.7",
+    "upper_limit": "118.34"
+  },
+  {
+    "serial": "564",
+    "tradeCode": "TB20Y0827",
+    "breaker_percent": "2",
+    "base_price": "130.63",
+    "floor_price": "0",
+    "lower_limit": "128.02",
+    "upper_limit": "133.24"
+  },
+  {
+    "serial": "565",
+    "tradeCode": "TB20Y0828",
+    "breaker_percent": "2",
+    "base_price": "123.52",
+    "floor_price": "0",
+    "lower_limit": "121.05",
+    "upper_limit": "125.99"
+  },
+  {
+    "serial": "566",
+    "tradeCode": "TB20Y0829",
+    "breaker_percent": "2",
+    "base_price": "103.25",
+    "floor_price": "0",
+    "lower_limit": "101.19",
+    "upper_limit": "105.31"
+  },
+  {
+    "serial": "567",
+    "tradeCode": "TB20Y0830",
+    "breaker_percent": "2",
+    "base_price": "107.33",
+    "floor_price": "0",
+    "lower_limit": "105.18",
+    "upper_limit": "109.48"
+  },
+  {
+    "serial": "568",
+    "tradeCode": "TB20Y0831",
+    "breaker_percent": "2",
+    "base_price": "114.09",
+    "floor_price": "0",
+    "lower_limit": "111.81",
+    "upper_limit": "116.37"
+  },
+  {
+    "serial": "569",
+    "tradeCode": "TB20Y0832",
+    "breaker_percent": "2",
+    "base_price": "127.4",
+    "floor_price": "0",
+    "lower_limit": "124.85",
+    "upper_limit": "129.95"
+  },
+  {
+    "serial": "570",
+    "tradeCode": "TB20Y0833",
+    "breaker_percent": "2",
+    "base_price": "130.55",
+    "floor_price": "0",
+    "lower_limit": "127.94",
+    "upper_limit": "133.16"
+  },
+  {
+    "serial": "571",
+    "tradeCode": "TB20Y0834",
+    "breaker_percent": "2",
+    "base_price": "125.5",
+    "floor_price": "0",
+    "lower_limit": "122.99",
+    "upper_limit": "128.01"
+  },
+  {
+    "serial": "572",
+    "tradeCode": "TB20Y0927",
+    "breaker_percent": "2",
+    "base_price": "126.16",
+    "floor_price": "0",
+    "lower_limit": "123.64",
+    "upper_limit": "128.68"
+  },
+  {
+    "serial": "573",
+    "tradeCode": "TB20Y0928",
+    "breaker_percent": "2",
+    "base_price": "123.75",
+    "floor_price": "0",
+    "lower_limit": "121.28",
+    "upper_limit": "126.22"
+  },
+  {
+    "serial": "574",
+    "tradeCode": "TB20Y0930",
+    "breaker_percent": "2",
+    "base_price": "107.62",
+    "floor_price": "0",
+    "lower_limit": "105.47",
+    "upper_limit": "109.77"
+  },
+  {
+    "serial": "575",
+    "tradeCode": "TB20Y0931",
+    "breaker_percent": "2",
+    "base_price": "118.05",
+    "floor_price": "0",
+    "lower_limit": "115.69",
+    "upper_limit": "120.41"
+  },
+  {
+    "serial": "576",
+    "tradeCode": "TB20Y0932",
+    "breaker_percent": "2",
+    "base_price": "127.49",
+    "floor_price": "0",
+    "lower_limit": "124.94",
+    "upper_limit": "130.04"
+  },
+  {
+    "serial": "577",
+    "tradeCode": "TB20Y0933",
+    "breaker_percent": "2",
+    "base_price": "130.61",
+    "floor_price": "0",
+    "lower_limit": "128",
+    "upper_limit": "133.22"
+  },
+  {
+    "serial": "578",
+    "tradeCode": "TB20Y0934",
+    "breaker_percent": "2",
+    "base_price": "126.14",
+    "floor_price": "0",
+    "lower_limit": "123.62",
+    "upper_limit": "128.66"
+  },
+  {
+    "serial": "579",
+    "tradeCode": "TB20Y1027",
+    "breaker_percent": "2",
+    "base_price": "125.03",
+    "floor_price": "0",
+    "lower_limit": "122.53",
+    "upper_limit": "127.53"
+  },
+  {
+    "serial": "580",
+    "tradeCode": "TB20Y1028",
+    "breaker_percent": "2",
+    "base_price": "123.91",
+    "floor_price": "0",
+    "lower_limit": "121.43",
+    "upper_limit": "126.39"
+  },
+  {
+    "serial": "581",
+    "tradeCode": "TB20Y1029",
+    "breaker_percent": "2",
+    "base_price": "105.97",
+    "floor_price": "0",
+    "lower_limit": "103.85",
+    "upper_limit": "108.09"
+  },
+  {
+    "serial": "582",
+    "tradeCode": "TB20Y1030",
+    "breaker_percent": "2",
+    "base_price": "107.77",
+    "floor_price": "0",
+    "lower_limit": "105.61",
+    "upper_limit": "109.93"
+  },
+  {
+    "serial": "583",
+    "tradeCode": "TB20Y1031",
+    "breaker_percent": "2",
+    "base_price": "122.31",
+    "floor_price": "0",
+    "lower_limit": "119.86",
+    "upper_limit": "124.76"
+  },
+  {
+    "serial": "584",
+    "tradeCode": "TB20Y1032",
+    "breaker_percent": "2",
+    "base_price": "127.58",
+    "floor_price": "0",
+    "lower_limit": "125.03",
+    "upper_limit": "130.13"
+  },
+  {
+    "serial": "585",
+    "tradeCode": "TB20Y1033",
+    "breaker_percent": "2",
+    "base_price": "130.31",
+    "floor_price": "0",
+    "lower_limit": "127.7",
+    "upper_limit": "132.92"
+  },
+  {
+    "serial": "586",
+    "tradeCode": "TB20Y1034",
+    "breaker_percent": "2",
+    "base_price": "126.12",
+    "floor_price": "0",
+    "lower_limit": "123.6",
+    "upper_limit": "128.64"
+  },
+  {
+    "serial": "587",
+    "tradeCode": "TB20Y1127",
+    "breaker_percent": "2",
+    "base_price": "123.68",
+    "floor_price": "0",
+    "lower_limit": "121.21",
+    "upper_limit": "126.15"
+  },
+  {
+    "serial": "588",
+    "tradeCode": "TB20Y1128",
+    "breaker_percent": "2",
+    "base_price": "124.14",
+    "floor_price": "0",
+    "lower_limit": "121.66",
+    "upper_limit": "126.62"
+  },
+  {
+    "serial": "589",
+    "tradeCode": "TB20Y1130",
+    "breaker_percent": "2",
+    "base_price": "109.09",
+    "floor_price": "0",
+    "lower_limit": "106.91",
+    "upper_limit": "111.27"
+  },
+  {
+    "serial": "590",
+    "tradeCode": "TB20Y1131",
+    "breaker_percent": "2",
+    "base_price": "122.39",
+    "floor_price": "0",
+    "lower_limit": "119.94",
+    "upper_limit": "124.84"
+  },
+  {
+    "serial": "591",
+    "tradeCode": "TB20Y1132",
+    "breaker_percent": "2",
+    "base_price": "127.81",
+    "floor_price": "0",
+    "lower_limit": "125.25",
+    "upper_limit": "130.37"
+  },
+  {
+    "serial": "592",
+    "tradeCode": "TB20Y1133",
+    "breaker_percent": "2",
+    "base_price": "128.83",
+    "floor_price": "0",
+    "lower_limit": "126.25",
+    "upper_limit": "131.41"
+  },
+  {
+    "serial": "593",
+    "tradeCode": "TB20Y1134",
+    "breaker_percent": "2",
+    "base_price": "126.1",
+    "floor_price": "0",
+    "lower_limit": "123.58",
+    "upper_limit": "128.62"
+  },
+  {
+    "serial": "594",
+    "tradeCode": "TB20Y1135",
+    "breaker_percent": "2",
+    "base_price": "103.22",
+    "floor_price": "0",
+    "lower_limit": "101.16",
+    "upper_limit": "105.28"
+  },
+  {
+    "serial": "595",
+    "tradeCode": "TB20Y1138",
+    "breaker_percent": "2",
+    "base_price": "98.59",
+    "floor_price": "0",
+    "lower_limit": "96.62",
+    "upper_limit": "100.56"
+  },
+  {
+    "serial": "596",
+    "tradeCode": "TB20Y1227",
+    "breaker_percent": "2",
+    "base_price": "123.01",
+    "floor_price": "0",
+    "lower_limit": "120.55",
+    "upper_limit": "125.47"
+  },
+  {
+    "serial": "597",
+    "tradeCode": "TB20Y1228",
+    "breaker_percent": "2",
+    "base_price": "124.25",
+    "floor_price": "0",
+    "lower_limit": "121.77",
+    "upper_limit": "126.73"
+  },
+  {
+    "serial": "598",
+    "tradeCode": "TB20Y1229",
+    "breaker_percent": "2",
+    "base_price": "106.02",
+    "floor_price": "0",
+    "lower_limit": "103.9",
+    "upper_limit": "108.14"
+  },
+  {
+    "serial": "599",
+    "tradeCode": "TB20Y1230",
+    "breaker_percent": "2",
+    "base_price": "109.98",
+    "floor_price": "0",
+    "lower_limit": "107.78",
+    "upper_limit": "112.18"
+  },
+  {
+    "serial": "600",
+    "tradeCode": "TB20Y1231",
+    "breaker_percent": "2",
+    "base_price": "122.46",
+    "floor_price": "0",
+    "lower_limit": "120.01",
+    "upper_limit": "124.91"
+  },
+  {
+    "serial": "601",
+    "tradeCode": "TB20Y1232",
+    "breaker_percent": "2",
+    "base_price": "128.55",
+    "floor_price": "0",
+    "lower_limit": "125.98",
+    "upper_limit": "131.12"
+  },
+  {
+    "serial": "602",
+    "tradeCode": "TB20Y1233",
+    "breaker_percent": "2",
+    "base_price": "128.81",
+    "floor_price": "0",
+    "lower_limit": "126.23",
+    "upper_limit": "131.39"
+  },
+  {
+    "serial": "603",
+    "tradeCode": "TB2Y0123",
+    "breaker_percent": "2",
+    "base_price": "99.44",
+    "floor_price": "0",
+    "lower_limit": "97.45",
+    "upper_limit": "101.43"
+  },
+  {
+    "serial": "604",
+    "tradeCode": "TB2Y0324",
+    "breaker_percent": "2",
+    "base_price": "96.97",
+    "floor_price": "0",
+    "lower_limit": "95.03",
+    "upper_limit": "98.91"
+  },
+  {
+    "serial": "605",
+    "tradeCode": "TB2Y0423",
+    "breaker_percent": "2",
+    "base_price": "98.44",
+    "floor_price": "0",
+    "lower_limit": "96.47",
+    "upper_limit": "100.41"
+  },
+  {
+    "serial": "606",
+    "tradeCode": "TB2Y0624",
+    "breaker_percent": "2",
+    "base_price": "99.78",
+    "floor_price": "0",
+    "lower_limit": "97.78",
+    "upper_limit": "101.78"
+  },
+  {
+    "serial": "607",
+    "tradeCode": "TB2Y0723",
+    "breaker_percent": "2",
+    "base_price": "97.1",
+    "floor_price": "0",
+    "lower_limit": "95.16",
+    "upper_limit": "99.04"
+  },
+  {
+    "serial": "608",
+    "tradeCode": "TB2Y0724",
+    "breaker_percent": "2",
+    "base_price": "100.04",
+    "floor_price": "0",
+    "lower_limit": "98.04",
+    "upper_limit": "102.04"
+  },
+  {
+    "serial": "609",
+    "tradeCode": "TB2Y0727",
+    "breaker_percent": "2",
+    "base_price": "100.93",
+    "floor_price": "0",
+    "lower_limit": "98.91",
+    "upper_limit": "102.95"
+  },
+  {
+    "serial": "610",
+    "tradeCode": "TB2Y0823",
+    "breaker_percent": "2",
+    "base_price": "96.75",
+    "floor_price": "0",
+    "lower_limit": "94.81",
+    "upper_limit": "98.69"
+  },
+  {
+    "serial": "611",
+    "tradeCode": "TB2Y1024",
+    "breaker_percent": "2",
+    "base_price": "100.15",
+    "floor_price": "0",
+    "lower_limit": "98.15",
+    "upper_limit": "102.15"
+  },
+  {
+    "serial": "612",
+    "tradeCode": "TB2Y1123",
+    "breaker_percent": "2",
+    "base_price": "98",
+    "floor_price": "0",
+    "lower_limit": "96.04",
+    "upper_limit": "99.96"
+  },
+  {
+    "serial": "613",
+    "tradeCode": "TB5Y0125",
+    "breaker_percent": "2",
+    "base_price": "102.97",
+    "floor_price": "0",
+    "lower_limit": "100.91",
+    "upper_limit": "105.03"
+  },
+  {
+    "serial": "614",
+    "tradeCode": "TB5Y0324",
+    "breaker_percent": "2",
+    "base_price": "99.03",
+    "floor_price": "0",
+    "lower_limit": "97.05",
+    "upper_limit": "101.01"
+  },
+  {
+    "serial": "615",
+    "tradeCode": "TB5Y0326",
+    "breaker_percent": "2",
+    "base_price": "90.31",
+    "floor_price": "0",
+    "lower_limit": "88.5",
+    "upper_limit": "92.12"
+  },
+  {
+    "serial": "616",
+    "tradeCode": "TB5Y0327",
+    "breaker_percent": "2",
+    "base_price": "95.09",
+    "floor_price": "0",
+    "lower_limit": "93.19",
+    "upper_limit": "96.99"
+  },
+  {
+    "serial": "617",
+    "tradeCode": "TB5Y0425",
+    "breaker_percent": "2",
+    "base_price": "101.73",
+    "floor_price": "0",
+    "lower_limit": "99.7",
+    "upper_limit": "103.76"
+  },
+  {
+    "serial": "618",
+    "tradeCode": "TB5Y0527",
+    "breaker_percent": "2",
+    "base_price": "100.29",
+    "floor_price": "0",
+    "lower_limit": "98.28",
+    "upper_limit": "102.3"
+  },
+  {
+    "serial": "619",
+    "tradeCode": "TB5Y0624",
+    "breaker_percent": "2",
+    "base_price": "101.06",
+    "floor_price": "0",
+    "lower_limit": "99.04",
+    "upper_limit": "103.08"
+  },
+  {
+    "serial": "620",
+    "tradeCode": "TB5Y0625",
+    "breaker_percent": "2",
+    "base_price": "101.72",
+    "floor_price": "0",
+    "lower_limit": "99.69",
+    "upper_limit": "103.75"
+  },
+  {
+    "serial": "621",
+    "tradeCode": "TB5Y0626",
+    "breaker_percent": "2",
+    "base_price": "88.25",
+    "floor_price": "0",
+    "lower_limit": "86.48",
+    "upper_limit": "90.02"
+  },
+  {
+    "serial": "622",
+    "tradeCode": "TB5Y0723",
+    "breaker_percent": "2",
+    "base_price": "99.19",
+    "floor_price": "0",
+    "lower_limit": "97.21",
+    "upper_limit": "101.17"
+  },
+  {
+    "serial": "623",
+    "tradeCode": "TB5Y0724",
+    "breaker_percent": "2",
+    "base_price": "101.61",
+    "floor_price": "0",
+    "lower_limit": "99.58",
+    "upper_limit": "103.64"
+  },
+  {
+    "serial": "624",
+    "tradeCode": "TB5Y0725",
+    "breaker_percent": "2",
+    "base_price": "99.8",
+    "floor_price": "0",
+    "lower_limit": "97.8",
+    "upper_limit": "101.8"
+  },
+  {
+    "serial": "625",
+    "tradeCode": "TB5Y0926",
+    "breaker_percent": "2",
+    "base_price": "90.78",
+    "floor_price": "0",
+    "lower_limit": "88.96",
+    "upper_limit": "92.6"
+  },
+  {
+    "serial": "626",
+    "tradeCode": "TB5Y1025",
+    "breaker_percent": "2",
+    "base_price": "92.17",
+    "floor_price": "0",
+    "lower_limit": "90.33",
+    "upper_limit": "94.01"
+  },
+  {
+    "serial": "627",
+    "tradeCode": "TB5Y1123",
+    "breaker_percent": "2",
+    "base_price": "97.64",
+    "floor_price": "0",
+    "lower_limit": "95.69",
+    "upper_limit": "99.59"
+  },
+  {
+    "serial": "628",
+    "tradeCode": "TB5Y1126",
+    "breaker_percent": "2",
+    "base_price": "95.96",
+    "floor_price": "0",
+    "lower_limit": "94.04",
+    "upper_limit": "97.88"
+  },
+  {
+    "serial": "629",
+    "tradeCode": "TB5Y1224",
+    "breaker_percent": "2",
+    "base_price": "103.05",
+    "floor_price": "0",
+    "lower_limit": "100.99",
+    "upper_limit": "105.11"
+  },
+  {
+    "serial": "630",
+    "tradeCode": "TB5Y1225",
+    "breaker_percent": "2",
+    "base_price": "92.36",
+    "floor_price": "0",
+    "lower_limit": "90.51",
+    "upper_limit": "94.21"
+  },
+  {
+    "serial": "631",
+    "tradeCode": "TITASGAS",
+    "breaker_percent": "10",
+    "base_price": "40.9",
+    "floor_price": "40.9",
+    "lower_limit": "40.9",
+    "upper_limit": "44.9"
+  },
+  {
+    "serial": "632",
+    "tradeCode": "TOSRIFA",
+    "breaker_percent": "10",
+    "base_price": "24.2",
+    "floor_price": "24.2",
+    "lower_limit": "24.2",
+    "upper_limit": "26.6"
+  },
+  {
+    "serial": "633",
+    "tradeCode": "TRUSTB1MF",
+    "breaker_percent": "10",
+    "base_price": "5.6",
+    "floor_price": "5.6",
+    "lower_limit": "5.6",
+    "upper_limit": "6.1"
+  },
+  {
+    "serial": "634",
+    "tradeCode": "TRUSTBANK",
+    "breaker_percent": "10",
+    "base_price": "34.9",
+    "floor_price": "34.9",
+    "lower_limit": "34.9",
+    "upper_limit": "38.3"
+  },
+  {
+    "serial": "635",
+    "tradeCode": "TUNGHAI",
+    "breaker_percent": "10",
+    "base_price": "5.8",
+    "floor_price": "5.8",
+    "lower_limit": "5.8",
+    "upper_limit": "6.3"
+  },
+  {
+    "serial": "636",
+    "tradeCode": "UCB",
+    "breaker_percent": "10",
+    "base_price": "13",
+    "floor_price": "13",
+    "lower_limit": "13",
+    "upper_limit": "14.2"
+  },
+  {
+    "serial": "637",
+    "tradeCode": "UNILEVERCL",
+    "breaker_percent": "5",
+    "base_price": "2849",
+    "floor_price": "2849",
+    "lower_limit": "2849",
+    "upper_limit": "2991.4"
+  },
+  {
+    "serial": "638",
+    "tradeCode": "UNIONBANK",
+    "breaker_percent": "10",
+    "base_price": "9.3",
+    "floor_price": "9.3",
+    "lower_limit": "9.3",
+    "upper_limit": "10.2"
+  },
+  {
+    "serial": "639",
+    "tradeCode": "UNIONCAP",
+    "breaker_percent": "10",
+    "base_price": "8",
+    "floor_price": "7.3",
+    "lower_limit": "7.3",
+    "upper_limit": "8.8"
+  },
+  {
+    "serial": "640",
+    "tradeCode": "UNIONINS",
+    "breaker_percent": "10",
+    "base_price": "35.8",
+    "floor_price": "32.9",
+    "lower_limit": "32.9",
+    "upper_limit": "39.3"
+  },
+  {
+    "serial": "641",
+    "tradeCode": "UNIQUEHRL",
+    "breaker_percent": "10",
+    "base_price": "57.4",
+    "floor_price": "55.2",
+    "lower_limit": "55.2",
+    "upper_limit": "63.1"
+  },
+  {
+    "serial": "642",
+    "tradeCode": "UNITEDFIN",
+    "breaker_percent": "10",
+    "base_price": "15.8",
+    "floor_price": "15.8",
+    "lower_limit": "15.8",
+    "upper_limit": "17.3"
+  },
+  {
+    "serial": "643",
+    "tradeCode": "UNITEDINS",
+    "breaker_percent": "10",
+    "base_price": "46.5",
+    "floor_price": "46.5",
+    "lower_limit": "46.5",
+    "upper_limit": "51.1"
+  },
+  {
+    "serial": "644",
+    "tradeCode": "UPGDCL",
+    "breaker_percent": "8.75",
+    "base_price": "233.7",
+    "floor_price": "233.7",
+    "lower_limit": "233.7",
+    "upper_limit": "254.1"
+  },
+  {
+    "serial": "645",
+    "tradeCode": "USMANIAGL",
+    "breaker_percent": "10",
+    "base_price": "74.6",
+    "floor_price": "74.6",
+    "lower_limit": "74.6",
+    "upper_limit": "82"
+  },
+  {
+    "serial": "646",
+    "tradeCode": "UTTARABANK",
+    "breaker_percent": "10",
+    "base_price": "23.3",
+    "floor_price": "23.3",
+    "lower_limit": "23.3",
+    "upper_limit": "25.6"
+  },
+  {
+    "serial": "647",
+    "tradeCode": "UTTARAFIN",
+    "breaker_percent": "10",
+    "base_price": "33.8",
+    "floor_price": "33.8",
+    "lower_limit": "33.8",
+    "upper_limit": "37.1"
+  },
+  {
+    "serial": "648",
+    "tradeCode": "VAMLBDMF1",
+    "breaker_percent": "10",
+    "base_price": "7.3",
+    "floor_price": "7.3",
+    "lower_limit": "7.3",
+    "upper_limit": "8"
+  },
+  {
+    "serial": "649",
+    "tradeCode": "VAMLRBBF",
+    "breaker_percent": "10",
+    "base_price": "7.4",
+    "floor_price": "7.4",
+    "lower_limit": "7.4",
+    "upper_limit": "8.1"
+  },
+  {
+    "serial": "650",
+    "tradeCode": "VFSTDL",
+    "breaker_percent": "10",
+    "base_price": "22.2",
+    "floor_price": "22.2",
+    "lower_limit": "22.2",
+    "upper_limit": "24.4"
+  },
+  {
+    "serial": "651",
+    "tradeCode": "WALTONHIL",
+    "breaker_percent": "6.25",
+    "base_price": "1047.7",
+    "floor_price": "1047.7",
+    "lower_limit": "1047.7",
+    "upper_limit": "1113.1"
+  },
+  {
+    "serial": "652",
+    "tradeCode": "WATACHEM",
+    "breaker_percent": "8.75",
+    "base_price": "200.2",
+    "floor_price": "200.2",
+    "lower_limit": "200.2",
+    "upper_limit": "217.7"
+  },
+  {
+    "serial": "653",
+    "tradeCode": "WMSHIPYARD",
+    "breaker_percent": "10",
+    "base_price": "11",
+    "floor_price": "11",
+    "lower_limit": "11",
+    "upper_limit": "12.1"
+  },
+  {
+    "serial": "654",
+    "tradeCode": "YPL",
+    "breaker_percent": "10",
+    "base_price": "19.2",
+    "floor_price": "19.2",
+    "lower_limit": "19.2",
+    "upper_limit": "21.1"
+  },
+  {
+    "serial": "655",
+    "tradeCode": "ZAHEENSPIN",
+    "breaker_percent": "10",
+    "base_price": "12.8",
+    "floor_price": "12.8",
+    "lower_limit": "12.8",
+    "upper_limit": "14"
+  },
+  {
+    "serial": "656",
+    "tradeCode": "ZAHINTEX",
+    "breaker_percent": "10",
+    "base_price": "9",
+    "floor_price": "9",
+    "lower_limit": "9",
+    "upper_limit": "9.9"
+  },
+  {
+    "serial": "657",
+    "tradeCode": "ZEALBANGLA",
+    "breaker_percent": "10",
+    "base_price": "174.2",
+    "floor_price": "174.2",
+    "lower_limit": "174.2",
+    "upper_limit": "191.6"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:tsc": "tsc -w",
+    "start:run": "nodemon ./build/index.js",
+    "start": "concurrently \"yarn start:tsc\" \"yarn start:run\" "
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  }
+}

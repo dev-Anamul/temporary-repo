@@ -1,0 +1,32 @@
+.checkbox-tree {
+  font-family: Arial, sans-serif;
+}
+
+.tree-node {
+  margin-left: 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.toggle-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.expanded::before {
+  content: "▼";
+}
+
+.collapsed::before {
+  content: "►";
+}

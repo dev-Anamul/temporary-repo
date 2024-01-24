@@ -1,0 +1,23 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+            cors:
+                allowed-origins: '*'
+                allow-credentials: true
+                allowed-methods: '*'
+    endpoint:
+        health:
+            show-details: when_authorized
+    tracing:
+        propagation:
+            produce: w3c, b3, b3_multi
+            consume: b3, w3c, b3_multi
+        baggage:
+            remote-fields: requestId
+            correlation:
+                fields: requestId
+
+logging:
+    file: ${LOGGING_PATH:/tmp/}${spring.application.name}.log

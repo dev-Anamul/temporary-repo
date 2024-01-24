@@ -1,0 +1,52 @@
+dist: trusty
+
+language: java
+
+jdk: openjdk8
+
+node_js: "0.10"
+
+services:
+- docker
+
+if: type = pull_request
+
+cache:
+  directories:
+  # We cache the SDK so we don't have to download it again on subsequent builds.
+  - $HOME/google-cloud-sdk
+
+env:
+  global:
+    # Do not prompt for user input when using any SDK methods.
+    - CLOUDSDK_CORE_DISABLE_PROMPTS=1
+    - GCP_PROJECT_ID=spring-boot-gke-243520
+    - GCP_CLUSTER=your-first-cluster-1
+    - GCP_ZONE=europe-west1-b
+    - REACT_WEBAPP_PORT=3003
+    - NODE_SERVER_PORT=3002
+    - SERVER_PROTOCOL=https
+    - SERVER_URL=spendingbetter.com
+
+before_install:
+  - export MAVEN_OPTS=-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=error
+  - export COMMITTER_EMAIL="$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
+  - export AUTHOR_NAME="$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
+  - export COMMIT_ID="$(git log -1 $TRAVIS_COMMIT --pretty="%H")"
+  - echo "Travis CI Env - ${TRAVIS_COMMIT}"
+  - echo "Travis Pull Request - ${TRAVIS_PULL_REQUEST}"
+  - echo "Travis Branch - ${TRAVIS_BRANCH}"
+  - echo "Git Commit Message - ${TRAVIS_COMMIT_MESSAGE}"
+
+install:
+ - mvn clean install -B
+# - npm install --quiet --prefix ./nodejs-service ./nodejs-service && npm --silent test --prefix ./nodejs-service
+# - npm install --quiet --prefix ./react-webapp ./react-webapp && npm install --quiet -g jest --prefix ./react-webapp ./react-webapp && npm --silent test --prefix ./react-webapp
+
+before_script:
+  - if [[ "$TRAVIS_PULL_REQUEST" == "false" ]] && [[ "$TRAVIS_COMMIT_MESSAGE" == *"[trigger deploy"* ]] && [[ "$TRAVIS_BRANCH" == "master" ]]; then chmod +x ./gcloud/deploy-prod.sh && ./gcloud/deploy-prod.sh; fi
+
+script: echo "Continuous Integration/Deployment for Commit ID($COMMIT_ID) from Author($AUTHOR_NAME - $COMMITTER_EMAIL)";
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

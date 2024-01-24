@@ -1,0 +1,648 @@
+version: '3.2'
+services:
+  service-discovery:
+    image: hashicorp/consul:latest
+    container_name: service-discovery
+    environment:
+      - CONSUL_LOCAL_CONFIG={"enable_debug":true}
+    ports:
+      - 8500:8500
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+    command: "agent -server -bootstrap -ui -client=0.0.0.0"
+    networks:
+      net:
+        aliases:
+          - service-discovery
+
+  service-discovery-load-configuration:
+    image: appropriate/curl
+    container_name: service-discovery-load-configuration
+    depends_on:
+      - service-discovery
+    networks:
+      net:
+        aliases:
+          - service-discovery
+    command: /service-discovery-load-configuration.sh
+    volumes:
+      - ./service-discovery-load-configuration.sh:/service-discovery-load-configuration.sh:ro
+      - ./spring-cloud-config:/spring-cloud-config:ro
+
+  gateway:
+    image: edge-server:0.0.1-SNAPSHOT
+    container_name: gateway
+    environment:
+      - SPRING_DATA_REDIS_HOST=redisdb
+      - SPRING_PROFILES_ACTIVE=consul,dev,auth
+      - CONSUL_URL=service-discovery:8500
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SERVER_PORT=8080
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb-datasource:27017/docker
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      - DEBUG=true
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+#      - LOGGING_LEVEL_COM_SPRINGBOOT=debug
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_CLOUD_GATEWAY=trace
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY=trace
+      - OPENTRACING_JAEGER_UDP_SENDER_HOST=jaeger
+      - SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES=true
+      - SPRING_MAIN_WEB_APPLICATION_TYPE=reactive
+      - COM_MICROSERVICE_AUTHENTICATION_REDIS_ENABLED=true
+      - JAVA_OPTS=--enable-preview -Xss256K -Xms1M -XX:+UseSerialGC -Djava.compiler=none -XX:ReservedCodeCacheSize=2496k -XX:MaxDirectMemorySize=1M
+#      - SPRING_CLOUD_GATEWAY_GLOBAL_CORS_ADD_TO_SIMPLE_URL_HANDLER_MAPPING=true
+    depends_on:
+      - service-discovery
+    ports:
+      - 8080:8080
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+#    command: sh ./docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - gateway
+
+  monitoring:
+    image: admin-server:0.0.1-SNAPSHOT
+    container_name: monitoring
+    environment:
+      - SPRING_DATA_REDIS_HOST=redisdb
+      - SPRING_PROFILES_ACTIVE=consul,auth,dev
+#      - CONSUL_URL=service-discovery:8500
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+      - SERVER_PORT=9002
+      - SPRING_DATA_MONGODB_HOST=mongodb-datasource
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - LOGGING_LEVEL_COM_SPRINGBOOT=debug
+      - OAUTH_CLIENT_ID=actuator
+      - OAUTH_CLIENT_SECRET=actuator_password
+      - CONTEXTPATH=/monitoring
+      - LOGGING_LEVEL_COM_MICROSERVICE=debug
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      - SPRING_CLOUD_KUBERNETES_LOADBALANCER_ENABLED=false
+    depends_on:
+      - service-discovery
+    ports:
+      - 9002:9002
+    networks:
+      net:
+        aliases:
+          - monitoring
+
+  react-webapp:
+    build:
+      args:
+        - PORT=3003
+        - NODE_ENV=development
+      context: ../react-webapp
+      dockerfile: Dockerfile
+    container_name: react-webapp
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3003:3003
+    links:
+      - gateway
+    volumes:
+      - ./docker-entrypoint.sh:/tmp/docker-entrypoint.sh
+    #            - .:/usr/src/app
+    #            - ./node_modules:/usr/src/app/node_modules
+    command: sh /tmp/docker-entrypoint.sh gateway:8080
+    networks:
+      net:
+        aliases:
+          - react-webapp
+
+  week-menu-api:
+    build:
+      context: ../nodejs-service
+      dockerfile: Dockerfile
+    container_name: week-menu-api
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - CONFIG_SERVER=http://localhost:8888
+      - SERVER_PORT=3002
+      - MONGODB_URI=mongodb://mongodb-datasource:27017/docker
+      - CONSUL_URL=service-discovery:8500
+      - EUREKA_PORT=8761
+      #            - DEBUG=*
+      #            - NODE_DEBUG=request
+      - HOST_NAME=week-menu-api
+      - IP_ADDRESS=week-menu-api
+    depends_on:
+      - service-discovery
+    links:
+      - service-discovery
+    ports:
+      - 3002:3002
+    volumes:
+      - ./docker-entrypoint.sh:/tmp/docker-entrypoint.sh
+    command: sh /tmp/docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - week-menu-api
+
+  receipt-api:
+    build:
+      args:
+        - PORT=8086
+      context: ../python-service
+      dockerfile: Dockerfile
+    container_name: receipt-api
+    environment:
+      - ENV_FILE_LOCATION=./.env
+      - CONSUL_URL=http://service-discovery:8500
+      - MONGODB_URI=mongodb://mongodb-datasource/docker
+      - SERVER_PORT=8086
+      - LOG_LEVEL=TRACE
+      - JAEGER_HOST=jaeger
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+      - jaeger
+    ports:
+      - 8086:8086
+    networks:
+      net:
+        aliases:
+          - receipt-api
+
+  post-api:
+    build:
+      args:
+        - PORT=3006
+        - ENV=docker
+      context: ../go-service
+      dockerfile: Dockerfile
+    container_name: post-api
+    environment:
+      - CONSUL_URL=service-discovery:8500
+      - MONGODB_URI=mongodb://mongodb-datasource
+      - MONGODB_DATABASE=docker
+      - SERVER_PORT=3006
+      - LOG_LEVEL=TRACE
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+    ports:
+      - 3006:3006
+    volumes:
+      - ./docker-entrypoint.sh:/tmp/docker-entrypoint.sh
+    command: sh /tmp/docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - post-api
+
+  person-api:
+    image: person-service:0.0.1-SNAPSHOT
+    container_name: person-api
+    environment:
+      - SPRING_PROFILES_ACTIVE=consul,dev,kafka,callPostApi
+      - CONSUL_URL=service-discovery:8500
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SERVER_PORT=8082
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb-datasource:27017/docker
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - OPENTRACING_JAEGER_UDP_SENDER_HOST=jaeger
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+#      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK=trace
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      - DEBUG=true
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY=trace
+      - JAVA_OPTS=--enable-preview
+      - SPRING_MAIN_ALLOW_BEAN_DEFINITION_OVERRIDING=true
+      - LOGGING_LEVEL_ORG_APACHE_COYOTE_HTTP11=trace
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+      - jaeger
+      - service-discovery-load-configuration
+      - kafka
+    ports:
+      - 8082:8082
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+#    command: sh ./docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - person-api
+
+  task-api:
+    image: fielcapao/microservices-design-patterns-kotlin-service:latest #kotlin-service:0.0.1-SNAPSHOT
+    container_name: task-api
+    environment:
+      - SPRING_PROFILES_ACTIVE=consul,dev
+      - CONSUL_URL=service-discovery:8500
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SERVER_PORT=8084
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb-datasource:27017
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - OPENTRACING_JAEGER_UDP_SENDER_HOST=jaeger
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      - LOGGING_LEVEL_COM_MICROSERVICE=trace
+      #- DEBUG=true
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK=trace
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+      - jaeger
+      - service-discovery-load-configuration
+    ports:
+      - 8084:8084
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+#    command: sh ./docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - task-api
+
+  company-api:
+    image: quarkus-service:0.0.1-SNAPSHOT
+    container_name: company-api
+    environment:
+      - QUARKUS_PROFILE=quarkus,consul
+      - QUARKUS_CONSUL_CONFIG_ENABLED=true
+      - CONSUL_CLIENT_URL=http://service-discovery:8500
+      - QUARKUS_CONSUL_CONFIG_AGENT_HOST_PORT=http://service-discovery:8500
+      - QUARKUS_HTTP_PORT=8085
+      - MONGODB_URI=mongodb://mongodb-datasource:27017
+      - MONGODB_DATABASE=docker
+      - LOG_LEVEL_ROOT=DEBUG
+      - QUARKUS_LOG_LEVEL_ROOT=DEBUG
+      - QUARKUS_LOG_CATEGORY_COM_ORBITZ_CONSUL=DEBUG
+      - PUBLIC_KEY_PATH=/jwks.json
+      - QUARKUS_CONSUL_CONFIG_PROPERTIES_VALUE_KEYS=config/quarkus-service/data
+#      - QUARKUS_SMALLRYE_HEALTH_ROOT_PATH=/actuator/health
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+    ports:
+      - 8085:8085
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+      - ./jwks.json:/jwks.json
+#    command: sh ./docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - task-api
+
+  user-api:
+    image: user-service:0.0.1-SNAPSHOT
+    container_name: user-api
+    environment:
+      - SPRING_PROFILES_ACTIVE=consul,dev
+      - CONSUL_URL=service-discovery:8500
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SERVER_PORT=8083
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb-datasource:27017
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      #- DEBUG=true
+#      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB=debug
+      - LOGGING_LEVEL_COM_MICROSERVICE=debug
+      - OPENTRACING_JAEGER_UDP_SENDER_HOST=jaeger
+    links:
+      - authentication-api
+      - jaeger
+    ports:
+      - 8083:8083
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+#    command: sh ./docker-entrypoint.sh authentication-api:9999
+    networks:
+      net:
+        aliases:
+          - user-api
+
+  authentication-api:
+    # Using docker spring boot docker image
+    image: authentication-service:0.0.1-SNAPSHOT
+    # Using docker local jib maven
+    #image: authentication-service:latest #fielcapao/microservices-design-patterns-authentication-service
+    # Using docker raspberry pi image
+    #image: fielcapao/microservices-design-patterns-authentication-service
+    container_name: authentication-api
+    environment:
+      - SPRING_PROFILES_ACTIVE=consul,dev,auth
+      - SPRING_DATA_REDIS_HOST=redisdb
+      - CONSUL_URL=service-discovery:8500
+      - SERVER_PORT=9999
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb-datasource:27017/docker
+      - SPRING_DATA_MONGODB_DATABASE=docker
+      - SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES=true
+      - COM_MICROSERVICE_AUTHENTICATION_REDIS_ENABLED=true
+#      - DEBUG=true
+      - MANAGEMENT_ENDPOINTS_WEB_CORS_ALLOW_CREDENTIALS=false
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY=trace
+#      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK=trace
+      - LOGGING_LEVEL_COM_MICROSERVICE=debug
+      - SPRING_CLOUD_KUBERNETES_ENABLED=false
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
+      - SPRING_CONFIG_IMPORT=consul:service-discovery:8500
+      - SPRING_CLOUD_CONSUL_DISCOVERY_PREFER_IP_ADDRESS=true
+      - JAVA_OPTS=--enable-preview -Xss256K -Xms1M -XX:+UseSerialGC -Djava.compiler=none -XX:ReservedCodeCacheSize=2496k -XX:MaxDirectMemorySize=1M
+#      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY=debug
+    depends_on:
+      - service-discovery
+      - mongodb-datasource
+      - gateway
+      - monitoring
+      - redisdb
+      - jaeger
+      - service-discovery-load-configuration
+    ports:
+      - 9999:9999
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+#    command: sh ./docker-entrypoint.sh service-discovery:8500
+    networks:
+      net:
+        aliases:
+          - authentication-api
+
+  mongodb-datasource:
+    image: mongo
+    command: mongod --port 27017
+    container_name: mongodb-datasource
+    ports:
+      - 27017:27017
+    networks:
+      net:
+        aliases:
+          - mongodb-datasource
+
+  redisdb:
+    image: redis:alpine
+    container_name: redisdb
+    ports:
+      - 6379:6379
+    networks:
+      net:
+        aliases:
+          - redisdb
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    command:
+#      - '--web.external-url=http://localhost:8080/admin/prometheus/'
+      - '--web.route-prefix=/admin/prometheus'
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
+    depends_on:
+      - service-discovery
+    links:
+      - service-discovery
+    networks:
+      net:
+        aliases:
+          - prometheus
+
+#
+#  elasticsearch:
+#    image: elasticsearch
+#    container_name: elasticsearch
+#    ports:
+#      - "9200:9200"
+#
+#  kibana:
+#    image: kibana
+#    container_name: kibana
+#    links:
+#      - "elasticsearch"
+#    ports:
+#      - "5601:5601"
+#
+#  fluentd:
+#      build: ./fluentd
+#      container_name: fluentd
+#      volumes:
+#          - ./fluentd/fluent.conf:/fluentd/etc
+#      links:
+#          - "elasticsearch"
+#      ports:
+#          - "24224:24224"
+#          - "24224:24224/udp"
+
+  grafana-loki:
+    image: grafana/loki:2.6.1
+    container_name: grafana-loki
+    ports:
+      - "3100:3100"
+    volumes:
+        - ./loki-config.yaml:/etc/loki/local-config.yaml
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      net:
+        aliases:
+          - grafana-loki
+
+  grafana-promtail:
+    image: grafana/promtail:2.6.1
+    container_name: grafana-promtail
+    volumes:
+        - /tmp/log:/var/log
+        - ./promtail-config.yaml:/etc/promtail/config.yml
+    command: -config.file=/etc/promtail/config.yml
+    networks:
+        net:
+          aliases:
+            - grafana-promtail
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+      - GF_SERVER_HTTP_PORT=3000
+      - GF_SERVER_DOMAIN=http://localhost:8080
+      - GF_SERVER_ROOT_URL=http://localhost:8080/admin/grafana
+      - GF_SERVER_SERVE_FROM_SUB_PATH=true
+#      - GF_AUTH_JWT_ENABLED=true
+#      - GF_AUTH_JWT_HEADER_NAME=Authorization
+#      - GF_AUTH_JWT_USERNAME_CLAIM=sub
+#      - GF_AUTH_JWT_EMAIL_CLAIM=sub
+#      - GF_AUTH_JWT_URL_LOGIN=http://localhost:8080/login
+#      - GF_AUTH_JWT_JWK_SET_URL=https://spendingbetter.com/.well-known/jwks.json
+#      - GF_AUTH_JWT_ROLE_ATTRIBUTE_PATH=contains(authorities[*], 'ROLE_ADMIN') && 'Admin' || contains(authorities[*], 'editor') && 'Editor' || 'Viewer'
+#      - GF_AUTH_JWT_ALLOW_ASSIGN_GRAFANA_ADMIN=true
+#      - GF_AUTH_JWT_AUTO_SIGN_UP=true
+#      - GF_AUTH_JWT_JWK_SET_FILE=/etc/grafana/jwks.json
+#      - GF_AUTH_BASIC_ENABLED=false
+#      - GF_DIAGNOSTICS_TRACING_ENABLED=true
+#      - GF_DIAGNOSTICS_TRACING_FILE=/tmp/trace.out
+#      - GF_AUTH_GENERIC_OAUTH_ENABLED=true
+#      - GF_AUTH_GENERIC_OAUTH_SCOPES=read
+#      - GF_AUTH_GENERIC_OAUTH_ALLOW_SIGN_UP=false
+#      - GF_AUTH_GENERIC_OAUTH_CLIENT_ID=client
+#      - GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET=secret
+#      - GF_AUTH_GENERIC_OAUTH_AUTH_URL=http://localhost:9999/oauth/authorize
+#      - GF_AUTH_GENERIC_OAUTH_TOKEN_URL=http://localhost:9999/oauth/token
+#      - GF_AUTH_GENERIC_OAUTH_API_URL=http://localhost:9999/api/authenticatedUser
+    volumes:
+      - ./jwks.json:/etc/grafana/jwks.json
+    networks:
+      net:
+        aliases:
+          - grafana
+
+  setup_grafana_datasource:
+    image: appropriate/curl
+    container_name: setup_grafana_datasource
+    depends_on:
+      - grafana
+    volumes:
+      - ./create-datasource-and-dashboard.sh:/create.sh:ro
+    command: /create.sh
+    networks:
+      net:
+        aliases:
+          - setup_grafana_datasource
+
+  otel-collector:
+    image: otel/opentelemetry-collector:latest #otel/opentelemetry-collector-contrib:0.9.0 #logzio/otel-collector-traces
+    container_name: otel-collector
+    command: [ "--config=/etc/otel-collector-config.yaml" ]
+    volumes:
+        - /var/log:/var/log
+        - ./otelcol-config.yaml:/etc/otel-collector-config.yaml
+    depends_on:
+        - jaeger
+    ports:
+        - "1888:1888"   # pprof extension
+        - "13133:13133" # health_check extension
+        - "4317:4317"   # OTLP gRPC receiver
+        - "55679:55679" # zpages extension
+    networks:
+      net:
+        aliases:
+          - otel-collector
+
+  apm-server:
+    image: docker.elastic.co/apm/apm-server:7.9.1
+    container_name: apm-server
+    command:
+      - -e
+      - --E
+      - output.elasticsearch.hosts=["elastic-search:9200"]
+    networks:
+      net:
+        aliases:
+          - apm-server
+
+  elastic-search:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.1
+    container_name: elastic-search
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - 9200:9200
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      net:
+        aliases:
+          - elastic-search
+
+  elastic-kibana:
+    image: docker.elastic.co/kibana/kibana:7.9.1
+    container_name: elastic-kibana
+#    environment:
+#      - LOG_DRIVER_LEVEL=debug
+    environment:
+      ELASTICSEARCH_HOSTS: '["http://elastic-search:9200"]'
+      LOG_DRIVER_LEVEL: trace
+    ports:
+      - 5601:5601
+    depends_on:
+      - elastic-search
+    networks:
+      net:
+        aliases:
+          - elastic-kibana
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: jaeger
+    ports:
+        - "16686:16686"
+        - "14268:14268"
+        - "14250:14250"
+#    environment:
+#        QUERY_BASE_PATH: "/admin/jaeger"
+    networks:
+      net:
+        aliases:
+          - jaeger
+
+  zookeeper:
+    image: bitnami/zookeeper #antrea/confluentinc-zookeeper:6.2.0
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+      - '2181:2181'
+    environment:
+#      ZOOKEEPER_CLIENT_PORT: 2181
+#      ZOOKEEPER_TICK_TIME: 2000
+      ALLOW_ANONYMOUS_LOGIN: "yes"
+
+  kafka:
+    image: bitnami/kafka #antrea/confluentinc-kafka:6.2.0
+    hostname: kafka
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - '9092:9092'
+#      - '9101:9101'
+    environment:
+      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://0.0.0.0:9094
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper
+
+#      KAFKA_BROKER_ID: 1
+#      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
+#      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+#      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+#      # NOTE: Not supported by current container
+#      # KAFKA_METRIC_REPORTERS: io.confluent.metrics.reporter.ConfluentMetricsReporter
+#      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+#      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+#      KAFKA_CONFLUENT_LICENSE_TOPIC_REPLICATION_FACTOR: 1
+#      KAFKA_CONFLUENT_BALANCER_TOPIC_REPLICATION_FACTOR: 1
+#      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+#      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+#      KAFKA_JMX_PORT: 9101
+#      KAFKA_JMX_HOSTNAME: localhost
+#      # TODO: Uncomment once enable schema registry
+#      # KAFKA_CONFLUENT_SCHEMA_REGISTRY_URL: http://schema-registry:8081
+#      CONFLUENT_METRICS_REPORTER_BOOTSTRAP_SERVERS: kafka:29092
+#      CONFLUENT_METRICS_REPORTER_TOPIC_REPLICAS: 1
+#      CONFLUENT_METRICS_ENABLE: 'true'
+#      CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
+
+networks:
+  net:

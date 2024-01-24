@@ -1,0 +1,9 @@
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+
+//== dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+find-token: kubectl -n kubernetes-dashboard create token admin-user
+kubectl -n kubernetes-dashboard delete serviceaccount admin-user
+kubectl -n kubernetes-dashboard delete clusterrolebinding admin-user
+kubectl proxy

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 0 auto;
+      }
+      input {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+
+      input[type="submit"]:active {
+        background-color: #777;
+      }
+
+      input[type="submit"]:focus {
+        background-color: #999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- sign up form -->
+    <form action="/sign-up" method="POST">
+      <input type="text" name="username" placeholder="username" />
+      <input type="password" name="password" placeholder="password" />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>

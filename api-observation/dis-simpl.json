@@ -1,0 +1,919 @@
+[
+  {
+    "oid": 1,
+    "description": "Chembe",
+    "districtCode": "2306",
+    "provinceId": 1,
+    "dateModified": "2023-08-04T04:15:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 2,
+    "description": "Chililabombwe",
+    "districtCode": "1005",
+    "provinceId": 2,
+    "isDeleted": false
+  },
+  {
+    "oid": 3,
+    "description": "Chingola",
+    "districtCode": "1006",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 4,
+    "description": "Kalulushi",
+    "districtCode": "1008",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 5,
+    "description": "Kitwe",
+    "districtCode": "1009",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "dateModified": "2023-08-03T02:35:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 6,
+    "description": "Luanshya",
+    "districtCode": "1010",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 7,
+    "description": "Lufwanyama",
+    "districtCode": "2001",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 8,
+    "description": "Masaiti",
+    "districtCode": "2002",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 9,
+    "description": "Mpongwe",
+    "districtCode": "2003",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 10,
+    "description": "Mufurila",
+    "districtCode": "2004",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 11,
+    "description": "Ndola",
+    "districtCode": "2005",
+    "provinceId": 2,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 12,
+    "description": "Chadiza",
+    "districtCode": "2006",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 13,
+    "description": "Chama",
+    "districtCode": "2007",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 14,
+    "description": "Chipata",
+    "districtCode": "2008",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 15,
+    "description": "Katete",
+    "districtCode": "2009",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 16,
+    "description": "Lundazi",
+    "districtCode": "2010",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 17,
+    "description": "Mambwe",
+    "districtCode": "3001",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 18,
+    "description": "Nyimba",
+    "districtCode": "5501",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 19,
+    "description": "Petauke",
+    "districtCode": "3002",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 20,
+    "description": "Chiengi",
+    "districtCode": "3003",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 21,
+    "description": "Kawambwa",
+    "districtCode": "3004",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 22,
+    "description": "Mansa",
+    "districtCode": "3005",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 23,
+    "description": "Milenge",
+    "districtCode": "3006",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 24,
+    "description": "Mwense",
+    "districtCode": "3007",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 25,
+    "description": "Nchelenge",
+    "districtCode": "4002",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 26,
+    "description": "Samfya",
+    "districtCode": "4004",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 27,
+    "description": "Chongwe",
+    "districtCode": "4006",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 28,
+    "description": "Kafue",
+    "districtCode": "4007",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 29,
+    "description": "Luangwa",
+    "districtCode": "4009",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 30,
+    "description": "Lusaka District",
+    "districtCode": "4010",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 31,
+    "description": "Chilubi",
+    "districtCode": "4011",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 32,
+    "description": "Chinsali",
+    "districtCode": "5003",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 33,
+    "description": "Isoka",
+    "districtCode": "5004",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 34,
+    "description": "Kaputa",
+    "districtCode": "5005",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 35,
+    "description": "Kasama",
+    "districtCode": "5006",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 36,
+    "description": "Luwingu",
+    "districtCode": "6001",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 37,
+    "description": "Mbala",
+    "districtCode": "5502",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 38,
+    "description": "Mpika",
+    "districtCode": "5503",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 39,
+    "description": "Mporokoso",
+    "districtCode": "6002",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 40,
+    "description": "Mpulungu",
+    "districtCode": "6003",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 41,
+    "description": "Mungwi",
+    "districtCode": "6004",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 42,
+    "description": "Nakonde",
+    "districtCode": "6005",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 43,
+    "description": "Chavuma",
+    "districtCode": "5507",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 44,
+    "description": "Kabompo",
+    "districtCode": "6006",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 45,
+    "description": "Kasempa",
+    "districtCode": "6007",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 46,
+    "description": "Mufumbwe",
+    "districtCode": "6008",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 47,
+    "description": "Mwinilunga",
+    "districtCode": "5508",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 48,
+    "description": "Solwezi",
+    "districtCode": "7001",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 49,
+    "description": "Zambezi",
+    "districtCode": "7003",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 50,
+    "description": "Choma",
+    "districtCode": "7005",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 51,
+    "description": "Gwembe",
+    "districtCode": "7007",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 52,
+    "description": "Kalomo",
+    "districtCode": "7009",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 53,
+    "description": "Kazungula",
+    "districtCode": "7010",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 54,
+    "description": "Livingstone",
+    "districtCode": "7011",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 55,
+    "description": "Mazabuka",
+    "districtCode": "8002",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 56,
+    "description": "Monze",
+    "districtCode": "8003",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 57,
+    "description": "Namwala",
+    "districtCode": "1004",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 58,
+    "description": "Siavonga",
+    "districtCode": "8004",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 59,
+    "description": "Sinazongwe",
+    "districtCode": "8005",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 60,
+    "description": "Kalabo",
+    "districtCode": "8006",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 61,
+    "description": "Kaoma",
+    "districtCode": "8007",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 62,
+    "description": "Lukulu",
+    "districtCode": "8008",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 63,
+    "description": "Mongu",
+    "districtCode": "8009",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 64,
+    "description": "Senanga",
+    "districtCode": "8011",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 65,
+    "description": "Sesheke",
+    "districtCode": "8012",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 66,
+    "description": "Shangombo",
+    "districtCode": "9001",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 67,
+    "description": "Sinda",
+    "districtCode": "9002",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 68,
+    "description": "Vubwi",
+    "districtCode": "9005",
+    "provinceId": 3,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 69,
+    "description": "Zimba",
+    "districtCode": "9007",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 70,
+    "description": "Chembe",
+    "districtCode": "9012",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 71,
+    "description": "Chipili",
+    "districtCode": "9013",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 72,
+    "description": "Lunga",
+    "districtCode": "9014",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 73,
+    "description": "Mwansabombwe",
+    "districtCode": "1002",
+    "provinceId": 4,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 74,
+    "description": "Chilanga",
+    "districtCode": "1003",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 75,
+    "description": "Chirundu",
+    "districtCode": "1007",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 76,
+    "description": "Rufunsa",
+    "districtCode": "0",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 77,
+    "description": "Shibuyunji",
+    "districtCode": "3008",
+    "provinceId": 5,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 78,
+    "description": "Nsama",
+    "districtCode": "3009",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 79,
+    "description": "Nsenga Hill",
+    "districtCode": "8013",
+    "provinceId": 6,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 80,
+    "description": "Ikelenge",
+    "districtCode": "4001",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 81,
+    "description": "Kalumbila",
+    "districtCode": "4003",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 82,
+    "description": "Manyinga",
+    "districtCode": "4005",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 83,
+    "description": "Mushindano",
+    "districtCode": "4008",
+    "provinceId": 7,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 84,
+    "description": "Chikankata",
+    "districtCode": "5001",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 85,
+    "description": "Pemba",
+    "districtCode": "5002",
+    "provinceId": 8,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 86,
+    "description": "Limulunga",
+    "districtCode": "5007",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 87,
+    "description": "Luampa",
+    "districtCode": "5008",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 88,
+    "description": "Mitete",
+    "districtCode": "0",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 89,
+    "description": "Mulobezi",
+    "districtCode": "0",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 90,
+    "description": "Mwandi",
+    "districtCode": "6009",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 91,
+    "description": "Nalolo",
+    "districtCode": "6010",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 92,
+    "description": "Nkeyema",
+    "districtCode": "7002",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 93,
+    "description": "Sikongo",
+    "districtCode": "7004",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 94,
+    "description": "Sioma",
+    "districtCode": "7006",
+    "provinceId": 9,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 95,
+    "description": "Kanchibiya",
+    "districtCode": "7008",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 96,
+    "description": "Lavushimanda",
+    "districtCode": "8001",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 97,
+    "description": "Mafinga",
+    "districtCode": "8010",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 98,
+    "description": "Shiwangandu",
+    "districtCode": "0",
+    "provinceId": 10,
+    "dateCreated": "2023-05-21T13:52:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 105,
+    "description": "Dhaka",
+    "districtCode": "2222",
+    "provinceId": 1,
+    "dateCreated": "2023-08-03T02:35:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 106,
+    "description": "Test",
+    "districtCode": "2122",
+    "provinceId": 12,
+    "dateCreated": "2023-08-03T02:38:00",
+    "dateModified": "2023-08-04T02:21:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 107,
+    "description": "a",
+    "districtCode": "12",
+    "provinceId": 2,
+    "dateCreated": "2023-08-06T10:26:00",
+    "isDeleted": false,
+    "isSynced": false
+  },
+  {
+    "oid": 108,
+    "description": "Zambia",
+    "districtCode": "2306",
+    "provinceId": 29,
+    "dateCreated": "2023-08-06T10:26:00",
+    "isDeleted": false
+  }
+]

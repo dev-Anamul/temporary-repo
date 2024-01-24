@@ -1,0 +1,67 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: authentication-service
+data:
+  application.yml: |-
+    spring:
+      security:
+        oauth2:
+          client:
+            registration:
+              google:
+                client-id: ${CLIENT_ID}
+                client-secret: ${CLIENT_SECRET}
+
+          authorizationserver:
+            client:
+              google:
+                registration:
+                  client-id: ${CLIENT_ID}
+                  client-secret: ${CLIENT_SECRET}
+                  client-authentication-methods:
+                    - "client_secret_post"
+                  authorization-grant-types:
+                    - "authorization_code"
+                    - "refresh_token"
+                  redirect-uris:
+                    - "http://127.0.0.1:3000"
+                    - "http://127.0.0.1:9999"
+                  scopes:
+                    - "openid"
+                    - "profile"
+                    - "email"
+                require-authorization-consent: true
+                require-proof-key: true
+
+    ---
+    spring:
+      profiles: dev
+    com:
+      microservice:
+        authentication:
+          jwt:
+            keyValue: YTMwOTIwODE1MGMzOGExM2E4NDc5ZjhjMmQwMTdkNDJlZWZkOTE0YTMwNWUxMTgxMTFhZTI1ZDI3M2QyMTRmMjI5Yzg0ODBjYTUxYjVkY2I5ZmY0YmRkMzBlZjRjNDM2Y2NiYzhlZjQ0ODRjMWZlNzVmZjdjM2JiMjdkMjdmMjk=
+    ---
+    spring:
+      profiles: prod
+      #data:
+      #  mongodb:
+      #    authentication-database: admin
+      sleuth:
+        sampler:
+          probability: 0.1
+      security:
+        oauth2:
+          resourceserver:
+            jwt:
+              jwk-set-uri: ${JWKS_URL:https://spendingbetter.com/.well-known/jwks.json}
+    
+    com:
+      microservice:
+        authentication:
+          jwt:
+            key-store: ${KEYSTORE:}
+            key-store-password: ${KEYSTORE_PASSWORD:}
+            key-alias: ${KEYSTORE_ALIAS:}
+          user-info-uri: ${USER_INFO_URI:https://spendingbetter.com/auth/api/authenticatedUser}
